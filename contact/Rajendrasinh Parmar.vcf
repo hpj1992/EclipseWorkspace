@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f75c3841-a009-4516-ac4b-ea06df82bc6c"><c:Value>6669f0d2-b784-4f78-8513-ed51d06416ca</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8d851786-2785-4b84-a775-4bcbe344b1a0"><c:FormattedName>Rajendrasinh Parmar</c:FormattedName><c:GivenName>Rajendrasinh</c:GivenName><c:FamilyName>Parmar</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="72cb6f9b-8602-4cc7-b59a-4d804ccc70b9"><c:Number>7405159369</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

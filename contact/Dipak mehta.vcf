@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5aa0ecb5-05ae-4f37-9733-30ff4c4ab2dc"><c:Value>6fdd5d64-e730-4503-942e-58dca2996478</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="fe2b34cf-16d6-4661-86bc-3a4c4f9806b1"><c:FormattedName>Dipak mehta</c:FormattedName><c:FamilyName>Dipak mehta</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3188ff20-36a6-4f95-bd22-de89cde43865"><c:Number>9898017850</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

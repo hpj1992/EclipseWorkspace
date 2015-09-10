@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="19bd2fc4-c443-4691-adbf-da4522688e46"><c:Value>32b143f1-1994-4b41-a113-86c66a20ba6e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="039a18c6-ebcb-46cc-966f-49cbb7a91fbc"><c:FormattedName>Evosys Nidhi Sharma</c:FormattedName><c:GivenName>Evosys Nidhi Sharma</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="60831d47-c449-4f91-9eb6-046798ab3821"><c:Number>09327490585</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

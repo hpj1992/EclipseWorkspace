@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5eb43136-1f57-486d-985e-831099da5793"><c:Value>e86236a4-16d0-4699-8979-d03a08cc4215</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="64a04e83-14c2-41e1-a7b9-ab34b1cba30e"><c:FormattedName>Ashish Patel</c:FormattedName><c:GivenName>Ashish Patel</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="73a2f05c-86d4-4f8c-aaec-a682ea094a1f"><c:Number>+918141349051</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

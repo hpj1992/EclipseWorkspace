@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0e9abf47-377a-4b4b-b813-f89df635a588"><c:Value>552301ed-5ffb-4366-b6c2-e7be6e9e07da</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0bddefcb-791c-46f7-9051-11a07e1bcc87"><c:FormattedName>Disha</c:FormattedName><c:GivenName>Disha</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="63df5cd2-d194-4f96-b5b2-8ba9c22abfc5"><c:Number>+919712402928</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

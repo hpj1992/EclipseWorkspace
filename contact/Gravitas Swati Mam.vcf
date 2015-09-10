@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="6f8bde31-393d-4986-84c4-a4d78eed9b8b"><c:Value>4b501aea-5fd4-4669-bba0-bd46355f7e37</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="433cdb16-35db-4b7e-a611-8a71972e6d49"><c:FormattedName>Gravitas Swati Mam</c:FormattedName><c:GivenName>Gravitas Swati Mam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3aa3d8a7-a5d2-40f3-81de-dfd61e256516"><c:Number>02267746300</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0ddcc792-7f10-4885-8ee2-9239cf96fc04"><c:Value>b968668b-6fcf-4b9d-b49e-165fb0fed07f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a8bb8a4a-4716-46b0-8254-585514ed4f9b"><c:FormattedName>Ronak Patel(eec)</c:FormattedName><c:GivenName>Ronak Patel(eec)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="46aade8d-5438-4cc0-9597-dae265e009f4"><c:Number>9428721777</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

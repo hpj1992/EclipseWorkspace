@@ -1,0 +1,156 @@
+package sorting;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+
+public class SimpleCalculator {
+
+	public static void main(String[] args) {
+	 //String eq= "20 d 2 s 7 m 3";
+	Scanner x= new Scanner(System.in);
+	String eq= x.nextLine();
+	eq=eq.toLowerCase();
+	 System.out.println(eq);
+	 
+	 //converting string into string tokens
+	 
+	 StringTokenizer s= new StringTokenizer(eq," ");
+	 //creating a String array out of it
+	 
+	 String[] sep=new String[s.countTokens()];
+	 int i=0;
+	 while(s.hasMoreElements())
+	 { 
+		 sep[i]=(String) s.nextElement();
+	     i++;
+	 }
+	 /*printing String[] sep for checking
+	 for(int j=0;j<sep.length;j++)
+		 {System.out.print(sep[j]);}*/
+	 //System.out.println();
+	 
+	 //from the String array, making two arrays: operator and operand
+	 i=i/2;
+	 String[] operand= new String[i+1];
+	 String[] operator=new String[i];
+	 i=0;
+	 int j=0;
+	 for(int m=1; m<=sep.length; m++)
+	 {
+		 if(m%2 !=0)
+		 {
+			 operand[i]= sep[m-1];
+			 i++;
+		 }
+		 else
+		 {
+			 operator[j]= sep[m-1];
+			 j++;
+		 }
+	 }
+	 if(Arrays.asList(operand).contains("d") || Arrays.asList(operand).contains("s") || Arrays.asList(operand).contains("m") || Arrays.asList(operand).contains("a"))
+	 {
+		 System.out.println("Invalid input string.Use proper format.");
+		 System.exit(0);
+	 }
+	 for(int i1=0;i1<operator.length;i1++)
+	 {
+		 if(operator[i1]!="d" && operator[i1]!="m" && operator[i1]!="s" && operator[i1]!="a" &&  operator[i1]!="e" )
+		 {
+			 System.out.println("Invalid input string.Use proper format.");
+			 System.exit(0);
+		 }
+	 }
+
+	 /*printing the operand and operator arrays for checking
+	  for(i=0;i<operand.length;i++)
+		 System.out.println(operand[i]);
+	 for(i=0;i<operator.length;i++)
+		 System.out.println(operator[i]);*/
+	 
+	 /*invalid input code
+	  for(int f=0; f<=operator.length; f++)
+	  
+	 {
+		 if(operator[f]!="m" && operator[f]!="a" && operator[f]!="s" && operator[f]!="d" && operator[f]!="e")
+		 {
+			 System.out.println("Invalid Input");
+		 }
+		 else 
+		 {
+			 System.out.println();
+		  
+		 }
+	*/
+	 
+	 //calculating using switch
+	 double res= 0;
+	 for(int a=0,b=0; a<operator.length; a++,b++)
+	 {
+		 if(res==0)
+		 {
+			 switch(operator[a])
+			 {
+			 case "m" : 
+				 res= (Double.parseDouble(operand[b]) *Double.parseDouble(operand[b+1]));
+				 break;
+			 case "s":
+				 res= (Double.parseDouble(operand[b])-Double.parseDouble(operand[b+1]));
+				 break;
+			 case "a" :
+				 res= (Double.parseDouble(operand[b])+ Double.parseDouble(operand[b+1]));
+				 break;
+			 case "d":
+				 res= (Double.parseDouble(operand[b])/Double.parseDouble(operand[b+1]));
+				 break;
+			 case "e":
+				 res= (int)Math.pow((double)Double.parseDouble(operand[b]),(double) Double.parseDouble(operand[b+1]));
+				 break;
+				 default:
+					 System.out.println("error");
+					 break;
+			 }
+		 }
+		 else
+		 {
+			 switch(operator[a])
+			 {
+			 case "m" : 
+				 res= (res*Double.parseDouble(operand[b+1]));
+				 break;
+			 case "s":
+				 res= (res- Double.parseDouble(operand[b+1]));
+				 break;
+			 case "a" :
+				 res= (res+Double.parseDouble(operand[b+1]));
+				 break;
+			 case "d":
+				 res= (res/Double.parseDouble(operand[b+1]));
+				 break;
+			 case "e":
+				 res= (int)Math.pow((double)res,(double) Double.parseDouble(operand[b+1]));
+				 break;
+				 default:
+					 System.out.println("error");
+					 break;
+			 }
+		 }
+		 
+	 }
+	 System.out.println("Result of the given expression:"+res);
+	 
+	}
+	
+	
+}
+	  
+	 
+	 
+			 
+
+	
+
+

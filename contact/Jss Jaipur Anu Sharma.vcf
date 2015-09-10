@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="09b3613b-fd81-49e3-ae57-5d2dc9f33396"><c:Value>933aded0-98d5-44fd-9948-05442a992333</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8c3cff6e-ebf5-41b7-8c72-17b916217b7b"><c:FormattedName>Jss Jaipur Anu Sharma</c:FormattedName><c:GivenName>Jss Jaipur Anu Sharma</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7ddd9921-5239-447e-9915-608fc263d79b"><c:Number>+918829001737</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="7a60545a-20b4-43f1-a7e8-b270b8f22a82"><c:Value>1657be91-a286-4f27-9cf1-75ff85f80ab2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="da7fee83-2bde-4a02-b11f-42be5ec07c78"><c:FormattedName>Prachi Shastri</c:FormattedName><c:GivenName>Prachi Shastri</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="9f00464d-3937-4cc0-a8bf-58dbe061abd4"><c:Number>9429952575</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

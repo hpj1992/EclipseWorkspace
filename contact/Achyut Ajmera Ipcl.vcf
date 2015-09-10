@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ef7fd1a7-2cf3-44f6-b053-1304098538bb"><c:Value>650db90e-0f89-4487-b598-e43f4f7f6945</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="47e16a13-54f0-424e-b8a1-90de3ed756ce"><c:FormattedName>Achyut Ajmera Ipcl</c:FormattedName><c:GivenName>Achyut</c:GivenName><c:FamilyName>Ajmera Ipcl</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="109a8616-1ab0-4d7f-a2d3-53382e6779b0"><c:Number>9974086653</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

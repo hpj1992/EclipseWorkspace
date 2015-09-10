@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="baebba87-4ad9-4289-8994-a68a5b6f0199"><c:Value>f81357d1-2ae1-4e88-b621-9b47998864e5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ce612241-2339-4a2b-bac4-46ef86e126ae"><c:FormattedName>Ghoda</c:FormattedName><c:GivenName>Ghoda</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="2b49eee1-9277-4f41-9020-fcd1b175d547"><c:Number>+919328166644</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

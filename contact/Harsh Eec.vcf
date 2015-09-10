@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c3d6c663-3977-4b79-bfaa-943ead7968f4"><c:Value>ddcd4d42-fb15-496c-b8c5-794d8d34335d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="16226845-536e-4f9c-8919-302cc3cf757f"><c:FormattedName>Harsh Eec</c:FormattedName><c:GivenName>Harsh Eec</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="07913882-f780-46e1-aef7-ad325199eb79"><c:Number>+917874807834</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

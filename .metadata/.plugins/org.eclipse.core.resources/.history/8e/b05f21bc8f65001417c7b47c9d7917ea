@@ -1,0 +1,350 @@
+<%@page contentType="text/html;charset=UTF-8"%>
+<% request.setCharacterEncoding("UTF-8"); %>
+<HTML>
+<HEAD>
+<TITLE>Result</TITLE>
+</HEAD>
+<BODY>
+<H1>Result</H1>
+
+<jsp:useBean id="sampleServiceProxyid" scope="session" class="Connection.ServiceProxy" />
+<%
+if (request.getParameter("endpoint") != null && request.getParameter("endpoint").length() > 0)
+sampleServiceProxyid.setEndpoint(request.getParameter("endpoint"));
+%>
+
+<%
+String method = request.getParameter("method");
+int methodID = 0;
+if (method == null) methodID = -1;
+
+if(methodID != -1) methodID = Integer.parseInt(method);
+boolean gotMethod = false;
+
+try {
+switch (methodID){ 
+case 2:
+        gotMethod = true;
+        java.lang.String getEndpoint2mtemp = sampleServiceProxyid.getEndpoint();
+if(getEndpoint2mtemp == null){
+%>
+<%=getEndpoint2mtemp %>
+<%
+}else{
+        String tempResultreturnp3 = org.eclipse.jst.ws.util.JspUtils.markup(String.valueOf(getEndpoint2mtemp));
+        %>
+        <%= tempResultreturnp3 %>
+        <%
+}
+break;
+case 5:
+        gotMethod = true;
+        String endpoint_0id=  request.getParameter("endpoint8");
+            java.lang.String endpoint_0idTemp = null;
+        if(!endpoint_0id.equals("")){
+         endpoint_0idTemp  = endpoint_0id;
+        }
+        sampleServiceProxyid.setEndpoint(endpoint_0idTemp);
+break;
+case 10:
+        gotMethod = true;
+        Connection.Service getService10mtemp = sampleServiceProxyid.getService();
+if(getService10mtemp == null){
+%>
+<%=getService10mtemp %>
+<%
+}else{
+%>
+<TABLE>
+<TR>
+<TD COLSPAN="3" ALIGN="LEFT">returnp:</TD>
+</TABLE>
+<%
+}
+break;
+case 17:
+        gotMethod = true;
+        Source.Categories[] getCategories17mtemp = sampleServiceProxyid.getCategories();
+if(getCategories17mtemp == null){
+%>
+<%=getCategories17mtemp %>
+<%
+}else{
+        String tempreturnp18 = null;
+        if(getCategories17mtemp != null){
+        java.util.List listreturnp18= java.util.Arrays.asList(getCategories17mtemp);
+        tempreturnp18 = listreturnp18.toString();
+        }
+        %>
+        <%=tempreturnp18%>
+        <%
+}
+break;
+case 20:
+        gotMethod = true;
+        String bizid_1id=  request.getParameter("bizid23");
+            java.lang.String bizid_1idTemp = null;
+        if(!bizid_1id.equals("")){
+         bizid_1idTemp  = bizid_1id;
+        }
+        Source.Review[] getReviewsOfBusiness20mtemp = sampleServiceProxyid.getReviewsOfBusiness(bizid_1idTemp);
+if(getReviewsOfBusiness20mtemp == null){
+%>
+<%=getReviewsOfBusiness20mtemp %>
+<%
+}else{
+        String tempreturnp21 = null;
+        if(getReviewsOfBusiness20mtemp != null){
+        java.util.List listreturnp21= java.util.Arrays.asList(getReviewsOfBusiness20mtemp);
+        tempreturnp21 = listreturnp21.toString();
+        }
+        %>
+        <%=tempreturnp21%>
+        <%
+}
+break;
+case 25:
+        gotMethod = true;
+        String userid_2id=  request.getParameter("userid28");
+            java.lang.String userid_2idTemp = null;
+        if(!userid_2id.equals("")){
+         userid_2idTemp  = userid_2id;
+        }
+        sampleServiceProxyid.updateLastLoginTime(userid_2idTemp);
+break;
+case 30:
+        gotMethod = true;
+        String username_3id=  request.getParameter("username45");
+            java.lang.String username_3idTemp = null;
+        if(!username_3id.equals("")){
+         username_3idTemp  = username_3id;
+        }
+        String pwd_4id=  request.getParameter("pwd47");
+            java.lang.String pwd_4idTemp = null;
+        if(!pwd_4id.equals("")){
+         pwd_4idTemp  = pwd_4id;
+        }
+        Source.User signin30mtemp = sampleServiceProxyid.signin(username_3idTemp,pwd_4idTemp);
+if(signin30mtemp == null){
+%>
+<%=signin30mtemp %>
+<%
+}else{
+%>
+<TABLE>
+<TR>
+<TD COLSPAN="3" ALIGN="LEFT">returnp:</TD>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD COLSPAN="2" ALIGN="LEFT">userid:</TD>
+<TD>
+<%
+if(signin30mtemp != null){
+java.lang.String typeuserid33 = signin30mtemp.getUserid();
+        String tempResultuserid33 = org.eclipse.jst.ws.util.JspUtils.markup(String.valueOf(typeuserid33));
+        %>
+        <%= tempResultuserid33 %>
+        <%
+}%>
+</TD>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD COLSPAN="2" ALIGN="LEFT">email:</TD>
+<TD>
+<%
+if(signin30mtemp != null){
+java.lang.String typeemail35 = signin30mtemp.getEmail();
+        String tempResultemail35 = org.eclipse.jst.ws.util.JspUtils.markup(String.valueOf(typeemail35));
+        %>
+        <%= tempResultemail35 %>
+        <%
+}%>
+</TD>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD COLSPAN="2" ALIGN="LEFT">lastmodified:</TD>
+<TD>
+<%
+if(signin30mtemp != null){
+java.lang.String typelastmodified37 = signin30mtemp.getLastmodified();
+        String tempResultlastmodified37 = org.eclipse.jst.ws.util.JspUtils.markup(String.valueOf(typelastmodified37));
+        %>
+        <%= tempResultlastmodified37 %>
+        <%
+}%>
+</TD>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD COLSPAN="2" ALIGN="LEFT">zipcodel:</TD>
+<TD>
+<%
+if(signin30mtemp != null){
+java.lang.String typezipcodel39 = signin30mtemp.getZipcodel();
+        String tempResultzipcodel39 = org.eclipse.jst.ws.util.JspUtils.markup(String.valueOf(typezipcodel39));
+        %>
+        <%= tempResultzipcodel39 %>
+        <%
+}%>
+</TD>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD COLSPAN="2" ALIGN="LEFT">lastname:</TD>
+<TD>
+<%
+if(signin30mtemp != null){
+java.lang.String typelastname41 = signin30mtemp.getLastname();
+        String tempResultlastname41 = org.eclipse.jst.ws.util.JspUtils.markup(String.valueOf(typelastname41));
+        %>
+        <%= tempResultlastname41 %>
+        <%
+}%>
+</TD>
+<TR>
+<TD WIDTH="5%"></TD>
+<TD COLSPAN="2" ALIGN="LEFT">firstname:</TD>
+<TD>
+<%
+if(signin30mtemp != null){
+java.lang.String typefirstname43 = signin30mtemp.getFirstname();
+        String tempResultfirstname43 = org.eclipse.jst.ws.util.JspUtils.markup(String.valueOf(typefirstname43));
+        %>
+        <%= tempResultfirstname43 %>
+        <%
+}%>
+</TD>
+</TABLE>
+<%
+}
+break;
+case 49:
+        gotMethod = true;
+        Source.Business[] getBusinesses49mtemp = sampleServiceProxyid.getBusinesses();
+if(getBusinesses49mtemp == null){
+%>
+<%=getBusinesses49mtemp %>
+<%
+}else{
+        String tempreturnp50 = null;
+        if(getBusinesses49mtemp != null){
+        java.util.List listreturnp50= java.util.Arrays.asList(getBusinesses49mtemp);
+        tempreturnp50 = listreturnp50.toString();
+        }
+        %>
+        <%=tempreturnp50%>
+        <%
+}
+break;
+case 52:
+        gotMethod = true;
+        String userid_5id=  request.getParameter("userid55");
+            java.lang.String userid_5idTemp = null;
+        if(!userid_5id.equals("")){
+         userid_5idTemp  = userid_5id;
+        }
+        Source.Review[] getReviewsOfUser52mtemp = sampleServiceProxyid.getReviewsOfUser(userid_5idTemp);
+if(getReviewsOfUser52mtemp == null){
+%>
+<%=getReviewsOfUser52mtemp %>
+<%
+}else{
+        String tempreturnp53 = null;
+        if(getReviewsOfUser52mtemp != null){
+        java.util.List listreturnp53= java.util.Arrays.asList(getReviewsOfUser52mtemp);
+        tempreturnp53 = listreturnp53.toString();
+        }
+        %>
+        <%=tempreturnp53%>
+        <%
+}
+break;
+case 57:
+        gotMethod = true;
+        String email_6id=  request.getParameter("email60");
+            java.lang.String email_6idTemp = null;
+        if(!email_6id.equals("")){
+         email_6idTemp  = email_6id;
+        }
+        String password_7id=  request.getParameter("password62");
+            java.lang.String password_7idTemp = null;
+        if(!password_7id.equals("")){
+         password_7idTemp  = password_7id;
+        }
+        String firstname_8id=  request.getParameter("firstname64");
+            java.lang.String firstname_8idTemp = null;
+        if(!firstname_8id.equals("")){
+         firstname_8idTemp  = firstname_8id;
+        }
+        String lastname_9id=  request.getParameter("lastname66");
+            java.lang.String lastname_9idTemp = null;
+        if(!lastname_9id.equals("")){
+         lastname_9idTemp  = lastname_9id;
+        }
+        String zipcode_10id=  request.getParameter("zipcode68");
+            java.lang.String zipcode_10idTemp = null;
+        if(!zipcode_10id.equals("")){
+         zipcode_10idTemp  = zipcode_10id;
+        }
+        sampleServiceProxyid.signup(email_6idTemp,password_7idTemp,firstname_8idTemp,lastname_9idTemp,zipcode_10idTemp);
+break;
+case 70:
+        gotMethod = true;
+        String userid_11id=  request.getParameter("userid73");
+            java.lang.String userid_11idTemp = null;
+        if(!userid_11id.equals("")){
+         userid_11idTemp  = userid_11id;
+        }
+        java.lang.String[] getBusinessOfUsers70mtemp = sampleServiceProxyid.getBusinessOfUsers(userid_11idTemp);
+if(getBusinessOfUsers70mtemp == null){
+%>
+<%=getBusinessOfUsers70mtemp %>
+<%
+}else{
+        String tempreturnp71 = null;
+        if(getBusinessOfUsers70mtemp != null){
+        java.util.List listreturnp71= java.util.Arrays.asList(getBusinessOfUsers70mtemp);
+        tempreturnp71 = listreturnp71.toString();
+        }
+        %>
+        <%=tempreturnp71%>
+        <%
+}
+break;
+case 75:
+        gotMethod = true;
+        String strBizid_12id=  request.getParameter("strBizid78");
+            java.lang.String strBizid_12idTemp = null;
+        if(!strBizid_12id.equals("")){
+         strBizid_12idTemp  = strBizid_12id;
+        }
+        java.lang.String[] getUSersOfBusiness75mtemp = sampleServiceProxyid.getUSersOfBusiness(strBizid_12idTemp);
+if(getUSersOfBusiness75mtemp == null){
+%>
+<%=getUSersOfBusiness75mtemp %>
+<%
+}else{
+        String tempreturnp76 = null;
+        if(getUSersOfBusiness75mtemp != null){
+        java.util.List listreturnp76= java.util.Arrays.asList(getUSersOfBusiness75mtemp);
+        tempreturnp76 = listreturnp76.toString();
+        }
+        %>
+        <%=tempreturnp76%>
+        <%
+}
+break;
+}
+} catch (Exception e) { 
+%>
+Exception: <%= org.eclipse.jst.ws.util.JspUtils.markup(e.toString()) %>
+Message: <%= org.eclipse.jst.ws.util.JspUtils.markup(e.getMessage()) %>
+<%
+return;
+}
+if(!gotMethod){
+%>
+result: N/A
+<%
+}
+%>
+</BODY>
+</HTML>

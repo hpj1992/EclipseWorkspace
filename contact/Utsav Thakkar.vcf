@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="db9cefe6-8e30-4595-a7c0-ae3f78fa1962"><c:Value>5b0607a1-38e8-4c07-b284-95b6ed5c79fd</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="47bceb45-780a-4d65-a954-982b5bef198f"><c:FormattedName>Utsav Thakkar</c:FormattedName><c:GivenName>Utsav Thakkar</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="bf4d08a5-d0da-4116-b27e-b198154c6873"><c:Number>9427219039</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

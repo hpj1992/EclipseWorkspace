@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="98049ee9-d605-48de-92c4-c5950e790279"><c:Value>4b633e9e-58dd-4e21-8e67-3df590144104</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="84367db7-225e-42b2-9cb7-e22dc7337dd5"><c:FormattedName>Ankit Kakadiya</c:FormattedName><c:GivenName>Ankit Kakadiya</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="5748d6e3-2ea5-4816-ae5d-79106580c573"><c:Number>9016898930</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

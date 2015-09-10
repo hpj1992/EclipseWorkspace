@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3db5c615-b429-4172-9e30-34eee561a026"><c:Value>6f9e591e-c9cf-41d9-9164-50b39c31aeae</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0b0ece0a-97ba-4c74-8713-076af9f8031c"><c:FormattedName>Franky Viral Pandya</c:FormattedName><c:GivenName>Franky Viral Pandya</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="9f113711-0321-4a49-b852-96d9e336fc87"><c:Number>9558897530</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

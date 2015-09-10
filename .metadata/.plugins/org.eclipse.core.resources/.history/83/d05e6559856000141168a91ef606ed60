@@ -1,0 +1,26 @@
+
+public class BuildOrder {
+	
+	
+	
+	public Component getOrder()
+	{
+		Component order=new Composite("Order");
+		order.addChild(new Leaf("test item",4.4));
+		order.addChild(new Leaf("tested item",5.5));
+		Component custom=new Composite("Custom BUrger");
+	/*	custom.addChild(new Leaf("my cheese"));
+		custom.addChild(new Leaf("my cheese2"));
+		custom.addChild(new Leaf("my cheese1"));*/
+		order.addChild(custom);
+		 Component2 obj = new Sauce(new Topping(new Cheese(new Burger())));
+	        
+         double result = obj.getCost() ;
+          System.out.println(result+"it is custom price");
+         order.addChild(new Leaf("Build your own Burger", result));
+		order.PrintDesc();
+		
+		return order;
+	}
+
+}

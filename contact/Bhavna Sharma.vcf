@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c7a713b2-d9db-4c86-90f6-7144c9dbd431"><c:Value>4415b993-0972-46e3-99fc-cc090ecd3d7d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f95ec118-d68e-439e-bcb4-5cca081d3969"><c:FormattedName>Bhavna Sharma</c:FormattedName><c:GivenName>Bhavna Sharma</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="dca5efbc-1f77-485f-b05b-81e946e91930"><c:Number>9909787050</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

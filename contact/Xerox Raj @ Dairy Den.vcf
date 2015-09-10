@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a8043f37-f6e4-4994-bd46-6acd4c114c8e"><c:Value>b6d58471-35ee-4183-ba70-f8f95d821f2b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="30b434c6-5d43-46a5-a743-64c135cd733e"><c:FormattedName>Xerox Raj @ Dairy Den</c:FormattedName><c:GivenName>Xerox Raj @ Dairy Den</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8c8d6ea1-eb38-4704-a810-3df2b4a458da"><c:Number>9537520408</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

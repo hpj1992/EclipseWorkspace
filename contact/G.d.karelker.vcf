@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="6411eb84-986d-435e-97f8-9b1af112e87b"><c:Value>56241fa4-dd5c-4c4f-bd89-52d2ab9d0292</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b9159109-2f6f-4fbe-b88d-31f1c4736dcc"><c:FormattedName>G.d.karelker</c:FormattedName><c:GivenName>G.d.karelker</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c275c94f-a411-4ed3-bce2-07013821458a"><c:Number>9376228816</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

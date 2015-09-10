@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0e6871ca-bf39-4535-be5e-bff261c1f589"><c:Value>c1d50229-460d-4f21-a8df-b3094b21ef66</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a7e6c49f-e2ba-497b-9adf-781478653bfe"><c:FormattedName>Bike Altaf</c:FormattedName><c:GivenName>Bike Altaf</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="bf532060-9fc3-4311-a19e-d84cb88de587"><c:Number>9823954736</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

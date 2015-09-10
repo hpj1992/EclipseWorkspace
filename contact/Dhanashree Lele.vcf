@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ff8fcf27-0cf5-456d-8b65-fcfab68a3931"><c:Value>6fbaf1ff-3ba0-4ea0-991a-93682797fcc4</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e9e21483-60d7-42fb-88d2-b0177194eed9"><c:FormattedName>Dhanashree Lele</c:FormattedName><c:GivenName>Dhanashree Lele</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="fdf1aac7-5f0a-431d-bb4b-098bf1b66ca2"><c:Number>+918866711391</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

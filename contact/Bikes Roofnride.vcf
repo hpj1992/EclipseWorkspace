@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c5b54977-bcfe-4130-8098-2821fdf582b5"><c:Value>a8d86120-2bb9-4aab-aa8a-8e2f6180ff06</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2a027e17-8e2b-496a-912f-cf68d12cfaba"><c:FormattedName>Bikes Roofnride</c:FormattedName><c:GivenName>Bikes Roofnride</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6c8502bd-a957-4ac5-816d-2e5e00640733"><c:Number>09899205520</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

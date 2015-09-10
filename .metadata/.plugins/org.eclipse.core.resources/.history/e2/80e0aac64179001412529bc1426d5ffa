@@ -1,0 +1,52 @@
+var mysql = require('./mysql');
+
+
+exports.signupRedirect = function(req,res)
+{
+	res.render('ejs_signup');
+}
+exports.signup =function (req,res)
+{
+	var firstname = req.param('firstname');
+	var lastname = req.param('lastname');
+	var email = req.param('email');
+	var password = req.param('pass');
+	var rpass = req.param('rpass');
+		
+	if(firstname===undefined||password===null||email===null||password===null||rpass===null)
+		{
+			res.render('ejs_errorpage');
+		}
+		
+//	var connection = mysql.createConnection('localhost://root:alkadudhia@localhost/ebay');
+//	connection.connect();	
+	var queryString = 'INSERT into person (userId,firstName,lastName,email,password,isVerified,registrationDate,modifiedDate) values ("3","'+firstname+'","'+lastname+'","'+email+'","'+password+'","1",Now(),Now());'
+	console.log(queryString);
+	mysql.query( function(err, results) {
+	    if (err) 
+	    	{
+	    	console.log(err);
+	    	res.render('ejs_errorpage');   	
+	    	}
+	    else
+	    	{
+	    	if(results.length===0)
+	    	{
+	    		
+	    		response.render();   	
+	    		
+	    	}
+	    	
+	    	else
+	    		{
+	    		
+	    		res.send('2');
+	    		
+	    		}
+	    
+	    	}
+	  },queryString);
+
+	
+
+};

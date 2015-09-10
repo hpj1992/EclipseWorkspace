@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5cdc01ce-6531-4fc8-922f-a50945cb00dc"><c:Value>9e16f5a7-acf5-44aa-870f-c1637782e9ec</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="1a37597b-6eb1-4905-bf83-934220718199"><c:FormattedName>Bhavin Patel Society</c:FormattedName><c:GivenName>Bhavin Patel Society</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d6245c93-c099-44ed-98ef-5f1aaef2ea42"><c:Number>9825032114</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="6e432775-41e5-49e5-88fe-fb7a8e260714"><c:Value>46755139-7f94-4380-9632-ce47e28a1b03</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8127f5db-0112-4ea9-a6af-ecdc320a1978"><c:FormattedName>U band</c:FormattedName><c:GivenName>U band</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c301bd01-ac96-43c9-856b-d0e49af3238b"><c:Number>9723048081</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

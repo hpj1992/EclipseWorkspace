@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f05456d3-8485-4456-8110-f86cd7221c74"><c:Value>ed1da098-c2b4-4ab6-bbbd-428152d3cb24</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c75fb68e-2de3-455b-b4cf-f5af4fd9173d"><c:FormattedName>Rajesh Ayare</c:FormattedName><c:GivenName>Rajesh Ayare</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="66071a1b-bbb4-4006-9a34-08315e9dbaf9"><c:Number>9824006366</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

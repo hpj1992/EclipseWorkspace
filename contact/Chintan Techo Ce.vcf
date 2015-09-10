@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="07fdd754-b6c0-4ba2-b015-20cfe53b0367"><c:Value>9787e9b0-d22a-4a15-9d81-f0f9199c7b7f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="697fafec-8102-4e72-b0f5-fbb801d2ad7e"><c:FormattedName>Chintan Techo Ce</c:FormattedName><c:GivenName>Chintan Techo Ce</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ed57edf4-8ccb-4cb2-92fa-c12a15398cf2"><c:Number>9998764862</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

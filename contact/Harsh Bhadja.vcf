@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9a80b2d5-4413-437b-9b37-6fdad54445bc"><c:Value>b8aed3ae-245a-458a-abc0-e64927ffeafa</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="72b0d528-74f2-46c5-a146-ea90e95a2e36"><c:FormattedName>Harsh Bhadja</c:FormattedName><c:GivenName>Harsh Bhadja</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ca22c35f-ae66-4943-b39b-04c32a980b24"><c:Number>+919016282775</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

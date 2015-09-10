@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ef2d6077-1eba-4d93-83a6-a6df5bfea630"><c:Value>d828ecc6-59c3-4dee-a548-16cfd524ab69</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="965876e2-8a39-469e-be8f-64adde8b45ea"><c:FormattedName>Jiten Chaudhary Snapster</c:FormattedName><c:GivenName>Jiten Chaudhary Snapster</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="18fdf064-f0a5-442a-a2a0-3b6887a1237d"><c:Number>+919429473925</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

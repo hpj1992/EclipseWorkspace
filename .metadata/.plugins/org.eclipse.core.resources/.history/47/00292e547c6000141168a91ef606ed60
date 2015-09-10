@@ -1,0 +1,6 @@
+
+public interface Component extends BaseInterface{
+
+	
+	public void PrintDesc();
+}

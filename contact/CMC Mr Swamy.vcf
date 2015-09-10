@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fa9239b7-bef3-4b0b-af31-6d2f1cf0b70b"><c:Value>8314a326-265b-40fe-9070-994b017169c9</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="142c3a71-5af6-4773-aec3-f0fa030bad77"><c:FormattedName>CMC Mr Swamy</c:FormattedName><c:GivenName>CMC Mr Swamy</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="2d412694-58c9-4506-ace9-40d487c3315e"><c:Number>9227132035</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

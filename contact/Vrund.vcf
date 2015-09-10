@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5f781a5d-1f14-4cd1-8b4d-68593014032a"><c:Value>1700221a-25de-4363-9292-f98dde57ca06</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2273d6db-af42-43f3-a2e1-7341525eb05d"><c:FormattedName>Vrund</c:FormattedName><c:GivenName>Vrund</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3b6a738e-a048-49da-8500-8784457537c9"><c:Number>+919033084043</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

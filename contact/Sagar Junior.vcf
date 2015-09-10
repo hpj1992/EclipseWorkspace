@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="8d29431d-52f5-4ff1-afb6-3a0424be838a"><c:Value>49fb9891-bace-4e7c-bde6-c6fb7c34988e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3ac87a4c-bb8c-4b82-a288-a3ae2b6848cf"><c:FormattedName>Sagar Junior</c:FormattedName><c:GivenName>Sagar Junior</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ab587e3c-38d4-4aa2-9d34-899349893be0"><c:Number>+919998834874</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

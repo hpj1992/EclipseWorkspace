@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1c03ab90-0441-4fd9-bd4d-ed5000b4aa58"><c:Value>8d940612-52b2-4c60-81d6-02cd2dadfd7d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="34a22b21-925f-4749-b5c4-59a84612547a"><c:FormattedName>GEBGotri</c:FormattedName><c:FamilyName>GEBGotri</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="9d41e010-5d86-4aee-9d3a-cbcea04379cb"><c:Number>02652321777</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

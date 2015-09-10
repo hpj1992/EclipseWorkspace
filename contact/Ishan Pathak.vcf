@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a5e221b1-051f-4326-b6f2-ac76699b68c7"><c:Value>643fa644-4640-44a3-85df-14e2307f58d8</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="edb6e641-1c04-45c7-8e37-d128982f31ad"><c:FormattedName>Ishan Pathak</c:FormattedName><c:GivenName>Ishan Pathak</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8179956d-d3d2-43ac-a64c-2c3ba5f69212"><c:Number>+919016616070</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

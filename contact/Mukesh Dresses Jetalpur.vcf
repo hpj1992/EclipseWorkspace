@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="6e6d9746-a0bb-4afd-886a-03561f40076b"><c:Value>114e3feb-fbf6-4525-b84e-d9a984b7cc92</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0ba6ccde-3b2d-4e7a-86ef-d0a073046632"><c:FormattedName>Mukesh Dresses Jetalpur</c:FormattedName><c:GivenName>Mukesh Dresses Jetalpur</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="21f98707-bae3-4c5b-9280-eeabdeeaabc3"><c:Number>9825045050</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1251f32b-209e-40f8-a337-673b529bd3e3"><c:Value>8430840e-1423-441b-bad3-dc2dc7dea75c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b27f0018-6435-4e0e-b282-1585ff10ee5c"><c:FormattedName>Fashion City</c:FormattedName><c:GivenName>Fashion City</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="44eae65a-5026-437a-9e2d-baa5b2114b8c"><c:Number>+919714029913</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

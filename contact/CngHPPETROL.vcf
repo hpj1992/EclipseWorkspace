@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b5dac7e2-0fbd-4b51-ae39-8ef6a1e5b6c7"><c:Value>9a87584b-573b-4e63-bb12-7a9a6570130d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="9d381d55-e2dd-4543-b017-7d9d61e1dd81"><c:FormattedName>CngHPPETROL</c:FormattedName><c:GivenName>CngHPPETROL</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="95f1434f-c75e-49b0-b691-3f81325c2b6b"><c:Number>026523999311</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

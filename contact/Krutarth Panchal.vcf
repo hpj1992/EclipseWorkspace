@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ac0447ce-1e13-46b9-9b36-d20cf7744848"><c:Value>188df9c6-1a24-4890-936e-25f5dfc60643</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="cfc3fa3d-e903-43f1-b1fd-a3ed68b75c0d"><c:FormattedName>Krutarth Panchal</c:FormattedName><c:GivenName>Krutarth Panchal</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7b0cdb9f-7aed-4c44-a3ef-31578dcd0eed"><c:Number>9724618294</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

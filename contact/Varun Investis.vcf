@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0155708d-809b-4080-988c-b0ff34e9acb2"><c:Value>96e7e1c1-1392-4c6c-948f-108407e50825</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d14c3130-029e-4d6b-8784-23934d008d20"><c:FormattedName>Varun Investis</c:FormattedName><c:GivenName>Varun Investis</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="193c24bb-ace2-44db-8cbe-203e43e398ea"><c:Number>9879507607</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

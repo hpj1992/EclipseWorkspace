@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1c098684-5e30-4063-946e-1d9c52a7f56b"><c:Value>848b5542-3c23-42f4-b255-45b403000a2a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="11eef01a-ce4b-4588-bb24-2122793dc56e"><c:FormattedName>Nishit Shilu</c:FormattedName><c:GivenName>Nishit Shilu</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="646b3d33-fba4-4b89-b890-5f514a1d25d0"><c:Number>9925572262</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

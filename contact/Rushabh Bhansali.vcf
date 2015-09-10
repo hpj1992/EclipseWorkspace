@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="8b8436f4-80b3-40b0-ab3c-00e278b20301"><c:Value>50448c04-5eea-425c-9a45-1db08fc87bd2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="72f32299-6946-4c5c-9c21-88268d0fa919"><c:FormattedName>Rushabh Bhansali</c:FormattedName><c:GivenName>Rushabh</c:GivenName><c:FamilyName>Bhansali</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="71419720-96f3-4bd8-8198-3cc1fb8da122"><c:Number>9537515399</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

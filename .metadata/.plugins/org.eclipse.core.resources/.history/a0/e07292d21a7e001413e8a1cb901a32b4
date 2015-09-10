@@ -1,0 +1,73 @@
+//Without connection pooling
+
+var ejs= require('ejs');
+var mysql = require('mysql');
+var redis = require('redis');
+var client = redis.createClient(6379, "127.0.0.1");
+
+
+function getConnection(){
+	var connection = mysql.createConnection({
+	    host     : 'localhost',
+	    user     : 'root',
+	    password : 'root',
+	    database : 'ebay'
+	});
+	return connection;
+}
+
+
+function addToCart(callback,sqlQuery,cart,userid){
+	
+	console.log("\nSQL Query::"+sqlQuery);
+	
+	var connection=getConnection();
+	var redisdata = null;
+	var key="cart"+userid;
+			client.get(key, function(err, reply) {
+
+			//console.log("Value " + JSON.stringify(reply));
+
+			if (typeof reply == "undefined" || reply == null || reply == "") {
+				console.log("Fetching from database");
+				/*connection.query(sqlQuery, function(err, rows, fields) {
+					if(err){
+						console.log("ERROR: " + err.message);
+					}
+					else 
+					{	// return err or result
+						redisdata = JSON.stringify(rows);
+						client.set(sqlQuery,redisdata, redis.print);
+						callback(err, rows);
+					}
+				});
+				console.log("\nConnection closed..");
+				connection.end();
+*/
+			} else {
+				/*console.log("Got from cache");
+				redisdata = JSON.parse(reply);
+				customerresult = redisdata;
+				callback(err,redisdata);*/
+			}
+			// console.log("movie"movresult);
+
+		});
+
+		
+
+	/*connection.query(sqlQuery, function(err, rows, fields) {
+		if(err){
+			console.log("ERROR: " + err.message);
+		}
+		else 
+		{	// return err or result
+			callback(err, rows);
+		}
+	});
+	console.log("\nConnection closed..");
+	connection.end();*/
+}	
+
+exports.fetchData=fetchData;
+

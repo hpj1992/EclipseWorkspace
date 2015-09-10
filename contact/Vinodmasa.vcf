@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="56617125-a0c2-4d00-8b61-048f20661f97"><c:Value>4ee4d0e7-1033-466a-b539-1c1fdfebfae4</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f9ad64b6-2afe-4d6e-82e1-b7d73c778518"><c:FormattedName>Vinodmasa</c:FormattedName><c:GivenName>Vinodmasa</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d0e250d6-aabd-4f8c-85d9-f514d670b61d"><c:Number>+919428210623</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

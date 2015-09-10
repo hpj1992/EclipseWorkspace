@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="09f87d85-7902-47dd-8b9c-068b19a45648"><c:Value>c1c074ce-b16a-4c04-bb27-f7ebd0c0549e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="09d7ef04-0ca3-456d-8386-33259cb97bc0"><c:FormattedName>Argusoft Seturaman</c:FormattedName><c:GivenName>Argusoft Seturaman</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e496093b-1953-4fe5-bc98-b71273ca201a"><c:Number>09974666602</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

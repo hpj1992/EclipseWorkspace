@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a8273abf-a9d6-4c7a-adfc-6f39d40bfaae"><c:Value>d71fd240-b15b-4457-b884-1400b4e5cf86</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="7cbc008d-2a2e-4edf-807c-5bd929650329"><c:FormattedName>Shailee Mehta</c:FormattedName><c:GivenName>Shailee Mehta</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1662a136-9ea7-479c-a76f-c2def64f0970"><c:Number>9725859330</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

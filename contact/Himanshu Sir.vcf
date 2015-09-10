@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="356f54d8-ac59-4957-bed6-7ce6b3b1af7d"><c:Value>e21e9887-857a-456d-a863-820e4c58a114</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e3b1b352-00f4-448a-ba46-e504e638eb98"><c:FormattedName>Himanshu Sir</c:FormattedName><c:GivenName>Himanshu Sir</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="82597402-b1a3-4d27-8d19-31fb12042cf2"><c:Number>9376902533</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

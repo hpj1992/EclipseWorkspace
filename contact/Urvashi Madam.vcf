@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="6e008238-5cb6-45ae-b5bf-3c47d4dea9ee"><c:Value>e80ba029-d26b-450c-b91b-b525cac53cbb</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d925d8bb-4be6-4cb7-bfc7-7dc50c57c76b"><c:FormattedName>Urvashi Madam</c:FormattedName><c:GivenName>Urvashi Madam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="000d9b88-d9e6-490b-8eb4-a7827e54a3d1"><c:Number>9725025749</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

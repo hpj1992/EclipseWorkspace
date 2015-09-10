@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9035bf5b-3c7e-4636-9862-45f7eb6f15bc"><c:Value>21ef461e-cd43-486b-8faf-903c97f083dc</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="5f727dc9-ef45-4640-a45e-3830891b4980"><c:FormattedName>Parth Hande</c:FormattedName><c:GivenName>Parth Hande</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c0de80e1-b770-4e91-b75a-04be8b25b856"><c:Number>+919998979050</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

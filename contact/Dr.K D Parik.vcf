@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="390d09e7-687d-4185-9670-e9efea5a2517"><c:Value>e8a4ed1b-141f-4082-843d-4156119c1b27</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ba5564dd-a5b3-4ae9-a28a-95ab853cdf13"><c:FormattedName>Dr.K D Parik</c:FormattedName><c:FamilyName>Dr.K D Parik</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7dabc911-90db-45ff-b319-b082ea5e4e43"><c:Number>9427034747</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

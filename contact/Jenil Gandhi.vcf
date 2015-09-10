@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="13e56c9f-17f9-4e95-9e5a-fe1b2ff2b1e9"><c:Value>7cdf4ecf-e9c7-4ed0-b26a-be30ef957ffe</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="1c19fb1f-5e2e-4f17-a5c6-b200f81204f2"><c:FormattedName>Jenil Gandhi</c:FormattedName><c:GivenName>Jenil Gandhi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="aa275f58-f1aa-4b6f-85fb-b415e636d902"><c:Number>09428399604</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

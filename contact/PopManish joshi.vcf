@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="91eb4959-6896-4785-b361-d519c4dc2c1e"><c:Value>81918c5d-d89c-4b2c-8acb-908b372cb7b7</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="fb72e70e-f67b-4f57-a99c-038d6ed063c9"><c:FormattedName>PopManish joshi</c:FormattedName><c:GivenName>PopManish joshi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="eb8a0510-c62c-4291-8933-87cce58639ab"><c:Number>9624799336</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

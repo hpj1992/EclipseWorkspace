@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f1b2d8bb-3d4e-4c2e-97cd-ab3829ab9a4e"><c:Value>f2ff934c-db3c-456f-b982-3c87a412e7ea</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d99b8a13-fcea-430e-8cfe-8dd9d40b0696"><c:FormattedName>Shlok</c:FormattedName><c:GivenName>Shlok</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ebce398d-3523-44eb-8bad-4b57dae1cb17"><c:Number>9974342999</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

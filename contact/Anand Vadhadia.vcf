@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b8c61484-0894-4286-a3c5-bf2b3cd1a37a"><c:Value>51cfd9d1-4192-4f3a-946d-f41674001914</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e13e7ba2-b627-418b-bc82-b3cd07a6a01b"><c:FormattedName>Anand Vadhadia</c:FormattedName><c:GivenName>Anand</c:GivenName><c:FamilyName>Vadhadia</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8cd4f7de-70a9-4640-9e2b-daaa684c12ee"><c:Number>9898790274</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

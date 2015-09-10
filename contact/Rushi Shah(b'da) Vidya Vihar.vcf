@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4290e6bc-97b1-4601-8e7c-28f345a39f30"><c:Value>21a8e53a-8e1e-4bac-87a3-3b8f9b561a9e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e81ef9b5-d953-48f5-8158-d1f6bb01490e"><c:FormattedName>Rushi Shah(b'da) Vidya Vihar</c:FormattedName><c:GivenName>Rushi Shah(b'da) Vidya Vihar</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="410ff3c7-ad4b-48a6-88f5-e4184ead15d5"><c:Number>+917405594802</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

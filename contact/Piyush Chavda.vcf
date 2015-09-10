@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fddd2969-9ec4-4683-bdb8-a1b07cbc57d0"><c:Value>f1580b03-b7b3-4588-b7a9-8625ab6e1436</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="042b5ccc-0363-47e6-82b0-59b964fc9a00"><c:FormattedName>Piyush Chavda</c:FormattedName><c:GivenName>Piyush Chavda</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="a3dc600f-01a3-4403-9dbc-0ae1ac230eb4"><c:Number>9904120465</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

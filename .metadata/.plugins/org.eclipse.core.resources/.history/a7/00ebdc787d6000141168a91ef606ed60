@@ -1,0 +1,10 @@
+
+public interface BaseInterface {
+
+	
+	int intCheeseCount=0;
+	int intToppingCount=0;
+	int intPremToppingCount=0;
+	int intSauceCount=0;
+	
+}

@@ -1,0 +1,9 @@
+
+public class Burger implements Component2 {
+	
+	public double getCost()
+	{
+		
+	}
+
+}

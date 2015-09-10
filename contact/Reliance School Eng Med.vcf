@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="495e016c-a1f8-4614-896f-a13cb89b9381"><c:Value>6505d951-fd68-4c64-91fd-86b2c57277a3</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3de6f47b-8a42-4c3c-9163-a67c3e345d06"><c:FormattedName>Reliance School Eng Med</c:FormattedName><c:GivenName>Reliance School Eng Med</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="909cee92-0c17-4258-a619-fab2f4aa5ce2"><c:Number>+912656697671</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

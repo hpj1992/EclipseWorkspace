@@ -1,0 +1,15 @@
+package Testing;
+
+ class test2 {
+
+	public test2(){
+		System.out.println("in test");
+	}
+}
+
+public class test2 extends test2{
+	
+	public static void main(String[] args){
+		new test2();
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="18924f31-f41d-440e-88df-18357d9df137"><c:Value>974d0730-cc2c-4e8e-bac5-8dfec14a6285</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c0cd2d6c-bed2-4664-a43e-ec2f434b1940"><c:FormattedName>Toke</c:FormattedName><c:GivenName>Toke</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="767a5afa-8497-4c36-a1e1-9e1e6655e95f"><c:Number>9712328782</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

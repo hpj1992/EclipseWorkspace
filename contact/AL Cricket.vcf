@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9b1b824c-0b56-4415-83d3-50713983b262"><c:Value>1ec43cad-b172-4f78-be07-27c5db5b638e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b5070d20-b6d8-481c-96b9-67d3ee6b4c9c"><c:FormattedName>AL Cricket</c:FormattedName><c:FamilyName>AL Cricket</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3e0f07d3-41a7-43bc-98ce-ba2853585585"><c:Number>543212601</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9c02689a-12ce-43c3-8142-028ccef4d66a"><c:Value>3c808cd4-67fe-4dfc-9cfb-00d31e45d2e2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="cb2f6628-b579-4213-b934-8f4d261ced7b"><c:FormattedName>Igate Patni Raghesh Patni</c:FormattedName><c:GivenName>Igate Patni Raghesh</c:GivenName><c:FamilyName>Patni</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="a16dbeda-a54a-421a-b6c9-8d7997d70ea1"><c:Number>09890266608</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="29fc4dd9-8be6-4c98-bd50-7871d5bbc138"><c:Value>dd8c0efa-051d-43b5-9425-afe5ae0003db</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8134154d-8f99-4cb0-80ab-431d9bd0703f"><c:FormattedName>Himanshu</c:FormattedName><c:FamilyName>Himanshu</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="06c1b1da-9e8f-455a-a480-27b01496e86f"><c:Number>9979880655</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

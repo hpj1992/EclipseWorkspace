@@ -1,0 +1,29 @@
+
+public class PremTopping extends Decorator {
+	
+	 public PremTopping(Component2 c)
+	    {
+	       super(c);
+	       
+	    }
+
+	    
+	     public double getCost()
+	    {
+	    	 double cost=0;
+	 		if(Composite.premToppingsCount>0)
+	 		{
+	 			//1.00 for each extra cheese
+	 			cost=super.getCost()+(1.00*(Composite.premToppingsCount-1));
+	 		}
+	 		else
+	 		{
+	 			cost=super.getCost();
+	 		}
+	 		return cost;
+	 		
+	      
+	       
+	    }
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ae9b008a-2b4e-45e1-ad1a-5cae58900a67"><c:Value>5879abac-c366-4274-b979-8f2f92d484d2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="93c53987-2d50-4d45-b0b0-20a489456b49"><c:FormattedName>Ajaybhai Goswami</c:FormattedName><c:GivenName>Ajaybhai Goswami</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="40c859b5-2b76-440a-8c5f-2460cc5654f5"><c:Number>9099936318</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="91477dc9-6164-422e-8d06-7d882d4e88ae"><c:Value>55f9dd11-028c-473b-a251-d5f339c84566</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="7a7e6f0f-05df-40d1-8ef7-2632036f72f2"><c:FormattedName>Railway Inquiry</c:FormattedName><c:FamilyName>Railway Inquiry</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="79ec6ebc-4c0a-4149-b733-56d6baa77a6e"><c:Number>139</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

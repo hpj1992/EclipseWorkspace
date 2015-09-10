@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    
+    <% for(i=0;i<shuffledCards.length;i++){%>
+	<img src="/img/cards/<%=shuffledCards[i]%>"></img>&nbsp;&nbsp;
+	<% } %>
+	
+	<br>
+	<input type="button" onclick="location.href = '/pickcards';" value="Shuffle"></input>
+  </body>
+</html>

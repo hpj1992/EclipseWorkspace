@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f7399c7b-b005-442d-8a3a-565ede9989eb"><c:Value>91d047e8-4d97-4ac2-b9be-cc22ad88b456</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e42685e9-fc6e-428e-a5db-92d897117fc5"><c:FormattedName>Bhavin Prajapati</c:FormattedName><c:GivenName>Bhavin Prajapati</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f9e32da9-4c43-4e7a-8e8d-861750c19d44"><c:Number>9913662688</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

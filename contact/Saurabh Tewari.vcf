@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b5ac01a1-5777-406f-9cb0-c7586135fdc4"><c:Value>9bb6d2d3-944a-4981-8f4e-b6a15213db3f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="cb2684c3-5bff-4a0c-a83f-1d4fdce9f9ca"><c:FormattedName>Saurabh Tewari</c:FormattedName><c:GivenName>Saurabh Tewari</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="978eb6e9-cf39-4a2b-8fdb-bb80f72216df"><c:Number>+919579375811</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

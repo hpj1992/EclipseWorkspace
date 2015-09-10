@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="89b4426a-c0dd-4650-a6d5-607bfdde2170"><c:Value>70764ae4-8299-4453-aeed-ebe63dc1715e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="4f4549d1-f107-48c4-af1b-3cb66d72779b"><c:FormattedName>Shivam</c:FormattedName><c:GivenName>Shivam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="39966215-bcd6-4b6b-a620-a85b0f9319a5"><c:Number>+919601396271</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

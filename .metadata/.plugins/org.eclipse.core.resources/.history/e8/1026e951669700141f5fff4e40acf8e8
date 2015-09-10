@@ -1,0 +1,19 @@
+package ctci;
+
+import java.util.LinkedList;
+
+import com.sun.corba.se.impl.orbutil.graph.Node;
+
+
+
+public class Sol2_1 {
+	
+	
+	
+	public static void main(String[] args)
+	{
+		LinkedList<int> myList=new LinkedList();
+		
+	}
+
+}

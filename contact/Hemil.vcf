@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b2c988c4-2e85-465b-8346-d904587335aa"><c:Value>8502ccca-f171-4f90-8385-b482b5ed1094</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3ca2ce72-9b67-4146-9eb1-bab69e3ea252"><c:FormattedName>Hemil</c:FormattedName><c:GivenName>Hemil</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="b3ced5eb-a0c7-4b1c-96f4-dd01d100aaad"><c:Number>9998063343</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

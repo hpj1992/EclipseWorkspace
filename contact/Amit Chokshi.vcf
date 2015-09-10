@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="2a93043c-ed92-4fd7-b052-6764f207f36c"><c:Value>f3fdfdc9-8d0c-4bc6-86fd-df6dc904a0e6</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="fcec942a-448c-4d0c-b1cd-3a1aef67ca5e"><c:FormattedName>Amit Chokshi</c:FormattedName><c:GivenName>Amit Chokshi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="a2107f31-1552-41ac-a58c-eb567cd07a13"><c:Number>+919998976149</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

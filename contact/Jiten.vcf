@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0f3d2d46-c125-4568-a1b2-4293db0f29eb"><c:Value>d71aca3f-5504-404d-a32f-5b473734c46a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c0985df7-aeb2-4b30-a0df-143b791add05"><c:FormattedName>Jiten </c:FormattedName><c:FamilyName>Jiten </c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f50f93c9-6b3e-4400-9c26-252a4c0d663e"><c:Number>9979886184</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

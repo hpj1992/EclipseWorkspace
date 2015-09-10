@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0adaee5e-9020-4013-a16a-54e6e88a63d2"><c:Value>f38ce222-8296-4756-a1b1-03174cca9223</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d1847b1a-8485-47a3-8776-c7506a0e0d53"><c:FormattedName>Shailee Patel Pr</c:FormattedName><c:GivenName>Shailee Patel Pr</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ae0a794d-bff0-456a-891d-297d8aac9939"><c:Number>9714917739</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

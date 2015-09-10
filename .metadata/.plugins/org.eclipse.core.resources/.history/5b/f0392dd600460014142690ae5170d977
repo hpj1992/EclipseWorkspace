@@ -1,0 +1,35 @@
+
+
+public class SoldOutState implements State {
+    GumballMachine gumballMachine;
+ 
+    public SoldOutState(GumballMachine gumballMachine) {
+        this.gumballMachine = gumballMachine;
+    }
+ 
+    public void insertQuarter()
+    {
+    	System.out.println("You can not insert Quarter coin now ... Gumball release is in progress.");
+    }
+	public void insertDime()
+	{
+		System.out.println("You can not insert Dime now ... Gumball release is in progress.");
+	}
+	public void insertNickel()
+	{
+		System.out.println("You can not insert Nikel now ... Gumball release is in progress.");
+	}
+	public void turnCrank()
+	{
+		System.out.println("Crank already turned ...");
+	}
+	public void dispense()
+	{
+		System.out.println("Please collect your gumball");
+		gumballMachine.setState(new NoQuarterState(gumballMachine));
+	}
+	public void ejectCoins()
+	{
+		System.out.println("You can not eject coin now ... Gumball release is in progress.");
+	}
+}

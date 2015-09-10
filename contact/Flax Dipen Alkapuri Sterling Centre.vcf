@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="27e08c47-c5b3-47aa-984f-88349be7a5d7"><c:Value>094c0580-0607-4f5e-9175-7cb537618dfa</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8886e915-3135-4b8c-9d94-b530163ac3d2"><c:FormattedName>Flax Dipen Alkapuri Sterling Centre</c:FormattedName><c:GivenName>Flax Dipen Alkapuri</c:GivenName><c:FamilyName>Sterling Centre</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="0a032dc9-da65-40f6-a4da-ef2785309bba"><c:Number>8000920230</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

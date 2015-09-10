@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="08dac2d2-ed1d-473c-a12d-27c459cb2033"><c:Value>12c393a5-3a58-43a7-9ee8-9efdbf8342e9</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c4fe7327-b4cb-482c-92be-ec65006b33d9"><c:FormattedName>Soni Sir (Mech.)</c:FormattedName><c:GivenName>Soni Sir (Mech.)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="36d5178b-eda9-468d-aad5-aa746e715ed5"><c:Number>9427356920</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

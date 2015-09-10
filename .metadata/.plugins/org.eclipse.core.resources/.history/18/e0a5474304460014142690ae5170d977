@@ -1,0 +1,64 @@
+
+public class NotEnoughAmountState implements State {
+	
+	GumballMachine gumballMachine;
+	public NotEnoughAmountState(GumballMachine gmballMachine)
+	{
+		this.gumballMachine=gumballMachine;
+	}
+	
+	 public void insertQuarter()
+	    {
+		 gumballMachine.amount+=25;
+		 if(gumballMachine.amount>=50)
+		 {
+			 gumballMachine.setState(new EnoughAmountState(gumballMachine));
+		 }
+	    	System.out.println("You can not insert Quarter now ... Gumball Machine is in soldOut state.");
+	    }
+		public void insertDime()
+		{
+			
+			 gumballMachine.amount+=10;
+			 if(gumballMachine.amount>=50)
+			 {
+				 gumballMachine.setState(new EnoughAmountState(gumballMachine));
+			 }
+			 else
+			 {
+				 System.out.println("You can not insert Dime now ... Gumball Machine is in soldOut state.");
+			 }
+			
+		}
+		public void insertNickel()
+		{
+			 gumballMachine.amount+=5;
+			 if(gumballMachine.amount>=50)
+			 {
+				 gumballMachine.setState(new EnoughAmountState(gumballMachine));
+			 }
+			 else
+			 {
+				 System.out.println("You can not insert Nikel now ... Gumball Machine is in soldOut state.");
+			 }
+			
+		}
+		public void turnCrank()
+		{
+			System.out.println("You can not turn crank now ... Gumball Machine is in soldOut state.");
+		}
+		public void dispense()
+		{
+			System.out.println("No gumball to dispense.");
+		}
+		public void ejectCoins()
+		{
+			System.out.println("No coins to eject.");
+		}
+		
+		public String toString()
+		{
+			return "sold out";
+		}
+
+}

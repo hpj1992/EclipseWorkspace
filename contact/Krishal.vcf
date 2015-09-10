@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4330d49c-510b-4ff4-afdd-a94a413b16ab"><c:Value>ed9e730e-d3d1-4b02-b01a-be993cd9ea53</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="044da844-c9b4-48cf-b821-8b8e65ec0ed4"><c:FormattedName>Krishal</c:FormattedName><c:GivenName>Krishal</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c4816dd4-f6c8-47dc-9e21-8f97888b239a"><c:Number>+918511186548</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

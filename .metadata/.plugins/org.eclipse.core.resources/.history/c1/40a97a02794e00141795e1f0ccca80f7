@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap Case</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron" style="height:200px;margin-bottom: 5px;width: 1155px;">
+	  <div class="col-md-6">
+        <h1>JustLikeYelp.com</h1>      
+          </div>
+	  <div> 
+	   <div class="col-md-4">
+		<input type="text" class="form-control" id="usr" style="width:100%" placeholder="Search places">
+		</div>
+		 <div class="col-md-2">
+        <a href="#" class="btn btn-info btn-lg">Search</a>
+		</div>
+		
+      </div>
+	  <br/>
+	 
+	
+
+</div>
+<div class="row" style="background-color: #eee;margin-left:0px;">
+  <div class="col-md-4">
+   Welcome,<%=firstname%>
+  
+  </div>
+  <div class="col-md-4">
+  Last Login:<%=lastLogin%>
+  </div>
+  <div class="col-md-4">
+  <a href="/logout">Logout</a>
+  </div>
+</div>
+<br/>
+ <div class="row">
+  <div class="col-xs-6 col-sm-3">
+  <img src="business.jpg" alt="..." class="img-thumbnail">
+  </div>
+  <div class="col-xs-6 col-sm-3">
+  <h2><strong> <%=businessName%></strong></h2>
+  <h3>Average Ratings:<%=averageRating%></h3>
+  <h3>Zipcode:<%=areaZipcode%></h3>
+  <h3>Contact:<%=contact%></h3>
+  
+  </div>
+
+  <div class="clearfix visible-xs-block"></div>
+
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+  <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+</div>
+
+<h2> User Reviews:</h2>
+</div>
+
+
+
+
+   
+	 
+
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  </body>
+</html>

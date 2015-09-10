@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="abb4e471-e2e1-4366-8806-9031af980be3"><c:Value>e7f3a7fb-117a-4014-af8b-636c89509def</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b0a93be5-fdb5-48a7-a4c6-cafd26b84249"><c:FormattedName>Luv Wadhwani</c:FormattedName><c:GivenName>Luv Wadhwani</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6d89485f-55d1-4751-8cc1-12da28b3b16d"><c:Number>9978254184</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

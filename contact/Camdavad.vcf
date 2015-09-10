@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c9f4e421-457f-4a27-aad4-9abc2108daf5"><c:Value>0dd0ceef-28ec-4177-b1ae-f2180986c18d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e0528635-0280-4dd1-8348-01acfa016d45"><c:FormattedName>Camdavad</c:FormattedName><c:GivenName>Camdavad</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8c97529b-2211-4008-809f-2970a780bc95"><c:Number>+919223051909</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5ab8ce1b-1d67-4a64-bb8a-865111eb4c00"><c:Value>e4c2ad97-db45-4013-a3a6-762cb85a6c2c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="198b9c28-ce40-42e1-bdcc-b0f180e5e3fd"><c:FormattedName>Darshak Raval Pr</c:FormattedName><c:GivenName>Darshak Raval</c:GivenName><c:FamilyName>Pr</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6a273227-c4d0-4ff5-a419-73ed3630c953"><c:Number>9558246955</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

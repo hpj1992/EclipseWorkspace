@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="04ffe465-5e83-4357-9aca-09c20a895186"><c:Value>8a9b439e-06b6-4e53-8a61-5203deee375a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d1238d14-560b-4807-9998-b07b09d8b468"><c:FormattedName>Kunjan  Chaudhari</c:FormattedName><c:GivenName>Kunjan </c:GivenName><c:FamilyName>Chaudhari</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="0841bf82-9679-4ab9-9d0a-a3069fc07bd1"><c:Number>9898989283</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

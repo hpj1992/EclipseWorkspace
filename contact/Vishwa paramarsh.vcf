@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f40cac49-913b-4c5e-9f9e-4a8fc608f64b"><c:Value>5d5b1117-c0c0-4697-9235-edf64e691ab3</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="4dffd110-bc4f-42b3-b078-df66e57c2b12"><c:FormattedName>Vishwa paramarsh</c:FormattedName><c:FamilyName>Vishwa paramarsh</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8d828927-a822-42f0-8e70-e2b522c8fa30"><c:Number>9426459297</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

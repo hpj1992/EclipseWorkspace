@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1bd6aeb6-bf89-46f3-82f7-9899fd875c90"><c:Value>130285f5-fbc4-4310-9d62-38c076e98734</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="177afa1b-7b6a-4e34-a283-2b536bf9757b"><c:FormattedName>Shashwat Gheewala</c:FormattedName><c:GivenName>Shashwat Gheewala</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="874bc33a-c1f4-415c-a7fb-958acd6917cb"><c:Number>+919979856410</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

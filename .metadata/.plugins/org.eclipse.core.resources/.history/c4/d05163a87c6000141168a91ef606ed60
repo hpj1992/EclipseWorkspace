@@ -1,0 +1,10 @@
+
+public class Composite implements Component {
+
+	
+	public void PrintDesc()
+	
+	{
+		
+	}
+}

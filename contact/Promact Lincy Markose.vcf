@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="faa70a38-63ef-41d7-820e-e95517302034"><c:Value>e4c2eed5-5634-4f74-8392-5fa7bde4be12</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="fd4c2b38-daac-4a42-a77c-4aacb5026580"><c:FormattedName>Promact Lincy Markose</c:FormattedName><c:GivenName>Promact Lincy Markose</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7d094111-65bd-4680-9e70-e476e975c8eb"><c:Number>02652643381</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9e7f80c8-6fb2-471f-bb68-120019be89f4"><c:Value>794c7709-e97f-4662-beb3-a0da451274a5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="60090bd3-6e3e-4bd2-bdba-2625545fccdd"><c:FormattedName>Prakash Bhagat Senior Infostretch</c:FormattedName><c:GivenName>Prakash Bhagat Senior Infostretch</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1ec9b7eb-35b6-438d-b870-9c241e33254e"><c:Number>9998744966</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

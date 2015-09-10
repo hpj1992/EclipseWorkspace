@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1a3397cd-3a73-4a40-a1ce-390e5567a71c"><c:Value>cc8d0ca2-576e-4251-bfdb-2f182735eae5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="783e695f-032d-4ccb-9f50-9276e0784704"><c:FormattedName>SelvasTeraiya jentibhai</c:FormattedName><c:GivenName>SelvasTeraiya jentibhai</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e3aa1ccc-0e71-4f09-9c58-c4291a06747d"><c:Number>+919974052028</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1cb37c20-8956-4521-87be-015eb1281d79"><c:Value>16760989-3eb4-4a14-afd3-bbfb200cd4a1</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f47e1355-f466-49bf-9660-1e696eb10b2c"><c:FormattedName>Jagu Bombay</c:FormattedName><c:GivenName>Jagu Bombay</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="a38610cb-3f11-4f18-bf75-97c784e0d956"><c:Number>+919619301514</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

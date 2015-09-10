@@ -1,0 +1,27 @@
+package sorting;
+
+import java.util.Scanner;
+import java.*;
+
+public class square {
+	public static void main(String arg[])
+	{
+		Scanner N = new Scanner(System.in);
+		int N1,N2;
+		double square;
+		System.out.print("Enter the number range between which you want to find the squares:");
+		N1=N.nextInt();
+N2=N.nextInt();
+double root = Math.sqrt(N2);
+for(int i=N1;Math.sqrt(N2)>i;i++)
+{
+	square=Math.pow(i,2);
+	System.out.println("Square"+ i+"="+square);
+	}
+		
+		
+	}
+
+	
+
+}

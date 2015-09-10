@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="11fa4d9a-b47d-44de-80ab-4e56d79afd70"><c:Value>e37a717e-7467-4041-bd2f-33109aad6608</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="9c46524d-a0e4-40e9-87be-c21f6a9c4372"><c:FormattedName>Proseon Himanshu Patil</c:FormattedName><c:GivenName>Proseon Himanshu Patil</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c61f0cb4-37f2-4721-b65d-a8ff5dfa4ece"><c:Number>9898322306</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

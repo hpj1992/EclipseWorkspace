@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5761f9dc-a4e5-4ff2-bd3b-25dedac5ca43"><c:Value>bd8ef1e4-eaad-4ae5-850e-244fd42d6095</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="37de8fcf-c826-4df8-918d-b24715077d20"><c:FormattedName>Luhar Darji</c:FormattedName><c:FamilyName>Luhar Darji</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="edd86524-375d-44a7-b0bf-ea29739d581a"><c:Number>9998977567</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

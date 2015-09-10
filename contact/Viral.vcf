@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4bc82c49-7717-4c46-a8eb-7ca647a17493"><c:Value>6750800a-5f25-4832-bbc1-1cb22dfd7bc7</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6978d1f2-7505-4003-9395-fefa02a86006"><c:FormattedName>Viral</c:FormattedName><c:FamilyName>Viral</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8872f6b7-fc9b-4a6d-9466-1292d5edaac6"><c:Number>8866845024</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

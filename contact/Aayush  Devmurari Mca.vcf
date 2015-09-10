@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="7b4baa63-2851-4b30-88ef-d4e295a00adf"><c:Value>031b6e1c-0622-4361-9cf6-c75bb1d41166</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="92078137-d5b0-4220-a56e-3f0abebaf4c6"><c:FormattedName>Aayush  Devmurari Mca</c:FormattedName><c:GivenName>Aayush </c:GivenName><c:FamilyName>Devmurari Mca</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="49bca3e8-b828-4622-bc33-88a8710ac8b2"><c:Number>9925910140</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

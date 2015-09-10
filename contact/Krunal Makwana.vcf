@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="8b013f4b-643c-4c5a-99df-7b0c926b2783"><c:Value>12cb63dc-e676-4484-8c66-0316031622d9</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2ac589c2-a8eb-4d52-b734-fe00c0db7623"><c:FormattedName>Krunal Makwana</c:FormattedName><c:GivenName>Krunal Makwana</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="cc757b4d-f9ac-4eb0-bd15-0592685fabc9"><c:Number>9722973345</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

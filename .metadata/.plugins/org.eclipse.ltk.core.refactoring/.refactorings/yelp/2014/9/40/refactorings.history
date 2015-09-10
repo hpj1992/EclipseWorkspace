@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;yelp/views/successLogin.ejs&apos; to &apos;dashboard.ejs&apos;" description="Rename resource &apos;successLogin.ejs&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="views/successLogin.ejs" name="dashboard.ejs" stamp="1412061543668" updateReferences="true"/>
+</session>

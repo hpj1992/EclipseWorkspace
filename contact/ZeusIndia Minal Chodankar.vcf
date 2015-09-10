@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0800e825-9459-44c8-8078-43b8b6aac79a"><c:Value>a10d63b8-de6a-4c75-9c27-a66b5d6ffe30</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="87c5ee41-97dc-4db3-9b16-7d00a1fd1e1f"><c:FormattedName>ZeusIndia Minal Chodankar</c:FormattedName><c:GivenName>ZeusIndia</c:GivenName><c:FamilyName>Minal Chodankar</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="25147b72-cdc7-4b09-933f-c556ab3d3b09"><c:Number>02266611566</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

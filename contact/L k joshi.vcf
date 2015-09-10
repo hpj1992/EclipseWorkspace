@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="24b1fd90-e216-407c-92a1-c9fcb3f44f12"><c:Value>b81d634c-7386-4907-94eb-285c4a704803</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6855e45d-e31f-428e-9b19-8343678a86dc"><c:FormattedName>L k joshi</c:FormattedName><c:FamilyName>L k joshi</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="590191b0-ff96-4dec-9613-7d66058a755a"><c:Number>9979046626</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="51559956-497c-4e39-809d-13e28fce6be5"><c:Value>533d242d-b125-4f9b-8b79-4ae437e42dca</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a050a8ee-b872-483f-a98c-b063770a562c"><c:FormattedName>Igate Banglore</c:FormattedName><c:GivenName>Igate Banglore</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="88176b5b-dc8a-4cae-974e-0a9559cd14f8"><c:Number>08041040000</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

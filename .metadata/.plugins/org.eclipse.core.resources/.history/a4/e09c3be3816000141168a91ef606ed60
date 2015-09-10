@@ -1,0 +1,31 @@
+import java.util.ArrayList;
+
+
+public class Cheese extends Decorator {
+	
+	
+	
+	
+	
+	 public Cheese(Component2 c)
+	    {
+	       super(c);
+	       
+	    }
+
+	    
+	     public double getPrice()
+	    {
+	    	 double cost=0;
+	 		if(Composite.cheeseCount>1)
+	 		{
+	 			//1.00 for each extra cheese
+	 			cost=super.getCost()+(1.00*(Composite.cheeseCount-1));
+	 		}
+	 		return cost;
+	 		
+	      
+	       
+	    }
+
+}

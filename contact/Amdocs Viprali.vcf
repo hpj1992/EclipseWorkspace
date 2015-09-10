@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3f8fd6e1-5b12-4744-9552-800a0931dbe7"><c:Value>6ef51543-3432-4c17-9b2b-3eb21bc7d418</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3c6f4511-8333-4807-9a5f-aac2afb96a8d"><c:FormattedName>Amdocs Viprali</c:FormattedName><c:GivenName>Amdocs</c:GivenName><c:FamilyName>Viprali</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="bf9ff2dd-8452-42ea-b378-84c0698e24c4"><c:Number>09582892339</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

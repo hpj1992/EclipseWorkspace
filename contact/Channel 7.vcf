@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ed8de295-0160-4cd3-8134-81ebfbc5033c"><c:Value>90430785-b84c-426f-9c56-f490b424fa78</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="652a9d32-89db-4eaa-b47f-13e73e5cad2e"><c:FormattedName>Channel 7</c:FormattedName><c:GivenName>Channel 7</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="a3f378ce-1f45-4820-8eb1-577d060843d6"><c:Number>9924351324</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

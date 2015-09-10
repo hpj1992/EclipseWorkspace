@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3a1e17f2-82d0-42bb-9871-9e3e8ed11465"><c:Value>a1c877b8-6e6f-447b-bff1-70660af87c6a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="40e6faa2-3046-49b5-8a50-b95bc7030e3b"><c:FormattedName>Mihir Patel Mukeshbhai</c:FormattedName><c:GivenName>Mihir Patel Mukeshbhai</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="5b0b1df8-0954-42b9-880c-80e7a6095072"><c:Number>+919724318891</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

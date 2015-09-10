@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c848108e-02da-4078-9b8b-9ace290a28d2"><c:Value>4a410872-f07b-42a7-b7d8-52132692eb04</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0043a896-d279-4477-a9b5-51f1af250347"><c:FormattedName>Trupti Jogi</c:FormattedName><c:GivenName>Trupti Jogi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1bfcea71-f964-476e-9d8a-920ba71bc650"><c:Number>+917405394674</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

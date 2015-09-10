@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b089442b-4812-43ec-9591-613efe0f9180"><c:Value>811a8a22-9bff-4de0-b462-8fe24b85f5ce</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="fd1b295f-6c69-4114-a8c5-3854e033aa03"><c:FormattedName>Saumil Shah</c:FormattedName><c:GivenName>Saumil Shah</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ae4a00fc-d05e-4e2f-a70b-089b8a11004a"><c:Number>9409233630</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

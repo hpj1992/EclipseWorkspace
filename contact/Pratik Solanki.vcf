@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="abbb5cdd-1aec-48dc-8ef5-a9417dde6e46"><c:Value>744d7eab-8255-4b6e-98b5-bbdfb937b89b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="5ac7107b-fb7a-48e2-8e19-3d22565bcfec"><c:FormattedName>Pratik Solanki</c:FormattedName><c:GivenName>Pratik</c:GivenName><c:FamilyName>Solanki</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d2967e23-6b1b-472e-aeb4-d0c7f92fd841"><c:Number>9033281467</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

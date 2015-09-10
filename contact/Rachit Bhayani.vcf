@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="032f4693-f37e-4e8b-9e0a-5b0c29ef3d0a"><c:Value>2bbf7440-e488-4373-9a5c-9ba90606244e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e46a574b-3e5b-409e-969a-153de92350b2"><c:FormattedName>Rachit Bhayani</c:FormattedName><c:GivenName>Rachit Bhayani</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4ece03c0-b915-493d-8813-eb165362325a"><c:Number>9998024819</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="328bb64b-289d-470d-8352-f896b81b6407"><c:Value>47d66104-b254-4875-802e-f9a32d6792d3</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8044c46f-c3d6-44cc-9ccc-ce1e617e2ccc"><c:FormattedName>Pjshilu</c:FormattedName><c:FamilyName>Pjshilu</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c89df89a-a470-447b-a633-cc82a30f04c0"><c:Number>+919725201154</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

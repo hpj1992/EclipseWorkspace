@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0e550066-0ef4-486a-87a1-43ee58f91f01"><c:Value>570d4389-6c7c-4abe-a990-a08da3fcea52</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="7dac2d82-91fe-433a-a7c6-693003b790e0"><c:FormattedName>Vikas Sir C</c:FormattedName><c:GivenName>Vikas Sir C</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e123e130-6cf5-400e-929c-fee74154ad18"><c:Number>9427032031</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;WebContent&apos;&#x0D;&#x0A;- Original project: &apos;yelp&apos;&#x0D;&#x0A;- Destination element: &apos;WebContent&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     styles&#x0D;&#x0A;     images" description="Copy folders" element1="views/styles" element2="views/images" files="0" flags="589830" folders="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1414300525623" target="/YelpClient/WebContent" units="0" version="1.0"/>
+</session>

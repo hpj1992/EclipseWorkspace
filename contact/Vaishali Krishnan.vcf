@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4e64b699-afff-4b4f-9b7a-7992b7f1533d"><c:Value>7e603256-786e-4aa4-a28b-baafc44f5517</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="53e56784-888b-4975-88fd-6ee656722688"><c:FormattedName>Vaishali Krishnan</c:FormattedName><c:GivenName>Vaishali Krishnan</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3c55db4f-7cb5-43c0-a702-c55a302fd175"><c:Number>+918866523775</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

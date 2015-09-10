@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="8eba8629-6612-41d1-958c-7f6ca877745b"><c:Value>d83d46e4-e3f7-430f-a24a-307e012e87f2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="61926bba-58f8-469b-a967-da35fc230812"><c:FormattedName>Rajeshbhai Carrom</c:FormattedName><c:GivenName>Rajeshbhai Carrom</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="b283b355-312f-4113-8c90-5c0e5cc472d7"><c:Number>9824238120</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

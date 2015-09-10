@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="53b09dd1-aa75-4583-92fe-e2942f39781f"><c:Value>6578dfb4-bc74-4692-9e65-57267cca00ec</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6c838f23-7c2b-4a62-b126-4c0174ceb97c"><c:FormattedName>Amul Photo Studio</c:FormattedName><c:GivenName>Amul Photo Studio</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="781dec67-1b78-4297-aefc-64406954f38a"><c:Number>9824191128</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

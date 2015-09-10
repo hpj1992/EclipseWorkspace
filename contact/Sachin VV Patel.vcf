@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e0b667c9-c049-4218-88bb-ed4411cec508"><c:Value>cf0d0281-7b48-4757-8e15-0e24d4eead65</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="7a78ad03-f6cd-4780-aeba-753e974c337d"><c:FormattedName>Sachin VV Patel</c:FormattedName><c:GivenName>Sachin VV</c:GivenName><c:FamilyName>Patel</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="5aabb04d-2109-4470-b106-e5262c821326"><c:Number>+919998977386</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

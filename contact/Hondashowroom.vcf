@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="df1bc76d-7811-4f83-abe6-ad159194dad9"><c:Value>817714a4-efb0-4f71-9d76-450b578d4a4c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ee075b55-ab29-444c-994b-26f2680cd2e3"><c:FormattedName>Hondashowroom</c:FormattedName><c:GivenName>Hondashowroom</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="aa08413b-ccec-44ad-aedf-10baea7a5ef8"><c:Number>02653299700</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

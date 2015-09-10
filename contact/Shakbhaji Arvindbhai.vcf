@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="49a0dfe6-67cd-4ed8-a0b9-ae63dff94b69"><c:Value>26a94014-5560-4eec-9c4d-244c83cb88ee</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="310d5864-ea8b-453a-811e-b7d1c1e8927b"><c:FormattedName>Shakbhaji Arvindbhai</c:FormattedName><c:GivenName>Shakbhaji</c:GivenName><c:FamilyName>Arvindbhai</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6cac7f32-a92e-4555-8a6f-88bc2045cd1d"><c:Number>9712303900</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

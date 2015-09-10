@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="50fb0154-bcd6-4c27-956d-f9432607e2f2"><c:Value>beb80986-47dc-43c7-9a5b-00c307d7ed03</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c75a0342-c616-44e2-8444-6504c316e01e"><c:FormattedName>Divyangee</c:FormattedName><c:GivenName>Divyangee</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e34af119-a712-4f57-a89b-cc8a7545f049"><c:Number>9825350496</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

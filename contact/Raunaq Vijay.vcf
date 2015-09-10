@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="22eda282-efbc-489d-be83-797edbf86df1"><c:Value>4f1b479c-9bb9-4bca-8b04-48e72866df78</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d9bb6662-aee9-4c62-8120-d9cd446b7834"><c:FormattedName>Raunaq Vijay</c:FormattedName><c:GivenName>Raunaq Vijay</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="0676d952-6d79-4e39-8b95-363a828fb27e"><c:Number>9510395303</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

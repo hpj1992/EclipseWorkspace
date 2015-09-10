@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="674f8463-5875-4f79-93f6-ee8caadad125"><c:Value>aa5bb433-6517-4b91-98ad-e962ebbfb22a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="628da4ed-c19a-4b35-9d59-1b8c4137c473"><c:FormattedName>Shumit Patel(techo)</c:FormattedName><c:GivenName>Shumit Patel(techo)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="39187a3d-bcaf-46a8-9062-4b66345e0aa7"><c:Number>9998766239</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

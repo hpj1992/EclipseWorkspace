@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f25089e4-f4bc-4a7b-9137-b372f27108b9"><c:Value>07a8b216-e5f6-4f0a-a43f-bdcf505a6e4f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="4226cbee-0670-4827-91dd-197fffa81ef2"><c:FormattedName>Vcci Nilesh Shukla</c:FormattedName><c:GivenName>Vcci Nilesh Shukla</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c85a1f2e-2bf1-411e-a169-073dfecb2874"><c:Number>9428402502</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

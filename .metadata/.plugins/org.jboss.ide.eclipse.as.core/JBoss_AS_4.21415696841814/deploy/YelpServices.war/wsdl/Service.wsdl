@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://Connection" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="http://Connection" xmlns:intf="http://Connection" xmlns:tns1="http://Source" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema elementFormDefault="qualified" targetNamespace="http://Connection" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://Source"/>
+   <element name="signup">
+    <complexType>
+     <sequence>
+      <element name="email" type="xsd:string"/>
+      <element name="password" type="xsd:string"/>
+      <element name="firstname" type="xsd:string"/>
+      <element name="lastname" type="xsd:string"/>
+      <element name="zipcode" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="signupResponse">
+    <complexType/>
+   </element>
+   <element name="signin">
+    <complexType>
+     <sequence>
+      <element name="username" type="xsd:string"/>
+      <element name="pwd" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="signinResponse">
+    <complexType>
+     <sequence>
+      <element name="signinReturn" type="tns1:User"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getCategories">
+    <complexType/>
+   </element>
+   <element name="getCategoriesResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getCategoriesReturn" type="tns1:Categories"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addNewBusiness">
+    <complexType>
+     <sequence>
+      <element name="strName" type="xsd:string"/>
+      <element name="strCategoryid" type="xsd:string"/>
+      <element name="zipcode" type="xsd:string"/>
+      <element name="contact" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addNewBusinessResponse">
+    <complexType/>
+   </element>
+   <element name="updateReviews">
+    <complexType>
+     <sequence>
+      <element name="bizid" type="xsd:string"/>
+      <element name="userid" type="xsd:string"/>
+      <element name="rating" type="xsd:string"/>
+      <element name="comment" type="xsd:string"/>
+      <element name="strOperation" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateReviewsResponse">
+    <complexType/>
+   </element>
+   <element name="getBusinessOfUsers">
+    <complexType>
+     <sequence>
+      <element name="userid" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getBusinessOfUsersResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getBusinessOfUsersReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getUSersOfBusiness">
+    <complexType>
+     <sequence>
+      <element name="strBizid" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getUSersOfBusinessResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getUSersOfBusinessReturn" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getReviewsOfBusiness">
+    <complexType>
+     <sequence>
+      <element name="bizid" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getReviewsOfBusinessResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getReviewsOfBusinessReturn" type="tns1:Review"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateLastLoginTime">
+    <complexType>
+     <sequence>
+      <element name="userid" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="updateLastLoginTimeResponse">
+    <complexType/>
+   </element>
+   <element name="getBusinesses">
+    <complexType/>
+   </element>
+   <element name="getBusinessesResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getBusinessesReturn" type="tns1:Business"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getReviewsOfUser">
+    <complexType>
+     <sequence>
+      <element name="userid" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="getReviewsOfUserResponse">
+    <complexType>
+     <sequence>
+      <element maxOccurs="unbounded" name="getReviewsOfUserReturn" type="tns1:Review"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addNewCategory">
+    <complexType>
+     <sequence>
+      <element name="strCatName" type="xsd:string"/>
+      <element name="strDesc" type="xsd:string"/>
+     </sequence>
+    </complexType>
+   </element>
+   <element name="addNewCategoryResponse">
+    <complexType/>
+   </element>
+  </schema>
+  <schema elementFormDefault="qualified" targetNamespace="http://Source" xmlns="http://www.w3.org/2001/XMLSchema">
+   <complexType name="User">
+    <sequence>
+     <element name="email" nillable="true" type="xsd:string"/>
+     <element name="firstname" nillable="true" type="xsd:string"/>
+     <element name="lastmodified" nillable="true" type="xsd:string"/>
+     <element name="lastname" nillable="true" type="xsd:string"/>
+     <element name="userid" nillable="true" type="xsd:string"/>
+     <element name="zipcodel" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="Categories">
+    <sequence>
+     <element name="categoryid" nillable="true" type="xsd:string"/>
+     <element name="categoryname" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="Review">
+    <sequence>
+     <element name="bizid" nillable="true" type="xsd:string"/>
+     <element name="comment" nillable="true" type="xsd:string"/>
+     <element name="rating" nillable="true" type="xsd:string"/>
+     <element name="reviewid" nillable="true" type="xsd:string"/>
+     <element name="userid" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="Business">
+    <sequence>
+     <element name="bizid" nillable="true" type="xsd:string"/>
+     <element name="categoryid" nillable="true" type="xsd:string"/>
+     <element name="contact" nillable="true" type="xsd:string"/>
+     <element name="name" nillable="true" type="xsd:string"/>
+     <element name="rating" nillable="true" type="xsd:string"/>
+     <element name="reviewid" nillable="true" type="xsd:string"/>
+     <element name="zipcode" nillable="true" type="xsd:string"/>
+    </sequence>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="getBusinessOfUsersRequest">
+
+      <wsdl:part element="impl:getBusinessOfUsers" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getCategoriesResponse">
+
+      <wsdl:part element="impl:getCategoriesResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getReviewsOfBusinessResponse">
+
+      <wsdl:part element="impl:getReviewsOfBusinessResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="signinResponse">
+
+      <wsdl:part element="impl:signinResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updateReviewsRequest">
+
+      <wsdl:part element="impl:updateReviews" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getReviewsOfUserRequest">
+
+      <wsdl:part element="impl:getReviewsOfUser" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updateReviewsResponse">
+
+      <wsdl:part element="impl:updateReviewsResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getBusinessesRequest">
+
+      <wsdl:part element="impl:getBusinesses" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getReviewsOfBusinessRequest">
+
+      <wsdl:part element="impl:getReviewsOfBusiness" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addNewBusinessResponse">
+
+      <wsdl:part element="impl:addNewBusinessResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getBusinessOfUsersResponse">
+
+      <wsdl:part element="impl:getBusinessOfUsersResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getReviewsOfUserResponse">
+
+      <wsdl:part element="impl:getReviewsOfUserResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updateLastLoginTimeRequest">
+
+      <wsdl:part element="impl:updateLastLoginTime" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="signupRequest">
+
+      <wsdl:part element="impl:signup" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addNewCategoryResponse">
+
+      <wsdl:part element="impl:addNewCategoryResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="signupResponse">
+
+      <wsdl:part element="impl:signupResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="signinRequest">
+
+      <wsdl:part element="impl:signin" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getBusinessesResponse">
+
+      <wsdl:part element="impl:getBusinessesResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getCategoriesRequest">
+
+      <wsdl:part element="impl:getCategories" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getUSersOfBusinessResponse">
+
+      <wsdl:part element="impl:getUSersOfBusinessResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addNewCategoryRequest">
+
+      <wsdl:part element="impl:addNewCategory" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="getUSersOfBusinessRequest">
+
+      <wsdl:part element="impl:getUSersOfBusiness" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="addNewBusinessRequest">
+
+      <wsdl:part element="impl:addNewBusiness" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:message name="updateLastLoginTimeResponse">
+
+      <wsdl:part element="impl:updateLastLoginTimeResponse" name="parameters">
+
+      </wsdl:part>
+
+   </wsdl:message>
+
+   <wsdl:portType name="Service">
+
+      <wsdl:operation name="signup">
+
+         <wsdl:input message="impl:signupRequest" name="signupRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:signupResponse" name="signupResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="signin">
+
+         <wsdl:input message="impl:signinRequest" name="signinRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:signinResponse" name="signinResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getCategories">
+
+         <wsdl:input message="impl:getCategoriesRequest" name="getCategoriesRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getCategoriesResponse" name="getCategoriesResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addNewBusiness">
+
+         <wsdl:input message="impl:addNewBusinessRequest" name="addNewBusinessRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addNewBusinessResponse" name="addNewBusinessResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateReviews">
+
+         <wsdl:input message="impl:updateReviewsRequest" name="updateReviewsRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:updateReviewsResponse" name="updateReviewsResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getBusinessOfUsers">
+
+         <wsdl:input message="impl:getBusinessOfUsersRequest" name="getBusinessOfUsersRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getBusinessOfUsersResponse" name="getBusinessOfUsersResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getUSersOfBusiness">
+
+         <wsdl:input message="impl:getUSersOfBusinessRequest" name="getUSersOfBusinessRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getUSersOfBusinessResponse" name="getUSersOfBusinessResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getReviewsOfBusiness">
+
+         <wsdl:input message="impl:getReviewsOfBusinessRequest" name="getReviewsOfBusinessRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getReviewsOfBusinessResponse" name="getReviewsOfBusinessResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateLastLoginTime">
+
+         <wsdl:input message="impl:updateLastLoginTimeRequest" name="updateLastLoginTimeRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:updateLastLoginTimeResponse" name="updateLastLoginTimeResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getBusinesses">
+
+         <wsdl:input message="impl:getBusinessesRequest" name="getBusinessesRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getBusinessesResponse" name="getBusinessesResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getReviewsOfUser">
+
+         <wsdl:input message="impl:getReviewsOfUserRequest" name="getReviewsOfUserRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:getReviewsOfUserResponse" name="getReviewsOfUserResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addNewCategory">
+
+         <wsdl:input message="impl:addNewCategoryRequest" name="addNewCategoryRequest">
+
+       </wsdl:input>
+
+         <wsdl:output message="impl:addNewCategoryResponse" name="addNewCategoryResponse">
+
+       </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="ServiceSoapBinding" type="impl:Service">
+
+      <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="signup">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="signupRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="signupResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="signin">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="signinRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="signinResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getCategories">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getCategoriesRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getCategoriesResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addNewBusiness">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addNewBusinessRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addNewBusinessResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateReviews">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="updateReviewsRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="updateReviewsResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getBusinessOfUsers">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getBusinessOfUsersRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getBusinessOfUsersResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getUSersOfBusiness">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getUSersOfBusinessRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getUSersOfBusinessResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getReviewsOfBusiness">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getReviewsOfBusinessRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getReviewsOfBusinessResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="updateLastLoginTime">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="updateLastLoginTimeRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="updateLastLoginTimeResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getBusinesses">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getBusinessesRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getBusinessesResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="getReviewsOfUser">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="getReviewsOfUserRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="getReviewsOfUserResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="addNewCategory">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="addNewCategoryRequest">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="addNewCategoryResponse">
+
+            <wsdlsoap:body use="literal"/>
+
+         </wsdl:output>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="ServiceService">
+
+      <wsdl:port binding="impl:ServiceSoapBinding" name="Service">
+
+         <wsdlsoap:address location="http://localhost:8080/YelpServices/services/Service"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

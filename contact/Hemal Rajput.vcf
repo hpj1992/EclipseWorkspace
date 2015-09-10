@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="537063a1-1ef4-444d-89c0-92ebf957fae6"><c:Value>0bb5b46b-ceff-4229-b85d-4d06cff9e172</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a905a060-93ca-4864-98ab-0fd0c6121b94"><c:FormattedName>Hemal Rajput</c:FormattedName><c:GivenName>Hemal Rajput</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="2f466f16-fa18-4a5c-9a0e-e655c4e0488b"><c:Number>+919998979388</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

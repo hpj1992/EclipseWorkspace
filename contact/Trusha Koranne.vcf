@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a43b1937-db7d-4065-af9c-60365d8a0a76"><c:Value>c78d6691-78ac-42e7-9e89-097918f7ebc8</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2ef14b6d-1b52-4afd-97d0-a7bb892e0660"><c:FormattedName>Trusha Koranne</c:FormattedName><c:GivenName>Trusha</c:GivenName><c:FamilyName>Koranne</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ca849a28-711a-449f-8b2e-118fcd3edc05"><c:Number>+919099920048</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

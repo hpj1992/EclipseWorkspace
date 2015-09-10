@@ -1,0 +1,54 @@
+package sorting;
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class gameofthrones1 {
+
+    public static String ans="";
+    public static void main(String[] args) {
+        Scanner myScan = new Scanner(System.in);
+        String inputString = myScan.nextLine();
+       
+        
+        // Assign ans a value of YES or NO, depending on whether or not inputString satisfies the required condition
+        permutation("",inputString);
+        System.out.println(ans);
+        myScan.close();
+    }
+    
+     private static void permutation(String prefix, String str){
+	        int n = str.length();
+	        if (n == 0) 
+                {
+	             System.out.println(prefix);
+               boolean bool=isPalindrome(prefix);
+                
+                if(bool)
+                  {  ans="YES";
+                 
+                   //return;
+                  }
+                else
+                    ans="NO";
+                
+                //System.out.println(prefix+" ="+bool+" ans"+ans);
+            }
+	        else {
+	            for (int i = 0; i < n; i++)
+	                permutation(prefix + str.charAt(i), 
+	            str.substring(0, i) + str.substring(i+1));
+	        }
+	    }
+    
+    public static boolean isPalindrome(String str)
+        {
+        String reversed=new StringBuilder(str).reverse().toString();
+        //System.out.println(reversed+" =="+str+" "+str.equals(reversed));
+        return str.equals(reversed);
+        //return false;
+    }
+}

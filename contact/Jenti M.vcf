@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="50d45604-dd24-4e61-b8a2-6061d8610d6b"><c:Value>9f814ff1-f152-4633-8294-7a97a5498f65</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0aec2a55-c150-4fb0-9791-609aee2d4434"><c:FormattedName>Jenti M</c:FormattedName><c:GivenName>Jenti M</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6687287f-48ed-4e83-a627-1b8d97728793"><c:Number>9327696442</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="81d206af-ae15-4452-a145-d31aa96005af"><c:Value>f3142c55-f380-4fbd-8ce5-d4c0d8f7a42d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e9e42a8c-66d5-4ada-ba95-d82edd4f0145"><c:FormattedName>Repairing Rinku</c:FormattedName><c:GivenName>Repairing Rinku</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4aeaf91e-264e-4c17-b539-023013915a22"><c:Number>9998032310</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

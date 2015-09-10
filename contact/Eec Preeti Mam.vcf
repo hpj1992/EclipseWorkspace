@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="30a62a14-9492-424b-b79f-cad3f277f694"><c:Value>60d2a314-8315-4d01-b568-b2d18ca1f550</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="585dbdf4-5348-481a-8f24-2fb650841561"><c:FormattedName>Eec Preeti Mam </c:FormattedName><c:GivenName>Eec Preeti Mam </c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="91ee1e2d-e05b-4c4c-9ed1-3b599bd2048c"><c:Number>+919375973864</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9a5b8018-53e6-499b-bf9e-d3b8927184e2"><c:Value>fd95958c-6469-4aaa-9b21-96e4e1bee4c3</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6e132153-a43b-491c-8431-924e0a6fff76"><c:FormattedName>Vishal Prajapati</c:FormattedName><c:GivenName>Vishal Prajapati</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3deedba5-57f2-40ed-b84d-51c421c880ee"><c:Number>9825515003</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

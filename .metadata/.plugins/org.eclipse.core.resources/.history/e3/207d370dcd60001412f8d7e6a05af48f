@@ -1,0 +1,29 @@
+
+public class Topping extends Decorator {
+	
+	 public Topping(Component2 c)
+	    {
+	       super(c);
+	       
+	    }
+
+	    
+	     public double getCost()
+	    {
+	    	 double cost=0;
+	 		if(Composite.toppingsCount>4)
+	 		{
+	 			//0.75 for each extra topping
+	 			cost=super.getCost()+(0.75*(Composite.toppingsCount-1));
+	 		}
+	 		else
+	 		{
+	 			cost=super.getCost();
+	 		}
+	 		return cost;
+	 		
+	      
+	       
+	    }
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="854d3a9e-609b-4da2-a7b9-c50df281c0c8"><c:Value>634064ba-61b5-4297-857f-58dc195e46cb</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b5bf1f2f-9aa7-4544-8b0b-1c05471489e4"><c:FormattedName>Gayatri Joshi</c:FormattedName><c:GivenName>Gayatri Joshi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="74dcc5ac-494e-4e28-a247-7d6ff65d0fb0"><c:Number>+918302864647</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

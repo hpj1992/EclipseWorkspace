@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d2977fae-d2f8-4605-8c04-95a438821d51"><c:Value>c1fe617b-12d0-4838-a165-092bd6ac1910</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ff729bdc-5de4-4120-8588-c7b2da761842"><c:FormattedName>Rachit Patel Investis</c:FormattedName><c:GivenName>Rachit Patel Investis</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="60c793c4-79f0-4159-90ce-c222d174d365"><c:Number>9825953397</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

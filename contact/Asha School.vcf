@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="2b3a7c43-790e-4055-b082-0198958492c2"><c:Value>f8b9416b-4d41-4f40-b9a4-df9de8ae31e8</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6bed8ff1-8d9a-41b8-abe4-5517f0b50110"><c:FormattedName>Asha School</c:FormattedName><c:GivenName>Asha School</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1feb0301-705d-44fc-8930-df0479afd883"><c:Number>+919374511857</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

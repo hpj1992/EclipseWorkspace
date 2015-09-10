@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="63994a71-9929-4545-9fbf-7c3c6b97d8a4"><c:Value>eaada28f-24ec-4ca1-b87b-1daba0c6bd97</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="81bbd659-7ea0-4034-9266-6ffface8f3f6"><c:FormattedName>Chirag Patel</c:FormattedName><c:GivenName>Chirag Patel</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="b87f9fa8-7052-45f5-a1a3-cd67f787a54e"><c:Number>9724201861</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,9 @@
+/**
+ * New node file
+ */
+
+var user=exports.user=function(emailid)
+{
+	
+
+};

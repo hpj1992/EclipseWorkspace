@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a48069e1-44b1-42d8-9931-dddde9008b85"><c:Value>8a8230ee-7936-4bdf-9a30-bf4ee1edc25d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="1e3734f1-4a64-4a70-a6d9-ed4805d73f55"><c:FormattedName>Milind Pawar</c:FormattedName><c:GivenName>Milind Pawar</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6bfedc26-39e0-48f6-b4d8-9b9f5579382b"><c:Number>9016911489</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

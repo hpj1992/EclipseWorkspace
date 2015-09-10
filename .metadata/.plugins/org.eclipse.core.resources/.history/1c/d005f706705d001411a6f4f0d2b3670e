@@ -1,0 +1,89 @@
+package Connection;
+
+import java.sql.*;
+
+
+public class DatabaseConnection {
+	
+	Connection con = null;
+	static ResultSet rs;
+    Statement stmt = null;
+	
+	DatabaseConnection(){		
+		try {			
+				Class.forName("com.mysql.jdbc.Driver").newInstance();
+				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sjsuschema","root","root");
+				stmt = con.createStatement();
+				if(!con.isClosed())
+					System.out.println("Successfully Connected!!!");
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InstantiationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalAccessException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	}
+
+	
+	
+	public boolean signin(String email,String password)
+	{
+		String result = "";
+		ResultSet rowcount;
+		try {
+			String query = "select * from users where email='"+email+"' and password='"+password+"';";
+			rowcount=stmt.executeQuery(query);
+			if(rowcount !=null){
+				result="true";
+				System.out.println("signin successful.");
+			}
+			else{
+				result="false: The data could not be inserted in the database.";
+			}	
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return Boolean.getBoolean(result);
+	}
+	
+	public void signup(String email,String password,String firstname,String lastname,String zipcode)
+	{
+		
+		String result = "";
+		int rowcount;
+		System.out.println("here only"+Date.valueOf(new java.util.Date().toString()).toString());
+		try {
+			Date.valueOf(new java.util.Date().toString());
+			//Date date=Date.valueOf("2014-10-26 01:01:00");
+			System.out.println("here only"+Date.valueOf(new java.util.Date().toString()).toString());
+			//System.out.println(date.toString());
+			System.exit(1);
+			//Date  time=date+"-"+date.getMonth()+"-"+date.getDate()+" "+date.getHours()+":"+date.getMinutes()+":"+date.getSeconds();
+			String query = "Insert into users (email,password,firstname,lastname,zipcode,lastmodified) values ('" + email + "', '" + password + "','"+firstname+"','"+lastname+"','"+zipcode+"','"+date+"')";
+			rowcount=stmt.executeUpdate(query);
+			if(rowcount > 0){
+				result="true";
+				System.out.println("Insert Successful.user inserted.");
+			}
+			else{
+				result="false: The data could not be inserted in the database.";
+			}	
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		//return result;
+		
+	}
+	
+	
+
+}

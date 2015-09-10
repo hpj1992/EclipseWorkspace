@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="45a0749c-83df-4700-96a4-71c36ec287e0"><c:Value>1f7654f6-5492-407d-8698-20c8efdd6bc9</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b1593185-2a30-44cf-9de8-293b66b1432f"><c:FormattedName>Rushi shah</c:FormattedName><c:FamilyName>Rushi shah</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6171ba54-2ecc-4e40-9310-49affc767054"><c:Number>9898901926</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

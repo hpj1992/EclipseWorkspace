@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.jst.ws.internal.consumption.ui.widgets.test.ClientTestWidget.sampleFolderText_">
+		<item value="sampleServiceProxy"/>
+		<item value="sampleTestProxy"/>
+	</list>
+	<list key="org.eclipse.jst.ws.client.type.java">
+		<item value="/WebServiceExample/WebContent/wsdl/HelloWorld.wsdl"/>
+		<item value="/EESetup/WebContent/wsdl/HelloWorld.wsdl"/>
+		<item value="/EESetup/WebContent/wsdl/test.wsdl"/>
+	</list>
+</section>

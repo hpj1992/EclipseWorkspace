@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4d02a6f6-89f2-4341-a1fe-8b6dc25c6a22"><c:Value>90e5cb42-6f26-49e9-bbc3-8dfa385134d5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2aa2062d-9064-41ed-b674-c2afe95ca02a"><c:FormattedName>Vinay Parmar</c:FormattedName><c:GivenName>Vinay Parmar</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="30405c2e-6cb1-4c01-bd72-814061455ba7"><c:Number>+919925020451</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

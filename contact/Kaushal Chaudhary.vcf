@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e6025c8b-3b86-43b1-bf8e-b68b602f3558"><c:Value>8d83ff98-6008-416b-84c7-03339a0592dc</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2c73a581-8a48-4d8a-87fe-80501e65b64c"><c:FormattedName>Kaushal Chaudhary</c:FormattedName><c:GivenName>Kaushal Chaudhary</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="b1ba87c8-1fc8-4baf-8654-338966b93d80"><c:Number>+919998970286</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

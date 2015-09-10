@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c0526372-a894-4dbc-b8eb-55b6480ca138"><c:Value>f683044b-4964-40e8-9bbe-b0694c7e7401</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f5132fe4-48b6-4bf8-ad5c-50dc63351421"><c:FormattedName>Vijayata Chauhan</c:FormattedName><c:GivenName>Vijayata Chauhan</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="da5fa3e4-c682-4706-b232-0f1e8c9b50b3"><c:Number>9662512703</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

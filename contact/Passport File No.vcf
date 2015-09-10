@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:Notes>AH3F12300825299</c:Notes><c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="be6bdd46-9a23-4c91-afc9-4610f3a9479f"><c:Value>6bab1948-0e43-4ef7-822d-064f18d9952b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="43685abd-1c83-47ad-b39d-c38af82c248c"><c:FormattedName>Passport File No</c:FormattedName><c:GivenName>Passport File No</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="0e379818-dd9b-4d57-8b64-24d2fb07e6db"><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

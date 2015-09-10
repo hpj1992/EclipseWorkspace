@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="07d75b4b-e305-4e74-94e4-8da437b94919"><c:Value>d538e7d2-d7c9-4b27-8081-10df7b239b4a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0143ea77-6160-4608-a771-d597a90c09ff"><c:FormattedName>Passport Hetal Travels Paradaise Complex</c:FormattedName><c:GivenName>Passport Hetal Travels</c:GivenName><c:FamilyName>Paradaise Complex</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="46462f33-54e8-4361-88e1-5fbcc71fc32f"><c:Number>9825456630</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

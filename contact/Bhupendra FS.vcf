@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e5ab9088-f047-4e4a-99d6-b0a738c9263f"><c:Value>d173cb25-9ffb-4b5f-8018-8363e5df1834</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="07b62f0c-31a5-4d59-90f1-31de90a6b1da"><c:FormattedName>Bhupendra FS</c:FormattedName><c:GivenName>Bhupendra FS</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="18570126-db13-4af2-bb34-b1e1bfa5cbaa"><c:Number>+919726733431</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

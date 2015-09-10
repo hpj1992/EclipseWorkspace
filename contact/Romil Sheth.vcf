@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="cd47d602-807c-4f73-962a-02c15a552918"><c:Value>94b3f3e5-8428-435c-8cff-11a78a9105d9</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c6e75187-139c-497c-9293-5ca07f122746"><c:FormattedName>Romil Sheth</c:FormattedName><c:GivenName>Romil Sheth</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="55d8a129-2e00-45d3-957a-2655e2e516cf"><c:Number>9724959452</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

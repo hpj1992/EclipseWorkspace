@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c520fc3b-e05b-4e6f-9e9f-490228efa776"><c:Value>212d3936-127d-4f51-ae41-947cfbe580f6</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="50f0c8af-a220-49a7-9a5b-a6b7e3a2f703"><c:FormattedName>Ruchita Pandya</c:FormattedName><c:GivenName>Ruchita Pandya</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6c35d1b5-5d25-4539-b3b0-d8fd38174b8d"><c:Number>+919601021708</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

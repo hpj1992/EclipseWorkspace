@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1d4c0212-700c-4e48-8d23-7dee8ab748bb"><c:Value>87e1f355-5650-4acd-b2da-cec460119482</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="63be0bbf-7882-464d-a03f-8d88040752b4"><c:FormattedName>Pathik</c:FormattedName><c:FamilyName>Pathik</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6ddbede2-faaa-4c2f-bfca-bface2c0e930"><c:Number>9662004843</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

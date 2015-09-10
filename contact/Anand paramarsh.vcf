@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="7b60bda5-3206-4909-8d6a-3d333c4f20df"><c:Value>f43e75d0-99d3-4b00-a478-171826146249</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e536a264-c1e0-4c16-8430-dde816dfb0ea"><c:FormattedName>Anand paramarsh</c:FormattedName><c:FamilyName>Anand paramarsh</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="09c5a738-0e46-4d8b-8f65-928e21502554"><c:Number>9998604451</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

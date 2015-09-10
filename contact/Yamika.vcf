@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0b2c6f46-9b5e-4943-8cb6-6419c3b2d394"><c:Value>9399b3c9-bdc5-423c-abee-5a2abd283bf5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f52047df-a405-4e16-b238-dbd34fac9df7"><c:FormattedName>Yamika</c:FormattedName><c:GivenName>Yamika</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4e81991b-add8-4cdd-8bfb-671a49039c4a"><c:Number>+919662513205</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,233 @@
+package snake;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class SnakeGame {
+	public enum Key {
+		UP, DOWN, LEFT, RIGHT
+	}
+
+	public static class Location {
+		private int x;
+		private int y;
+
+		public Location(int x, int y) {
+			this.x = x;
+			this.y = y;
+		}
+
+		public void setX(int x) {
+			this.x = x;
+		}
+
+		public void setY(int y) {
+			this.y = y;
+		}
+
+		public int getX() {
+			return x;
+		}
+
+		public int getY() {
+			return y;
+		}
+		
+		public  boolean Compare(Location objLocation)
+		{
+			return objLocation.x==this.x && objLocation.y==this.y;
+		}
+	}
+
+	private final int canvasWidth;
+	private final int canvasHeight;
+
+	private int score;
+	private boolean gameOver;
+	private boolean passThroughWall;
+
+	private List<Location> snake;
+	private Location foodLocation;
+
+	public SnakeGame(int width, int height, List<Location> snake, Location food) {
+		this.canvasWidth = width;
+		this.canvasHeight = height;
+
+		this.score = 0;
+		this.gameOver = false;
+		this.passThroughWall = false;
+		this.snake = snake;
+		this.foodLocation = food;
+	}
+
+	// Please implement this.
+	public void advanceClock(Key key) {
+		// throw new UnsupportedOperationException();
+		Location objCurrentLocation = snake.get(0);
+		switch (key) {
+		case UP:
+			objCurrentLocation.y++;
+			snake.set(0, objCurrentLocation);
+			break;
+		case DOWN:// objCurrentLocation.y++; snake.set(0, objCurrentLocation);
+		case LEFT:
+			objCurrentLocation.x--;
+			snake.set(0, objCurrentLocation);
+			break;
+		case RIGHT:
+			objCurrentLocation.x++;
+			snake.set(0, objCurrentLocation);
+			break;
+		}
+		objCurrentLocation = snake.get(0);
+		
+		
+		checkBoundryCollision(objCurrentLocation);
+		if(gameOver)
+			return;
+		
+		boolean isOverlapping = isOverlapping(objCurrentLocation);
+		if(isOverlapping)
+		{
+			gameOver=true;
+		}
+		else
+		{
+			gameOver=false;
+		}
+		
+		if(objCurrentLocation.Compare(foodLocation))
+		{
+			score++;
+			Location newFoodLocation=getNewFoodLocation();
+			setFoodLocation(newFoodLocation);
+		}
+		
+		if(passThroughWall)
+		{
+			updateSnakePosition(snake);
+		}
+		
+		
+	}
+
+	public void checkBoundryCollision(Location objLocation)
+	{
+		if(objLocation.x==0 || objLocation.x==canvasWidth || objLocation.y==0 || objLocation.y==canvasHeight)
+		{
+
+			if(passThroughWall)
+			{
+				updateSnakePosition(snake);
+			}
+			else
+			{
+				gameOver=true;
+			}
+		}
+	}
+	
+	public boolean isOverlapping(Location newHeadLocation)
+	{
+		for(int i=1;i<snake.size();i++)
+		{
+			if(snake.get(i).equals(newHeadLocation))
+			{
+				return true;
+			}
+			
+		}
+		return false;
+	}
+	
+	public Location getNewFoodLocation()
+	{
+		boolean isCorrectLocation=false;
+		Location newFoodLocation=new Location(0,0);
+		while(!isCorrectLocation)
+		{
+		int xLocation=(int) (Math.random()*canvasWidth);
+		int yLocation=(int) (Math.random()*canvasHeight);
+		newFoodLocation=new Location(xLocation,yLocation);
+		isCorrectLocation=!isOverlapping(newFoodLocation);
+		}
+		return newFoodLocation;
+	}
+	
+	public void updateSnakePosition(List<Location> snake2)
+	{
+		Location locSnakeHead=snake2.get(0);
+		if(locSnakeHead.x==0)
+		{
+			locSnakeHead.x=canvasHeight;
+		}
+		else if(locSnakeHead.x==canvasWidth)
+		{
+			locSnakeHead.x=0;
+		}
+		else if(locSnakeHead.y==0)
+		{
+			locSnakeHead.y=canvasHeight;
+		}
+		else if(locSnakeHead.y==canvasHeight)
+		{
+			locSnakeHead.y=0;
+		}
+	}
+	public int getScore() {
+		return score;
+	}
+
+	public void setPassThroughWallMode(boolean mode) {
+		passThroughWall = mode;
+	}
+
+	public boolean isGameOver() {
+		return gameOver;
+	}
+
+	public void setFoodLocation(Location loc) {
+		foodLocation = loc;
+	}
+
+	public static void main(String[] args) {
+		List<Location> snake = new ArrayList<Location>();
+		snake.add(new Location(2, 4));
+		snake.add(new Location(2, 3));
+		snake.add(new Location(2, 2));
+
+		SnakeGame game = new SnakeGame(50, 50, new ArrayList<Location>(snake),
+				new Location(5, 5));
+		game.advanceClock(Key.LEFT);
+		game.advanceClock(Key.LEFT);
+		System.out.println(game.isGameOver()); // true
+
+		/*game = new SnakeGame(50, 50, new ArrayList<Location>(snake),
+				new Location(5, 5));
+		game.advanceClock(Key.UP);
+		System.out.println(game.isGameOver()); // true
+*/
+		snake=game.resetSnakePositions();
+		game = new SnakeGame(50, 50, new ArrayList<Location>(snake),
+				new Location(1, 4));
+		game.advanceClock(Key.LEFT);
+		System.out.println(game.getScore()); // 1
+		System.out.println(game.isGameOver()); // false
+
+		snake=game.resetSnakePositions();
+		game = new SnakeGame(50, 50, new ArrayList<Location>(snake),
+				new Location(1, 4));
+		game.setPassThroughWallMode(true);
+		game.advanceClock(Key.LEFT);
+		System.out.println(game.isGameOver()); // false
+	}
+	
+	public List<Location> resetSnakePositions()
+	{
+		List<Location> snake = new ArrayList<Location>();
+		snake.add(new Location(2, 4));
+		snake.add(new Location(2, 3));
+		snake.add(new Location(2, 2));
+		return snake;
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a87ecc17-45e2-4db2-a6cf-fdd802f5fde0"><c:Value>9de0f45f-7b91-4ce9-8a24-4e174e50dd09</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="29d299d9-bfd6-45cc-af68-e0bf9ef2b4ab"><c:FormattedName>Tejas</c:FormattedName><c:GivenName>Tejas</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1ae10517-76c3-4682-98e7-63e4df71bc54"><c:Number>8460448607</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

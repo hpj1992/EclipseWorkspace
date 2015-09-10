@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e42ed7aa-d345-4f50-9302-cd6bfffff391"><c:Value>c5206a88-4822-4b23-8cf8-a1b0eb94c85a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="fa774b5a-19ca-48ed-8652-fba40e1e3603"><c:FormattedName>Narmada Art Gallary</c:FormattedName><c:GivenName>Narmada Art Gallary</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="465c61e1-ba35-4126-8113-2a3198fbd6be"><c:Number>02652414552</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

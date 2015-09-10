@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c338f451-e851-44ba-aa89-f979007f9db9"><c:Value>c51d22ee-cd99-4c7a-babf-584716009535</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c7bf2271-ef42-4414-b8b0-fb1118bef3f3"><c:FormattedName>Urwal Parikh Vv</c:FormattedName><c:GivenName>Urwal Parikh Vv</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="db10a99d-106d-4448-a6be-1974e4b15d50"><c:Number>+919898066843</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

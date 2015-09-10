@@ -1,0 +1,75 @@
+package sorting;
+
+public class LinkedList {
+	
+	Node head;
+	int count=0;
+	
+	public LinkedList()
+	{
+		head=new Node();
+		count=0;
+	}
+	
+	public void insertAtEnd(int data)
+	{
+		Node newNode=new Node(data,null);
+		
+		if(head.next==null)
+		{
+			head=newNode;
+		}
+		count++;
+	}
+	
+	public void displayLinkedList()
+	{
+		if(count==0)
+		{
+			System.out.println("Empty Linked List.");
+		}
+		else if(head.next==null)
+		{
+			System.out.println("["+head.data+"]");
+		}
+		else
+		{
+			System.out.println("[");
+			while(count!=0)
+			{
+				System.out.print(head.data);
+				count--;
+			}
+			System.out.print("]");
+		}
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		LinkedList list=new LinkedList();
+		list.insertAtEnd(5);
+		System.out.println(list.head.data);
+		list.displayLinkedList();
+	}
+
+}
+
+class Node
+{
+	
+	 int data;
+	 Node next;
+	
+	public Node()
+	{
+		data=0;
+		next=null;
+	}
+	
+	public Node(int data,Node link)
+	{
+		this.data=data;
+		next=link;
+	}
+}

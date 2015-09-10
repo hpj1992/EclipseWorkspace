@@ -1,0 +1,133 @@
+package Connection;
+
+import java.sql.*;
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+import Source.Review;
+
+
+public class DatabaseConnection {
+	
+	Connection con = null;
+	static ResultSet rs;
+    Statement stmt = null;
+	
+	DatabaseConnection(){		
+		try {			
+				Class.forName("com.mysql.jdbc.Driver").newInstance();
+				con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sjsuschema","root","root");
+				stmt = con.createStatement();
+				if(!con.isClosed())
+					System.out.println("Successfully Connected!!!");
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InstantiationException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IllegalAccessException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (ClassNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	}
+
+	
+	
+	public ResultSet signin(String email,String password)
+	{
+		
+		String query = "select * from users where email='"+email+"' and password='"+password+"';";
+		ResultSet data=(ResultSet)executeQuery(query, "execute");
+		return data;
+	
+	
+	}
+	
+	public void signup(String email,String password,String firstname,String lastname,String zipcode)
+	{
+		
+		String result = "";
+		int rowcount;
+		System.out.println("hahaha");
+		java.sql.Date sqlDate = new java.sql.Date(new java.util.Date().getTime());
+		String query = "Insert into users (email,password,firstname,lastname,zipcode,lastmodified) values ('" + email + "', '" + password + "','"+firstname+"','"+lastname+"','"+zipcode+"','"+sqlDate.toString()+"')";
+		int count=(int)executeQuery(query, "update");
+		if(count>0)
+		{
+			System.out.println("inserted");
+		}
+		
+	}
+
+	public ResultSet getCategories()
+	{
+		String result = "";
+		String query = "select * from category";
+		ResultSet data=(ResultSet)executeQuery(query, "execute");
+		return data;		
+	}
+
+	public ResultSet getBusinesses()
+	{
+		
+		String result = "";
+		String query = "select * from business";
+		ResultSet data=(ResultSet)executeQuery(query, "execute");
+		return data;
+		
+		
+		
+	}
+	
+	public ResultSet getReviewsOfUser(int userid)
+	{
+		String sql="select *  from reviews where userid="+userid;
+		ResultSet data=(ResultSet)executeQuery(sql, "execute");
+		return data;
+	}
+	
+	public ResultSet getReviewsOfBusiness(String bizid)
+	{
+		String query="select * from reviews where reviewid=(select reviewid from business where bizid="+bizid+")";
+		
+		ResultSet data=(ResultSet)executeQuery(query, "execute");
+		return data;
+		
+		
+	}
+	
+	public Object executeQuery(String sql,String queryoption)
+	{
+		
+		String result = "";
+		ResultSet data = null;
+		Object o;
+		int rowCount=0;
+		try {
+			
+			if(queryoption.compareToIgnoreCase("execute")==0)
+			{
+				data=stmt.executeQuery(sql);
+			}
+			else if(queryoption.compareToIgnoreCase("update")==0)
+			{
+				rowCount=stmt.executeUpdate(sql);
+			}
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		if(data!=null)
+			o=data;
+		else
+			o=rowCount;
+		return o;
+		
+	}
+}

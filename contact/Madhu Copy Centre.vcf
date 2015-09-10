@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="04cbbe60-768d-4efe-a348-10361fe43acc"><c:Value>433648b3-5999-4855-b53f-303a8bf25354</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3c7dad96-9ba4-408a-bdff-5ef3ba706cb0"><c:FormattedName>Madhu Copy Centre</c:FormattedName><c:GivenName>Madhu Copy Centre</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f985df3d-952b-40a2-b9aa-01b212202a46"><c:Number>02652411964</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

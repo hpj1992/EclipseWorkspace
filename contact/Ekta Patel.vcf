@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ad32e9d4-b0ae-4654-9c50-c132ab3babe5"><c:Value>96841c5f-12df-4203-ae51-260aec23cd43</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="66baab45-6e7a-45d0-9f6b-4ef14d23ea68"><c:FormattedName>Ekta Patel</c:FormattedName><c:GivenName>Ekta Patel</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="806954a4-3d7c-4666-a3a4-5a2fbe26fba7"><c:Number>9687206439</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

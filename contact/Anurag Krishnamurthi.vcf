@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="28af5550-e131-4163-b692-6e83638ecabe"><c:Value>388514dd-915e-4421-8663-ae8c0cc5d1dd</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ce8f82e7-7a98-4d40-8e5c-2da34a373e0d"><c:FormattedName>Anurag Krishnamurthi</c:FormattedName><c:GivenName>Anurag Krishnamurthi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6d88f0d5-0869-4050-b755-e5b7fdd5fa9f"><c:Number>9974487398</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

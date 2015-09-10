@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1757f250-6058-4784-a309-4f447dcef40a"><c:Value>efc974c3-322a-443a-a8ec-91df61cb0fa2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f6fa8b8e-cdbd-4624-88f1-8408be3a4add"><c:FormattedName>Dipali Chatur</c:FormattedName><c:GivenName>Dipali Chatur</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7e62719f-fffc-4544-9693-e3e3a8d31b42"><c:Number>+918460511503</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

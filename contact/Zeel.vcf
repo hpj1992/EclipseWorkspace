@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c8a3d9e3-9dad-4da7-927d-bb53703657d3"><c:Value>64b4433e-7d17-48f0-9074-7c82f806f35f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e2e664af-e9c3-4433-8569-b5d990716c8f"><c:FormattedName>Zeel</c:FormattedName><c:GivenName>Zeel</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ebce9c49-36f2-41a4-86fa-b148b50f27d3"><c:Number>+919601628660</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

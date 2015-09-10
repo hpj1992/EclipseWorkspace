@@ -1,0 +1,17 @@
+package sorting;
+
+public class LinkedList {
+	
+	public LinkedList()
+	{
+		Node head=new Node(null);
+	}
+
+}
+
+class Node
+{
+	
+	int data;
+	Node next;
+}

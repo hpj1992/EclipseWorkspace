@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="611fa913-c743-4c2a-b8fb-99b00ff8ef15"><c:Value>256c25e9-0045-4c68-b79d-471d5878d821</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c85568ac-a7f3-4bb6-bbea-74f698903c65"><c:FormattedName>Mphasis Tazeen Mam</c:FormattedName><c:GivenName>Mphasis Tazeen Mam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d2c5643d-5510-438d-8e2a-53501dc1a66d"><c:Number>8511166588</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

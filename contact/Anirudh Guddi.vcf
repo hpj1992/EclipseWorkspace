@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="62d926de-137f-420b-9bca-27cb193d3dba"><c:Value>8890ff4c-6656-474e-9926-addef015dda0</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6f3ba3b5-0b0c-42dd-af65-60b37718af9a"><c:FormattedName>Anirudh Guddi</c:FormattedName><c:GivenName>Anirudh Guddi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="627b20ec-49ad-45f5-b44e-e4fb83925755"><c:Number>9998004980</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

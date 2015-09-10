@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="bf717ec2-0e18-4fa5-a748-14d46bed3bb4"><c:Value>86bd9f79-7258-4001-be07-ec544bec7656</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b6d0e41e-dcfc-4909-8485-611d5b40ee4a"><c:FormattedName>AL PATEL</c:FormattedName><c:FamilyName>AL PATEL</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3c025e46-698b-4cd6-87dc-27e12c6be82e"><c:Number>9909926061</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

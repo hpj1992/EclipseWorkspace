@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="91f45181-2212-4095-b86d-57d91f82e9b9"><c:Value>fd232328-e9ed-430a-a875-011b558776cd</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c1bfff75-1803-4be4-8f0a-799513ea44e5"><c:FormattedName>Dhruv Desai</c:FormattedName><c:GivenName>Dhruv Desai</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6e9bcb2c-c245-45dd-9f3f-03e426cbf03b"><c:Number>9016527022</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

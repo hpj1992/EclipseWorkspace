@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="45436687-bdd3-4668-99b6-e88c205790ce"><c:Value>9cec017b-1ae5-4810-9da8-df1f3b6a7344</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c7d6a038-1e30-4219-9ea8-97601ddeb1e3"><c:FormattedName>Bhavsar Sir</c:FormattedName><c:GivenName>Bhavsar Sir</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="cdb4de2c-7181-4ed1-8293-d698eb6b0cb4"><c:Number>02652434188</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

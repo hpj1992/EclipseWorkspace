@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="cc61b903-d809-45fb-bdb6-4bf9ff0942a2"><c:Value>4292de21-b8b1-44fa-8dcb-6d08ca73105c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a51e4cfb-3048-4e35-8a9a-1ed4cc1f7816"><c:FormattedName>Chirag Mishra</c:FormattedName><c:GivenName>Chirag Mishra</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="cbd63ae5-e17c-40e0-94e5-d676b285cea0"><c:Number>9712902828</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

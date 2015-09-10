@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e75686fb-6848-45b2-a2ef-fa5e789e13d5"><c:Value>a01fe668-a541-4305-8dec-cc1205477658</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="dc06a1d1-c943-4dd6-a1c5-1f30c1b54d8d"><c:FormattedName>Vaidehi Kanchan</c:FormattedName><c:GivenName>Vaidehi Kanchan</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="9ad0bfbe-83dd-4abb-8708-dca287fdfe44"><c:Number>9537921857</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

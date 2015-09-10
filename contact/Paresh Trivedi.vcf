@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f777fdcd-8796-41c3-b42d-63bbdefa9c04"><c:Value>b76a38f2-21c2-4acd-a2bd-9d69d0ff90ab</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="98146edb-c35f-4f90-b2ea-10628da09d83"><c:FormattedName>Paresh Trivedi</c:FormattedName><c:GivenName>Paresh Trivedi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="0c42bd49-c710-497c-bbe1-872725c1461e"><c:Number>+919898054208</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

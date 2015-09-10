@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<server port="8080">
+  <module name="pubnub" path="D:/workspaceLuna/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/pubnub" type="j2ee"/>
+  <module context="WebServiceExampleClient" name="WebServiceExampleClient" path="D:/workspaceLuna/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/WebServiceExampleClient" type="j2ee"/>
+</server>

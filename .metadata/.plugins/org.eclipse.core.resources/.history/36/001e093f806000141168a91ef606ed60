@@ -1,0 +1,16 @@
+
+public class Decorator implements Component2 {
+	
+	  DeComponent component=null;
+	    Decorator(DeComponent c)
+	    {
+	       this.component = c;
+	    }
+	    
+	    public double getPrice()
+	     {
+	         return component.getPrice();
+	     }
+	    
+
+}

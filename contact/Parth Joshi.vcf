@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9dc71b6c-1598-464c-9d35-083c7c8a80fc"><c:Value>ced145ce-8776-438a-a2ad-a9d6191ae58e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="daed9f2b-dc2b-4bee-aea0-77909213135b"><c:FormattedName>Parth Joshi</c:FormattedName><c:GivenName>Parth Joshi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d8ef1fcd-ea05-49cf-9519-5b0da435caa9"><c:Number>+919179420148</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

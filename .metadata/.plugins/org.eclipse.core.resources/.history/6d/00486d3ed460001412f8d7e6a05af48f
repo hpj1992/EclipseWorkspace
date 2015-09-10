@@ -1,0 +1,29 @@
+
+public class BuildOrder {
+	
+	
+	
+	public void PrintOrder()
+	{
+		String[] strCheeses={"Danish Blue Cheese","Horseradish Cheddar"};
+		String[] strToppings={"Bermuda Red Onion","Black Olives","Carrot Strings","Coleslaw"};
+		String[] strPremToppings={"Applewood Smoked Bacon"};
+		String[] strSauce={"Appricot Sauce"};
+		Composite order=new Composite("Order");
+		order.addChild(new Leaf("test item",4.4));
+		order.addChild(new Leaf("tested item",5.5));
+		Composite custom=new Composite("Custom Burger:");
+			custom.AddCheeseOptions(strCheeses);
+			custom.AddToppingsOptions(strToppings);
+			custom.AddPremToppings(strPremToppings);
+			custom.AddSauceOptions(strSauce);
+		order.addChild(custom);
+		Component2 obj = new Sauce(new Topping(new Cheese(new Burger())));    
+        double result = obj.getCost() ;
+        order.addChild(new Leaf("Build your own Burger", result));
+		order.PrintDesc();
+		
+		//return order;
+	}
+
+}

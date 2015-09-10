@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f0316a03-17fc-429a-ad64-3c894ceacb2d"><c:Value>b29eab6b-143c-4c46-82e6-bc8bed519382</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2b2be7e4-41a8-47b2-8ede-8d6ea7e28ed9"><c:FormattedName>Aulin</c:FormattedName><c:FamilyName>Aulin</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e5d29d56-e4ed-4817-80e0-eaedc7734e0c"><c:Number>9724346760</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

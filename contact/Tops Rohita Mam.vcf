@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="74493f96-96e0-4521-a9c8-eb99fb38eea3"><c:Value>19c0ea73-259e-457a-a33a-bfe90f2ddd24</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="30953402-c1c0-4e1e-a70f-ca9435fcd334"><c:FormattedName>Tops Rohita Mam</c:FormattedName><c:GivenName>Tops Rohita Mam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7ae28a18-630c-46c4-ac88-3a9e86bff7cb"><c:Number>9725355009</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

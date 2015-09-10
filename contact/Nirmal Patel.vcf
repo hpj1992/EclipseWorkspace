@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="87b4987d-333c-460a-9918-dc7c9ff03fc4"><c:Value>087846d4-e21d-4342-b81a-01e76768e714</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f7d80814-a386-4085-bd21-886a468c2a78"><c:FormattedName>Nirmal Patel</c:FormattedName><c:GivenName>Nirmal Patel</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d7a662d4-5971-4519-9ffd-bfdb8f269377"><c:Number>02652390981</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

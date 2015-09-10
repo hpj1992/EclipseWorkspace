@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a778e6a9-8ca2-43f3-befc-0aa5f529bd23"><c:Value>f7003fb7-2e86-498e-8d5d-001e8054e0d6</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="7dc72858-223d-4c20-962b-9698b4c30fdf"><c:FormattedName>Kiranbhai Civil</c:FormattedName><c:GivenName>Kiranbhai Civil</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ceeec5e7-b029-4efc-92e4-be91ee91a202"><c:Number>9727444758</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

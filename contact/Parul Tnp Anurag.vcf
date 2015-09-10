@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="13ec28ff-0a2b-4413-b987-4c07ff44426a"><c:Value>870ed485-d75f-4edd-a407-b0d34523eaa4</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a0786565-d68f-4c79-b4ef-f35dcb2a9187"><c:FormattedName>Parul Tnp Anurag</c:FormattedName><c:GivenName>Parul Tnp Anurag</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="80ee8313-3dae-4c11-a224-1fe7463b2266"><c:Number>+919974487398</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

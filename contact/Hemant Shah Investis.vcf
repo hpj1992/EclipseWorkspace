@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="423a11d2-4584-4db5-9c00-dea3544112dc"><c:Value>f7f86a62-0c7d-4f09-bfe2-f9ac4ba08332</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="7965c2f9-dfb9-4d86-8a4d-1d134ea989b9"><c:FormattedName>Hemant Shah Investis</c:FormattedName><c:GivenName>Hemant Shah Investis</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f659110a-3f7b-4491-824d-946e7eea0863"><c:Number>9998070091</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

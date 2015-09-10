@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="40bb56e3-2252-4a4e-be3f-145aa56dbbb6"><c:Value>e541a5b6-4794-49af-b3ca-ca98677fe5e7</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6c6b9213-e647-4a10-a2c0-5e4a8087eead"><c:FormattedName>Kalpesh Bhai</c:FormattedName><c:GivenName>Kalpesh Bhai</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="68620ba6-1afa-47f3-a6aa-8dd0d2c6b4ed"><c:Number>9227561001</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

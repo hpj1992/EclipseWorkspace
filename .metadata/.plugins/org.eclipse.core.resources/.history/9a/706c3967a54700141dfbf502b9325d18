@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+   
+  
+ <form action="/Calculate/add" method="get">
+        Number 1:<input type="text" id="a" name="a"></input>
+</br>
+    Number 2:<input type="text" id="b" name="b"></input>
+</br>
+</br>
+    <!--  <a href="/Calculate/add">Addition</a> -->
+    <button id="button"  value="test">Addition</button>
+ </form>
+    <form action="/Calculate/sub" method="get">
+    
+    <button id="button"  value="test">Substraction</button>
+    </form>
+    <form action="/Calculate/mul" method="get">
+   <button id="button"  value="test">Multiplication</button>
+    </form>
+    <form action="/Calculate/div" method="get">
+    <button id="button"  value="test">Division</button>
+    </form>
+  
+   
+   
+  <!--   <a href="/Calculate/add">Addition</a>
+     <a href="/Calculate/sub">Substraction</a>
+     <a href="/Calculate/div">Mutiplication</a>
+     -->
+  
+
+</br>
+</br>
+
+    
+  </body>
+</html>

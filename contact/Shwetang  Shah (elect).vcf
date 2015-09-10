@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3bc71b06-8704-4f74-aa26-c4a797cc980a"><c:Value>2f4125d1-2811-45b6-8969-a86916d6c18a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="99c6bf44-22c7-400b-ba1e-0775cd898efb"><c:FormattedName>Shwetang  Shah (elect)</c:FormattedName><c:GivenName>Shwetang </c:GivenName><c:FamilyName>Shah (elect)</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="0eaae67e-1efe-483b-9ed3-42a33ec3a64f"><c:Number>+919722860292</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

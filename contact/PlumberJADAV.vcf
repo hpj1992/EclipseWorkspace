@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ed9e1f4a-72bd-447e-b331-d15566061ed2"><c:Value>5480b62b-66bc-4749-95fb-fcdb6428ab37</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8e791370-4fc1-4919-bec9-42a2f2733cf4"><c:FormattedName>PlumberJADAV</c:FormattedName><c:GivenName>PlumberJADAV</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7a508740-e5a5-4301-a6f0-d7cb92ede621"><c:Number>9904236243</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

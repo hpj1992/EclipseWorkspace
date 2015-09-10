@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="78c4b952-dd27-4f87-a1ef-28db87ef96c9"><c:Value>72bd7e83-d2a5-40de-b8fd-7fd7473bac11</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="03d175a6-639d-4918-b1be-aa7a41402714"><c:FormattedName>Ronak Khant</c:FormattedName><c:GivenName>Ronak Khant</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="390ac936-7731-43fa-8ac1-936c394aea1b"><c:Number>+919558807503</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

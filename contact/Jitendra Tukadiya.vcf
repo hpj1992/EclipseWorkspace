@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="de221603-8164-4c75-95f8-37f2786200d7"><c:Value>9a95c6be-d683-4d7b-ba09-78cebcdbb399</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="59e1be3e-612b-4903-a829-0e205b0e0d95"><c:FormattedName>Jitendra Tukadiya</c:FormattedName><c:GivenName>Jitendra Tukadiya</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="82f558fe-2b51-4601-8a94-260f24e2fd78"><c:Number>9687140492</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

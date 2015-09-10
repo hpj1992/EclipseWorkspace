@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1f4660cb-4f55-4c24-9533-43348e35e164"><c:Value>3f79ea3f-7f57-4c84-987b-8c44608d80d4</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="97b4807d-273d-4a15-b24d-af3560c169f4"><c:FormattedName>Priyank Joshi</c:FormattedName><c:GivenName>Priyank Joshi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8d004ee6-6fb6-4205-a0c2-06fdc28d7c4b"><c:Number>+919898333891</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

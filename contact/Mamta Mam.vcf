@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a9134e88-7a6e-40fb-b594-84f6cfa2b04b"><c:Value>233a9e8f-6e0b-4047-b21d-a000c396435b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="50894f37-e70d-4cc7-89f0-cc145c2b2266"><c:FormattedName>Mamta Mam</c:FormattedName><c:GivenName>Mamta Mam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="86f06cc3-c6cd-4578-b0f2-da8f56eef7f9"><c:Number>9998792087</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

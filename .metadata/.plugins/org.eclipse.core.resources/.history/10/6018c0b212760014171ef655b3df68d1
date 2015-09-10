@@ -1,0 +1,46 @@
+/**
+ * New node file
+ */
+var mysql=require('./mysql');
+
+exports.getAllProductsData=function(req,res)
+{
+var sql="select productId,name,description,price,avgReview,isAuction,isactive from person";
+mysql.fetchData(function(error,results){
+	
+	if(error)
+		throw error;
+	else
+		{
+		if(results!=null)
+			{
+			console.log(results);
+			res.send(results);
+			}
+		}
+	
+	
+},sql);
+
+}
+exports.updateProductStatus=function(req,res)
+{
+var userid=req.param("productid");
+var status=req.param("status");
+var sql="update product set isactive="+status+" where productid="+userid;
+mysql.fetchData(function(error,result){
+	
+	if(error)
+		throw error;
+	else
+		{
+		if(result!=null)
+			{
+			
+			console.log("product status changed.");
+			}
+		}
+	
+},sql);
+
+}

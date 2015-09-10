@@ -1,0 +1,32 @@
+package sorting;
+
+public class selection {
+
+	public static void main(String[] a)
+	{
+		int[] toSort={9,8,7,6,5,4,3,2,1,0,3,51,0,3,5,9,8,7,1,5,6,9,8,129,6,5,4,3,2,1,0,3,5,9,8,7,1,5,6,9,8,129};
+		selection s=new selection();
+		for(int i=0;i<toSort.length;i++)
+		{
+			s.processMinimum(toSort, i);
+		}
+	}
+	
+	public void processMinimum(int[] toSort,int location)
+	{
+		int min=toSort[location],minLocation=location;
+		for(int i=location;i<toSort.length;i++)
+		{
+			if(toSort[i]<min)
+			{
+				min=toSort[i];
+				minLocation=i;
+				
+			}
+		}
+		toSort[minLocation]=toSort[location];
+		toSort[location]=min;
+		
+		
+	}
+}

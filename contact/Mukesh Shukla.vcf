@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="77b3909b-0be2-450d-acb0-f371011add11"><c:Value>03149f90-fcbf-4c5e-b7bd-5a3a01e3cb48</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="1897b58a-8fb0-423f-9429-e34333265bd8"><c:FormattedName>Mukesh Shukla</c:FormattedName><c:GivenName>Mukesh Shukla</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="87adee03-6c12-40d8-9f93-effaad2d97fb"><c:Number>+918460835009</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

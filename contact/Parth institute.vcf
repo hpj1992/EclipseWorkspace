@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fdcc266c-5fae-4668-9db2-4fb45db53465"><c:Value>4bbd4c2f-1f86-4e52-b3b0-7166176c6c74</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="564c30c4-801d-4698-a501-80b88ecfff58"><c:FormattedName>Parth institute</c:FormattedName><c:FamilyName>Parth institute</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="2de00671-f14b-4c34-93d7-85a4260930af"><c:Number>02652397695</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

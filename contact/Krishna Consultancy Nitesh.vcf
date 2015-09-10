@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3eb3ccf4-64ee-456a-9ccd-e084027d8bb8"><c:Value>093460d2-e1a3-408b-a553-317681a887e7</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f68fb55f-fb15-4996-9753-4839ead4a0db"><c:FormattedName>Krishna Consultancy Nitesh</c:FormattedName><c:GivenName>Krishna Consultancy Nitesh</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4b818329-ffc7-4d06-874f-a36976b321c6"><c:Number>+919924202065</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

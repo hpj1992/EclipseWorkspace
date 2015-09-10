@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9f144c7d-d347-413f-93e2-87fb190bbddd"><c:Value>d10a321e-e30c-4c86-be73-9ac915b3a110</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="aefb0cde-ebfb-41e8-b3b5-76a1b49314ac"><c:FormattedName>Amar Vala</c:FormattedName><c:GivenName>Amar Vala</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7adaff13-398f-4cfd-b6e9-0aba0fea361c"><c:Number>9274025641</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

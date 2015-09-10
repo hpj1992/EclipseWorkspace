@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="8eb9d4df-781c-4faf-afa5-8e1d84f4d974"><c:Value>63eba9d9-8d01-4874-9515-de351f2ea93c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8a50e9eb-d404-4537-ba20-4312a5a63461"><c:FormattedName>Gaffar Syed</c:FormattedName><c:GivenName>Gaffar Syed</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="754b5af4-c43d-4809-bb9d-00af22c2ac5d"><c:Number>9722480688</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

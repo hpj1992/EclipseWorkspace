@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="680c2648-8a54-4fa6-8696-a2a00ad772f2"><c:Value>58813fc0-e239-421b-a5ef-ebcfd26754d3</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c076e9df-b525-428b-8b3a-d293c807f4c2"><c:FormattedName>Sunny Patel(vv)</c:FormattedName><c:GivenName>Sunny Patel(vv)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="baa8cb3a-f2ca-4076-b554-304e02d76806"><c:Number>9998217464</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

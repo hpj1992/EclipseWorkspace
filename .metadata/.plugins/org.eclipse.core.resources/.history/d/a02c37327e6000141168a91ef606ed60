@@ -1,0 +1,11 @@
+
+public class Test {
+
+	public static void main(String[] a)
+	{
+		Component order=new Composite("Order");
+		order.addChild(new Leaf("test item",4.4));
+		order.addChild(new Leaf("tested item",5.5));
+	}
+	
+}

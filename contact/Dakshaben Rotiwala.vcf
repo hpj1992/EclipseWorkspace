@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d1b87fa3-3a38-4f1f-af22-61aa1415662a"><c:Value>28553272-0d21-4641-8abe-662e64c2b80b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="16cb79a1-c719-474a-b0dc-fea89a069ec3"><c:FormattedName>Dakshaben Rotiwala</c:FormattedName><c:GivenName>Dakshaben Rotiwala</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="27d20368-76fe-47c5-8114-c24fa26589ec"><c:Number>9825471342</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

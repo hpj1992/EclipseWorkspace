@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="635a41fc-57d0-484a-965e-508a3ec2111c"><c:Value>f6c90476-6302-44e7-860f-4cf1a758fc49</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0b1c0f35-7b2d-485a-9244-8824c0e6b5eb"><c:FormattedName>Infosys  Niharika Singh</c:FormattedName><c:GivenName>Infosys  Niharika Singh</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ebd7b744-0cde-440f-bdb0-025d7ee90898"><c:Number>07798983849</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

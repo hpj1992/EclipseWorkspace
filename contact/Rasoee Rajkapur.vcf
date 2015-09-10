@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="df801b23-2ac4-43cd-a8c0-74d571234f88"><c:Value>719bc86b-7321-4ed9-9807-8bd49c3f73a2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d68c8281-412a-4b2f-b946-73dec3b255eb"><c:FormattedName>Rasoee Rajkapur</c:FormattedName><c:GivenName>Rasoee Rajkapur</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6ed99a11-07a2-42ef-8615-0bc8d7dc61f1"><c:Number>9427611919</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="bd7a8b41-51c5-4a88-99da-d01b0f3bb8ff"><c:Value>c74e2171-353a-4596-bde6-e34d1f2c69f6</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="249c91d2-415b-49da-9462-42a20f325b6b"><c:FormattedName>Nishat Chel(vv)</c:FormattedName><c:GivenName>Nishat Chel(vv)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6852f112-5925-4780-a16a-bea616c5cdb9"><c:Number>+919662798739</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

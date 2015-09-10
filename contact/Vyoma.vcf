@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="16ea6670-37f8-4b20-8812-96ab0ef267c9"><c:Value>aa9cbab8-026c-4048-b179-cb9a61e2659a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="9829f167-7fc8-4d64-9348-e208ab2c5654"><c:FormattedName>Vyoma</c:FormattedName><c:FamilyName>Vyoma</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8472ee71-7160-423e-abe6-981438678cc6"><c:Number>+919998565802</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="eb442131-38f1-45ae-99f7-de82c2413437"><c:Value>54d99dd1-1811-44e1-92bb-1a11d774c716</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8934b83f-7a87-4d33-b702-40051da06f77"><c:FormattedName>Dipali</c:FormattedName><c:GivenName>Dipali</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4a1eaa78-14ee-4ce0-9bbc-723b73c4e251"><c:Number>+918866510565</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

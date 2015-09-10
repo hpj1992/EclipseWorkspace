@@ -1,0 +1,52 @@
+/**
+ * New node file
+ */
+var mysql = require('./mysql');
+
+var user=exports.user=function(emailid)
+{
+	
+	var getFirstname="select firstname from users where email='"+emailid+"'";
+	console.log("Query is:"+getFirstname);
+	
+	mysql.fetchData(function(err,results){
+		if(err){
+			throw err;
+		}
+		else 
+		{
+			if(results.length > 0){
+				console.log("valid Login");
+				dashboard.user(req.param("txtEmail"));
+				
+			/*	ejs.renderFile('./views/successLogin.ejs',function(err, result) {
+			        // render on success
+			        if (!err) {
+			            res.end(result);
+			        }
+			        // render or error
+			        else {
+			            res.end('An error occurred');
+			            console.log(err);
+			        }
+			    });*/
+			}
+			else {    
+				
+				console.log("Invalid Login");
+				ejs.renderFile('./views/dashboard.ejs',function(err, result) {
+			        // render on success
+			        if (!err) {
+			            res.end(result);
+			        }
+			        // render or error
+			        else {
+			            res.end('An error occurred');
+			            console.log(err);
+			        }
+			    });
+			}
+		}  
+	},getFirstname);
+console.log(emailid);
+};

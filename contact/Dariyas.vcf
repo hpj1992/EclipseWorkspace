@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="2e6ecdb8-6f3a-40a1-a252-888c3ae5174c"><c:Value>9121545d-d9cf-47d6-8a39-141a040c9da1</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="62575e59-4de6-42be-88b6-b2dd8c9ec913"><c:FormattedName>Dariyas</c:FormattedName><c:GivenName>Dariyas</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="97af3bd1-2e58-44f6-818e-b6ca52683a0f"><c:Number>+919274517120</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

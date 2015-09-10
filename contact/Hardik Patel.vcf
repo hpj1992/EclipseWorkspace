@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3cdcfc64-b6c3-4912-8eb9-8f093b85c03b"><c:Value>55fe2324-72f5-4226-9394-947780329abd</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="149d6649-5955-4f60-899a-d2bb00b241a9"><c:FormattedName>Hardik Patel</c:FormattedName><c:FamilyName>Hardik Patel</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="34564bea-9fb2-4a52-bfb1-d91162d766c2"><c:Number>+919409454229</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

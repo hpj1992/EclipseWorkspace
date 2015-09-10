@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="330a6b4b-a9b5-46c4-8381-942d1711e48b"><c:Value>22b4cc0e-2a7d-44f3-8fe8-472cfb67ba3e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ffaf286c-324e-4d2b-b416-d33c06ca340c"><c:FormattedName>Vilasini</c:FormattedName><c:GivenName>Vilasini</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="82822886-efaa-469d-b7ad-99baf3747a28"><c:Number>9904704303</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

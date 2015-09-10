@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fd294979-813c-49ac-a43d-dd723840670a"><c:Value>8fdddbad-e321-4482-96f9-0e5db418ac50</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a6f99854-163b-4897-b0de-9835fff17624"><c:FormattedName>Friends Society</c:FormattedName><c:GivenName>Friends Society</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1f3ebb06-486f-4967-b8dc-d16335a2c937"><c:Number>9998225595</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

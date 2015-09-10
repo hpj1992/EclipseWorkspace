@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<and abstract="true" mandatory="true" name="MultiTenanatDB">
+				<and name="Tasks">
+					<feature abstract="true" name="CompletionPercentage"/>
+					<feature abstract="true" name="DaysRequired"/>
+				</and>
+				<and name="Stories">
+					<feature abstract="true" name="HoursLeft"/>
+					<feature abstract="true" name="EndDate"/>
+				</and>
+				<and name="Cards">
+					<feature abstract="true" name="UpdateSwimlanes"/>
+					<feature abstract="true" name="CycleTime"/>
+				</and>
+			</and>
+		</struct>
+		<constraints/>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>

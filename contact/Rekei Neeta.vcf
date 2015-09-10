@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e8b18513-83d4-476d-acc5-39e841d8a37e"><c:Value>e50237dc-5354-4a4d-aa9c-b5f56316138d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="efaff6ff-50cd-44a2-b288-7e9451d92607"><c:FormattedName>Rekei Neeta </c:FormattedName><c:GivenName>Rekei Neeta </c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6a0088f8-8757-45bd-b53a-c152a6822fda"><c:Number>9727067585</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

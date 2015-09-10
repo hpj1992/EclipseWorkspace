@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="0" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/hpj1992/Unused273.git"/>
+		<item value="https://github.com/hpj1992/JustLikeYelp.git"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>

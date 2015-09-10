@@ -1,0 +1,16 @@
+package ctci;
+
+import java.util.LinkedList;
+
+
+
+public class Sol2_1 {
+	
+	
+	public static void main(String[] args)
+	{
+		LinkedList<int> myList=new LinkedList<>();
+		
+	}
+
+}

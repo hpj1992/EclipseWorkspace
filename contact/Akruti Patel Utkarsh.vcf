@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="632b9b6a-5657-40c0-b68f-18d35aed4640"><c:Value>7c1413da-a312-45bc-a6d1-72d737ddb109</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c4c97888-aca6-47a8-8d78-9cd9e49f344d"><c:FormattedName>Akruti Patel Utkarsh</c:FormattedName><c:GivenName>Akruti</c:GivenName><c:FamilyName>Patel Utkarsh</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="bb012ce4-e32e-4b12-afb8-f26f1a22bcca"><c:Number>+919537555032</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

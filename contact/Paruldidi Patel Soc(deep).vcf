@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fa848f11-ee15-4c9d-a2e5-ef18b21fc6ce"><c:Value>fa9180c2-a0a6-4515-a10d-e90d658da4d1</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="1b425825-f8c7-435c-89d4-d3758a816100"><c:FormattedName>Paruldidi Patel Soc(deep)</c:FormattedName><c:GivenName>Paruldidi Patel Soc(deep)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="49610991-f272-4f2d-9a7b-a865f34ef0d7"><c:Number>+919898075130</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

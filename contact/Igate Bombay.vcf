@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="885e8126-075b-43df-80d0-10cbd1d940f4"><c:Value>9ede5331-353c-4458-a5df-b9f728c7133b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="fdcfe233-ee26-4037-acaf-9f246c4ca75b"><c:FormattedName>Igate Bombay</c:FormattedName><c:GivenName>Igate Bombay</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="eea813c9-ecd6-4906-86bc-b31b346494f1"><c:Number>02239172000</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

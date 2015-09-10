@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fa65a5ef-4274-47f5-ad43-cd2d7cb3faf7"><c:Value>aea60323-c69d-4803-9e45-96b661fed3dd</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f4d38421-a2cf-458f-bf56-1273d0312ff9"><c:FormattedName>Saikrupa Car Training Vikrambhai</c:FormattedName><c:GivenName>Saikrupa Car Training</c:GivenName><c:FamilyName>Vikrambhai</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e41eda70-df33-46eb-8d8f-29aa330f39bb"><c:Number>+919879616104</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

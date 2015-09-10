@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="430b429e-9fd9-4ed8-996d-ac259fea9738"><c:Value>52e1ea5d-0c14-4df4-a6f9-dd4032d97d0f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="fc85b731-a354-479b-b6a1-82e81346860d"><c:FormattedName>Deepika Rohra Pr</c:FormattedName><c:GivenName>Deepika Rohra</c:GivenName><c:FamilyName>Pr</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4a063b45-80a5-4179-8fcd-fd929d063076"><c:Number>9978274797</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

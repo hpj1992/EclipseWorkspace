@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="595f380c-fb98-41fa-8a5a-19ea63c1d270"><c:Value>fa5f3812-13a1-4251-abdf-aef6d76852a4</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="7d02e3b3-9bca-4270-95a8-f38b8edff393"><c:FormattedName>Chinmay  Halpati</c:FormattedName><c:GivenName>Chinmay </c:GivenName><c:FamilyName>Halpati</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e2dc47dc-36eb-4f01-b96e-e71e48620343"><c:Number>9998980769</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,39 @@
+package sorting;
+
+public class tree {
+	
+	public static void main(String[] args)
+	{
+		TreeNode left=new TreeNode(5, null, null);
+		TreeNode right=new TreeNode(6, null, null);
+		TreeNode root=new TreeNode(1, left, right);
+	}
+	
+	
+}
+
+class TreeNode
+{
+	int root;
+	TreeNode left;
+	TreeNode right;
+	
+	public TreeNode(int data,TreeNode left,TreeNode right)
+	{
+		this.root=data;
+		this.left=left;
+		this.right=right;
+	}
+	
+	public void print(TreeNode tree)
+	{
+		if(tree==null)
+		{
+			return;
+		}
+		System.out.println(tree.root);
+		print(tree.left);
+		print(tree.right);
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fed1deb9-0df1-4ae5-ab82-7d19e6faf25e"><c:Value>704d0a3e-3ae9-495a-b277-8e7a8b018133</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="26ec463c-51bc-45c2-9a04-7740ba7ced43"><c:FormattedName>Jaydevbhai Pune</c:FormattedName><c:GivenName>Jaydevbhai Pune</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e5c03676-62f1-47db-8b3a-7064465a8dfe"><c:Number>+917387448884</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

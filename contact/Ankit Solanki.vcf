@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3f0f3b7d-1147-4eab-a251-7e1a11ef2684"><c:Value>c292c62c-e790-4d33-a8c3-750d8a9e4c37</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a50b792b-b054-4a9d-9593-49eb96335a8b"><c:FormattedName>Ankit Solanki</c:FormattedName><c:GivenName>Ankit Solanki</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4335cef0-2637-4f4a-8424-5f99beafeb4a"><c:Number>9998008869</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

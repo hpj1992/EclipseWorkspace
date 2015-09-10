@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="88ca2892-b0d9-45a2-afb6-fdca62a83dd6"><c:Value>c565ae73-5e06-4590-b869-ee5101d3688d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b2ea3207-d7bd-4222-aa9e-8fdb7526d9bf"><c:FormattedName>Sneha Shah</c:FormattedName><c:GivenName>Sneha</c:GivenName><c:FamilyName>Shah</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f6b70ce4-bfb3-47a2-a5e4-91b3af5e7325"><c:Number>+919825067803</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

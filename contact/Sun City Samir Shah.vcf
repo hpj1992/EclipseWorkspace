@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="590cbf88-53d5-42a3-a4d5-c9f38d17a618"><c:Value>a3f161a9-2e6d-4228-94ed-67333a184b77</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="7c4a71ea-9558-408b-a2fd-0efac57ae318"><c:FormattedName>Sun City Samir Shah</c:FormattedName><c:GivenName>Sun City</c:GivenName><c:FamilyName>Samir Shah</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7fe2a20e-c2dd-4ea3-80d3-a21d81ef5517"><c:Number>9825011121</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

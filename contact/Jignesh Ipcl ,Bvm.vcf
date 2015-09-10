@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e682a037-a145-44c1-9571-193ff7ed5805"><c:Value>b9111ac2-54c4-4e6e-946b-a4b0ca6bd69a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="faeae6d9-9055-4dec-a4ad-bb87354c71a4"><c:FormattedName>Jignesh Ipcl ,Bvm</c:FormattedName><c:GivenName>Jignesh Ipcl ,Bvm</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="29af1106-3b05-4a26-939e-6687293de540"><c:Number>+918866204228</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

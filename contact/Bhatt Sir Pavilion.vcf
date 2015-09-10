@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fbff9697-4e9e-42d8-990a-4fb0b1b82aab"><c:Value>52cd1ca8-42a1-4161-a733-291774bbf153</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="95fa4f5b-60b0-4b32-8166-4938938bcf32"><c:FormattedName>Bhatt Sir Pavilion</c:FormattedName><c:GivenName>Bhatt Sir Pavilion</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="61c7a012-138b-41a4-a9eb-aa4d206831fc"><c:Number>9426596009</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

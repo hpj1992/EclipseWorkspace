@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="eb3aaa1d-9f58-4e03-aa6d-15b14ee6cdb5"><c:Value>6415843e-00a3-4179-8e86-08108057741b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="12abe938-4915-4f98-8679-8850c531371f"><c:FormattedName>Krishan Pant Investis</c:FormattedName><c:GivenName>Krishan Pant Investis</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f029e2c5-e761-43d9-b64a-86b641840e3e"><c:Number>8141009052</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

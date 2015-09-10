@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CalculatorServer/routes/Copy of user.js&apos; to &apos;user2.js&apos;" description="Rename resource &apos;Copy of user.js&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="routes/Copy of user.js" name="user2.js" stamp="1411954119927" updateReferences="true"/>
+</session>

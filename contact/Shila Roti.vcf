@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="35b40a33-67e4-4a48-a52d-5d538cf31a39"><c:Value>71933407-a4a6-4aec-93fd-4c0e4ad42f1b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="01d3ab2e-c001-4129-95c5-bda5b7ae2c26"><c:FormattedName>Shila Roti</c:FormattedName><c:GivenName>Shila Roti</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f971d7a2-fb1c-441c-bc4a-931bd2f6e00e"><c:Number>9574494971</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

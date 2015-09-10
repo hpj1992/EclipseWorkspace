@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b7b0e16d-0af9-4d0c-bff3-9657962532fb"><c:Value>a6bdd3bb-02d3-4d6c-ae4f-165c3f503c9d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="945571ee-143a-4cc2-897c-68898d4fe460"><c:FormattedName>Jaimin Mistry</c:FormattedName><c:GivenName>Jaimin Mistry</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="937c4f86-6692-449c-9aba-a0a4fe549122"><c:Number>+919099175885</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

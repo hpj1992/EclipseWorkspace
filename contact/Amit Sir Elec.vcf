@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="06a864c3-1415-4951-bc31-ae9ce3677746"><c:Value>63d33532-a58c-4e33-af8f-b3d9a8d44197</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="9c624426-c501-4589-88fb-5603078b90a8"><c:FormattedName>Amit Sir Elec</c:FormattedName><c:GivenName>Amit Sir Elec</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="bb33dff9-24e9-4560-937b-46ea0b50597b"><c:Number>9925280364</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

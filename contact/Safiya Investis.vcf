@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="76e75336-7912-434c-a313-f4eaa8b62f66"><c:Value>f7d22c0f-5616-4f95-87b5-3248c51d43af</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="52bc1ed6-2f2a-4675-85c6-c11c86cadee1"><c:FormattedName>Safiya Investis</c:FormattedName><c:GivenName>Safiya Investis</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="50e7d4ba-a70f-4f9a-aee8-13224413d703"><c:Number>+917405549667</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

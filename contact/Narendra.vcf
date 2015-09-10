@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="49fe6661-3a1c-4def-a64c-da129cba9ada"><c:Value>031e38ff-5aac-489c-b089-3e33a04d9453</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6ccf24e4-11a3-4e2b-99b5-a3fcd767fd1d"><c:FormattedName>Narendra</c:FormattedName><c:GivenName>Narendra</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1aa82ba6-6143-47f1-9a15-356d75eed365"><c:Number>+919714173326</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

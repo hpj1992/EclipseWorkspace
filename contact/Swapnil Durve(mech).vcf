@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b5aa1238-962b-4e32-9160-eefde6ecafb5"><c:Value>f09d0061-441b-4e57-a0a3-677699f5326c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3bf713e2-5e68-4215-bb0f-218156631d39"><c:FormattedName>Swapnil Durve(mech)</c:FormattedName><c:GivenName>Swapnil Durve(mech)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="fc94508a-8f1a-4cc5-ae0b-4a34f014c341"><c:Number>9898787596</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

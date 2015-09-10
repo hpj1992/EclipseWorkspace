@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="65e23781-67db-4ff1-b653-51bb2d90704b"><c:Value>1f701ec3-f907-4328-8f98-4f513716fc1a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3265052f-8a06-4682-a936-2bb53f9216ef"><c:FormattedName>Hcl Suntosh</c:FormattedName><c:GivenName>Hcl Suntosh</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="695f1805-395e-436c-8247-8a23aec22811"><c:Number>+919824087496</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="dd415a35-7498-4c5c-b6e7-13546d08069a"><c:Value>c8c09da6-9c5e-4d52-8b2f-34dff7176122</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="1d1f5366-ee72-4433-ad20-53de9c8c0627"><c:FormattedName>Thomson Reuters Nicky Samtani</c:FormattedName><c:GivenName>Thomson Reuters Nicky Samtani</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ffb23773-ea6b-4cfb-965f-03106b262ef3"><c:Number>9974031599</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

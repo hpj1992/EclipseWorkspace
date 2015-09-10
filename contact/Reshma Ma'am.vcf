@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="053467af-a750-4787-9cbc-28537c316e5b"><c:Value>d9fb98f5-6f8f-4800-a022-fdd44450797d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="106aaae2-b4fe-4177-9a38-c11bbbefb601"><c:FormattedName>Reshma Ma'am</c:FormattedName><c:FamilyName>Reshma Ma'am</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ae0e1094-19f8-4d19-b604-019340d11df2"><c:Number>9904234650</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

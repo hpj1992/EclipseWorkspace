@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e6291b30-eed2-47bd-ab6f-5000d3f51306"><c:Value>1d2288c1-8856-4a8e-a72f-68d64d2b057f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="56611c4d-bb7c-4311-91ac-136096c701fa"><c:FormattedName>Guruji</c:FormattedName><c:GivenName>Guruji</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d3d42fa1-a0e9-40f1-b804-1fdf88d74bc7"><c:Number>9974587129</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

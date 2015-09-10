@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b5d4710c-84c9-4aa0-a65a-2277a32a915e"><c:Value>8c7ffc37-531f-46be-9435-a96fdc6ab63e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="dbfbe974-2fa4-440e-b40b-58c27feaf7fd"><c:FormattedName>Mansukh detroja</c:FormattedName><c:FamilyName>Mansukh detroja</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="2a887898-cf34-48ad-ac1a-e622bcaee907"><c:Number>9998216955</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

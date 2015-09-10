@@ -1,0 +1,14 @@
+/**
+ * New node file
+ */
+var mysql = require('./mysql');
+
+var user=exports.user=function(emailid)
+{
+	
+	var getFirstname="select firstname from users where email='"+emailid+"'";
+	console.log("Query is:"+getFirstname);
+	
+	mysql.fetchData(function(err,results);
+console.log(emailid);
+};

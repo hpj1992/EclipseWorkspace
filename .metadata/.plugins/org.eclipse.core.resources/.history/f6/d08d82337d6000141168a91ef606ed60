@@ -1,0 +1,8 @@
+
+public class Test {
+
+	
+	Component order=new Composite("Order");
+	
+	
+}

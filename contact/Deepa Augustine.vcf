@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5bd0ccfb-3f6c-4654-ae20-bb7eae6125da"><c:Value>01f7af67-3d9a-4f6f-89cf-075a009af8fd</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c09575e9-b50e-4e06-bbdf-9b78e7f8de2c"><c:FormattedName>Deepa Augustine</c:FormattedName><c:GivenName>Deepa</c:GivenName><c:FamilyName>Augustine</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="a9852016-6057-4b7f-915a-7f5fe3269617"><c:Number>+918128521724</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

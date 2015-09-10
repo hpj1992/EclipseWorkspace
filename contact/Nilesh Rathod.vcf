@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="56626db1-e692-48e8-81cb-050d8642b59e"><c:Value>91405656-c347-41c3-9145-abda8a44675f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="520f3406-8a5d-47e7-82b0-d8e4a949bd60"><c:FormattedName>Nilesh Rathod</c:FormattedName><c:GivenName>Nilesh Rathod</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ce15876b-f6aa-4c4e-85a1-fbb996f0ad46"><c:Number>8905210167</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

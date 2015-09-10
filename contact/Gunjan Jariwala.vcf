@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a16751b2-ea20-4a9a-aae0-2ab7c61d578f"><c:Value>aba5af77-8cc5-410d-9516-286f5dbb8db2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="30bda888-3ff9-44e8-bc2e-c88670d7af05"><c:FormattedName>Gunjan Jariwala</c:FormattedName><c:GivenName>Gunjan Jariwala</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d0441b82-ac7d-4290-a348-a94d255dc1d6"><c:Number>9016142282</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

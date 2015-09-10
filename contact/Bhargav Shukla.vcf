@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3a2bf648-a7d7-40d0-8367-d7d7715725a5"><c:Value>3d50f887-8ab2-4b71-aff9-5e290ccc874b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="948d43a7-0838-4c47-bdaf-04a41f735c4b"><c:FormattedName>Bhargav Shukla</c:FormattedName><c:GivenName>Bhargav Shukla</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="bc593b7f-5b0c-4023-a964-b24c403d2110"><c:Number>9327755535</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

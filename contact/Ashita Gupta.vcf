@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ae30eb2d-495a-4264-9652-2c938ab11e0a"><c:Value>8c275565-052a-45d2-a9ab-9737664df2fc</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="987350d7-d1d6-495d-ba9d-6eb9e128be5d"><c:FormattedName>Ashita Gupta</c:FormattedName><c:GivenName>Ashita</c:GivenName><c:FamilyName>Gupta</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1485c4e9-d3a3-4cd9-a44e-5f394fb45a2a"><c:Number>9537125326</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

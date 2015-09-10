@@ -1,0 +1,63 @@
+
+/**
+ * Module dependencies.
+ */
+
+var express = require('express')
+  , routes = require('./routes')
+  , user = require('./routes/user')
+  , http = require('http')
+  , path = require('path'),
+  person=require('./routes/person'),
+  product=require('./routes/product'),
+  index=require('./routes/index'),
+  home=require('./routes/home'),
+  subcategory=require('./routes/subcategory'),
+  signin=require('./routes/signin'),
+  signup = require('./routes/signup'),
+  header=require('./routes/header');
+  ;
+
+var app = express();
+var restify = require("restify");
+var category=require('./routes/category');
+// all environments
+app.set('port', process.env.PORT || 3003);
+app.set('views', __dirname + '/views');
+app.set('view engine', 'ejs');
+app.use(express.favicon());
+app.use(express.logger('dev'));
+app.use(express.bodyParser());
+app.use(express.methodOverride());
+app.use(app.router);
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(restify.bodyParser());
+app.use(restify.CORS());
+// development only
+if ('development' == app.get('env')) {
+  app.use(express.errorHandler());
+}
+
+app.get('/', routes.index);
+app.get('/users', user.list);
+app.get('/searchCategory',category.search);
+app.get('/listAllSubCategory',category.listAllSubCategory);
+app.get('/test',index.redirect);
+app.get('/deleteSubcategory',category.deleteSubcategory);
+app.post('/updateSubcategoryDetails',category.updateSubcategoryDetails);
+app.post('/addNewSubcategory',category.addNewSubcategory);
+app.get('/getAllPersonData',person.getAllPersonData);
+app.post('/updateUserStatus',person.updateUserStatus);
+app.get('/getAllProductsData',product.getAllProductsData);
+app.post('/updateProductStatus',product.updateProductStatus);
+app.get('/home',home.home);
+app.get('/subcategory',subcategory.subcategory);
+app.get('/SigninRedirect',signin.signinRedirect);
+app.post('/SignIn', signin.signin);
+app.get('/SignupRedirect',signup.signupRedirect);
+app.get('/SigninRedirect',signin.signinRedirect);
+app.post('/Signup',signup.signup);
+app.get('/header',header.headerRedirect);
+http.createServer(app).listen(app.get('port'), function(){
+  console.log('Express server listening on port ' + app.get('port'));
+});

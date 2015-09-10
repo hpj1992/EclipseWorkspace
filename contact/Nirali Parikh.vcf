@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d8c306b5-63e8-482f-a02e-e74d7af51d71"><c:Value>25c4ac2b-081e-4fc0-aa50-eec641d8cdbc</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="c71df8a4-a075-4b72-9897-1b20d8628d53"><c:FormattedName>Nirali Parikh</c:FormattedName><c:GivenName>Nirali Parikh</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="19f28666-5d98-4e8f-85ce-42bdcc9166ac"><c:Number>+919687325658</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

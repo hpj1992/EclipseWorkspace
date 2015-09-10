@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="dec16d13-4f56-41ba-82f8-d59c61f4c842"><c:Value>6a18d6f0-a256-4d08-8029-5c8941d31f16</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6e23cfac-ba8f-4111-86e4-cd723589e0f9"><c:FormattedName>Shobhit Dubey</c:FormattedName><c:GivenName>Shobhit Dubey</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d328ca0d-594c-482c-a87c-55760d06ebc7"><c:Number>+919558813422</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

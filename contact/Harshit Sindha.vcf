@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="7364101b-9bd9-4f31-b3a6-3e8d1f82e451"><c:Value>a6320318-0a05-4b24-a248-833d4e20e76e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="44195f42-1b74-4d22-be9f-09c3adac609a"><c:FormattedName>Harshit Sindha</c:FormattedName><c:GivenName>Harshit Sindha</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4fc39683-89f2-4839-80aa-e493b99af6b5"><c:Number>+918866373625</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

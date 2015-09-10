@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d0655390-aa82-49c0-bc97-f6115d2ec3ba"><c:Value>09f8bbeb-12b3-452e-89c6-25f2e0ac409e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3ae9459a-86ad-43b4-9c74-abb17656db95"><c:FormattedName>Gujcetexam.com</c:FormattedName><c:FamilyName>Gujcetexam.com</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="a58cc5aa-5617-4eea-8a19-d0448ee2be0b"><c:Number>9227218398</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

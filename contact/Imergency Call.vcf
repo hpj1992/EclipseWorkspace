@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="6e63806d-363b-4e53-8afc-7d37158ab936"><c:Value>22caf343-7fcc-4a0a-a7eb-cf1f761ef253</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="171f41e8-b534-4738-a38e-322a5b30e25a"><c:FormattedName>Imergency Call</c:FormattedName><c:GivenName>Imergency Call</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e062e3a3-fefc-4f57-9f87-4e7de5a354dc"><c:Number>112</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

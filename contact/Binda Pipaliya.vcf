@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e9e44640-2ca5-47f8-a3b5-eb16961a4328"><c:Value>c5be5034-f993-4b3a-94b0-3bd060612eea</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="599208cd-9059-4253-9cf8-127256ee6801"><c:FormattedName>Binda Pipaliya</c:FormattedName><c:GivenName>Binda Pipaliya</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f8f4a912-0849-4f81-af0e-67bd6b12b12c"><c:Number>+919662044781</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

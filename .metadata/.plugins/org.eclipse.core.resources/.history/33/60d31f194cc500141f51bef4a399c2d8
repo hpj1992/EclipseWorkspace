@@ -1,0 +1,47 @@
+package sorting;
+
+public class CaterPillar {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		int abc = 1000000001;
+		boolean[] leaves = new boolean[abc];
+		int[] caterpillers = new int[3];
+		caterpillers[0] = 2;
+		caterpillers[1] = 4;
+		caterpillers[2] = 5;
+		int count = 0;
+		int cCount = 0;
+		int i = caterpillers[cCount];
+		while (true) {
+			if (!leaves[i]) {
+				leaves[i] = true;
+				//System.out.println("inside  " + i);
+			}
+			i = i + caterpillers[cCount];
+
+			if (i > leaves.length - 1) {
+				cCount++;
+				if(cCount < caterpillers.length) {
+					//System.out.println("ccount count change " + cCount);
+					i = caterpillers[cCount];
+					//System.out.println("i change " + i);
+				}
+				else
+				{
+					break;
+				}
+			}
+		}
+		int cnt=0;
+		for(int k=1; k< leaves.length; k++) {
+			if(!leaves[k])
+				cnt++;
+		}
+		System.out.println("------> "+cnt);
+
+	}
+
+}

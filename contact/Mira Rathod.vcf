@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1c4a18e0-4610-484b-88a7-5ce9c6854ef1"><c:Value>bafece19-72cc-4508-8e8c-c52b46466c52</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0ce69920-1ba5-41f3-bffd-9c926af2a99a"><c:FormattedName>Mira Rathod</c:FormattedName><c:GivenName>Mira Rathod</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ea7bbfa5-819d-41b5-8027-0143ed8ea4b8"><c:Number>+918866321419</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="8c07d131-09d4-4336-8340-efe57945042d"><c:Value>4ca9b2d6-91c9-43ab-a011-e8be818cf81f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d569b526-33a5-4a26-bbe7-bda9eebc86df"><c:FormattedName>Ankur Eec</c:FormattedName><c:GivenName>Ankur Eec</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e65e1609-3e56-4eec-bcd8-439c6db5000b"><c:Number>9725004323</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

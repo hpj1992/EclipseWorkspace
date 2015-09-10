@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="cdcc3673-c256-4d9f-866a-2cf8bcb6d72c"><c:Value>61a4c8be-e3ce-420b-8644-e684abfb01ef</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="bf24bb6d-dfe5-44a9-9250-3acc7a98d0f4"><c:FormattedName>Shapathwala Sir</c:FormattedName><c:GivenName>Shapathwala Sir</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f89e12cd-8eb1-4194-8114-9380c5de8b1f"><c:Number>9427611862</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

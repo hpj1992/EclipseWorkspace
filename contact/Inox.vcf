@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1e89f9f9-3ea2-40f0-bb08-da55967eac74"><c:Value>46f6d54a-58fb-4fb8-a0c6-868895eeb40a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8f1404c0-4f77-4862-959e-15d57675c465"><c:FormattedName>Inox</c:FormattedName><c:GivenName>Inox</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="cb208868-8cf8-429b-bba3-0b175706f529"><c:Number>02652388888</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="2dcacf60-6779-433b-8503-013250ad6386"><c:Value>1ac85822-6329-46ae-b3ed-502b9d21c93d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="9187a9ff-01bd-4b96-bc52-d65ba8ef304f"><c:FormattedName>Cybage</c:FormattedName><c:GivenName>Cybage</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="decf446e-d15a-4573-8766-474cb953e531"><c:Number>02066041700</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

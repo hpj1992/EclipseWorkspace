@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="31895d28-97c9-4be4-beac-4b8bbef57572"><c:Value>8601689f-7513-4384-8bf5-74affc2dc4c9</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f1bb45e4-17ba-49a4-a7a7-7ef10577b937"><c:FormattedName>Mayank Joshi</c:FormattedName><c:GivenName>Mayank Joshi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="9256d829-b287-4645-bf8d-3008727dd090"><c:Number>9427720687</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e7d63621-fb96-4078-a12d-d266d06cd562"><c:Value>b0b156e7-8e73-4662-ac01-26e6430e7c29</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="1d1418a5-2bec-4752-a66b-f3dc5d10da95"><c:FormattedName>Manthan Shah</c:FormattedName><c:GivenName>Manthan Shah</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="71c15e65-aa18-45bc-b457-b3d52344c41c"><c:Number>+919879299939</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

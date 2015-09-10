@@ -1,0 +1,27 @@
+
+public class Cheese extends Decorator {
+	
+	
+	
+	
+	
+	 public Cheese(DeComponent c)
+	    {
+	       super(c);
+	       
+	    }
+
+	    
+	     public double getPrice()
+	    {
+	       ArrayList<String>burgers = BuildOrder.getCheese();
+	        double cost =0;
+	        if(burgers.size()!=0)
+	            {
+	                cost = burgers.size()-1;
+	            }
+	         cost+=super.getPrice();
+	        return addedBehavior( cost ) ;
+	    }
+
+}

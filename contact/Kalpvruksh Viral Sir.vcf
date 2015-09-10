@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ca7f99f6-ba83-4903-bcd6-30c1f8244dcb"><c:Value>bf9bcdad-728a-43b2-9ad0-f667893ae714</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0cd12228-23e6-415f-ba7b-10f537b212f0"><c:FormattedName>Kalpvruksh Viral Sir</c:FormattedName><c:GivenName>Kalpvruksh Viral Sir</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c5ab7ffc-a33e-4292-85a7-1d0d9724f59f"><c:Number>7383606563</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

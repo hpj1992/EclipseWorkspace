@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="2ca7db11-9938-4f05-b7db-f473e3b6abfc"><c:Value>03cc605a-9d97-46b1-aa65-0a81b061951c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="5ff9600e-17aa-44f0-94c1-402db0ea3421"><c:FormattedName>Karan Shah</c:FormattedName><c:GivenName>Karan Shah</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4a025b96-2537-4b47-9546-7a83f81a0136"><c:Number>+919924460436</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

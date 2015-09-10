@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="6ed4664d-9ffa-41bb-84c1-ba4465b08d4e"><c:Value>48f93a96-7f37-491d-b017-7279775f9c7f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="80d429ed-3258-44d2-81ae-612352913b60"><c:FormattedName>HR Prakash Infotech</c:FormattedName><c:GivenName>HR Prakash</c:GivenName><c:FamilyName>Infotech</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c1db82a5-74d1-4ffe-92a0-bfa5b2c11ab8"><c:Number>+919825064642</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,87 @@
+var register = require('./mysql');
+var fs = require('fs-extra');
+var date = require('date-utils');
+
+exports.viewCart=function(req,res){
+	
+	res.render('ejs_viewCart.ejs');
+	
+	};
+	
+exports.getCart=function (req,res)
+{
+	var session = req.session;
+	var session = req.session;
+	//session.products=['1','2','3','4'];
+	//session.quantity = ['20','30','40','50'];
+	//session.firstname =['Rutvik','Buyer2','Harshit','Ankit'];
+	var items=req.session.cart.items;
+	console.log('items');
+	console.log(items);
+	console.log(req.session.products);
+	var product='' ;
+	if(items!=null)
+	{
+	//= "'"+session.products[0]+"',";
+	for(var i=0;i<items.length;i++)
+		
+		{
+		if(i==(items.length-1))
+			{
+		product =  product + "'"+items[i].products+"'";
+			}
+		else
+			{
+			product = product + "'"+items[i].products+"',";
+			}
+		}
+	}
+	var query = 'Select product.productId,product.name AS productname ,product.description AS productdescription,product.image,product.addedby, product.price,person.firstName  AS seller from ebay.product inner join ebay.person on person.userId = product.addedBy where productId IN ('+product+');';
+	console.log(query);	
+	
+	register.fetchData(function(err,result)	{
+		
+		if(err)	{
+					console.log(err);
+				}
+		else{
+			
+			for(var i=0;i<result.length;i++)	{
+				
+				result[i].firstname=items[i].firstname;
+				result[i].quantity=items[i].quantity;
+				
+				}
+			//console.log(req.session.products);
+			console.log(result);
+				res.send(result);
+			}
+		
+			},query	);
+	
+};
+
+exports.removeFromCart=function(req,res){
+	var items=req.session.cart.items;
+	var session = req.session;
+	var productId = req.param('productId');
+	console.log(req.session.products);
+	console.log(productId);
+	
+    var index = null;
+    for (var i =0; i < items.length; i++) {
+    	
+        if (items[i].products == productId) {
+            index = i;
+            console.log(index);
+            break;
+        }
+    }
+    if (index !== null) {
+    	items.splice(index, 1);
+    	/*session.quantity.splice(index, 1);
+    	session.firstname.splice(index, 1);*/
+    }
+	console.log(req.session.products);
+	res.redirect('/ViewCart');
+	};

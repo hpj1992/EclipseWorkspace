@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e42793f2-0aa7-4318-9336-e14aa1d4010e"><c:Value>2c3f0e32-a985-4882-9eb5-ee3f1f2e314e</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="07b299c5-e2dc-4910-a5c1-eeec2b8a7b36"><c:FormattedName>Chintan Patel Investis</c:FormattedName><c:GivenName>Chintan Patel Investis</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="50ad9811-5be9-446a-a291-cd5e8f0007f9"><c:Number>+917600027363</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

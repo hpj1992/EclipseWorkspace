@@ -1,0 +1,71 @@
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+
+public class GumballMachineTest {
+	
+	GumballMachine gumballMachine;
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	@Before
+	public void setUp() throws Exception {
+		gumballMachine=new GumballMachine(5);
+	}
+
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	
+	@Test
+	public void Test1()
+	{
+		gumballMachine.insertQuarter();
+		gumballMachine.insertQuarter();
+		gumballMachine.turnCrank();
+		assertEquals("Proper coins are inserted.",true,gumballMachine.isGumballInSlot());
+		gumballMachine.takeGumballFromSlot();
+		
+	}
+	@Test
+	public void Test2()
+	{
+		
+		gumballMachine.insertQuarter();
+		gumballMachine.insertQuarter();
+		gumballMachine.insertDime();
+		gumballMachine.turnCrank();
+		assertEquals("Proper coins are inserted.",true,gumballMachine.isGumballInSlot());
+		gumballMachine.takeGumballFromSlot();
+	}
+	
+	@Test
+	public void Test3()
+	{
+		gumballMachine.insertQuarter();
+		gumballMachine.insertQuarter();
+		gumballMachine.insertDime();
+		gumballMachine.turnCrank();
+		gumballMachine.insertQuarter();
+		gumballMachine.insertQuarter();
+		gumballMachine.insertDime();
+		gumballMachine.turnCrank();
+		assertEquals("Proper coins are inserted.",true,gumballMachine.isGumballInSlot());
+		gumballMachine.takeGumballFromSlot();
+		assertEquals("Proper coins are inserted.",true,gumballMachine.isGumballInSlot());
+		gumballMachine.takeGumballFromSlot();
+	}
+
+}

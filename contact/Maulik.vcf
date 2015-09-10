@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c24611e6-037b-4fa5-bfb1-28707606dbb6"><c:Value>dda6f5a6-fe70-4163-bb26-7a707f0b561a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="86bcd843-ee6d-4e60-85c5-a193d04e8200"><c:FormattedName>Maulik</c:FormattedName><c:FamilyName>Maulik</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="dc007c16-399d-4f90-acb8-105e680c4433"><c:Number>9913713194</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

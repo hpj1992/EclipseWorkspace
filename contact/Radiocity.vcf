@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="332dbb48-caac-4048-a91a-931867d463eb"><c:Value>4184aa97-fcec-4b83-be50-59fd9d08ebae</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ae973fbb-52ab-441a-9ff2-6e04e334b01e"><c:FormattedName>Radiocity</c:FormattedName><c:FamilyName>Radiocity</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="86556b55-dc47-4855-af8a-ffd011451bf4"><c:Number>57007</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d4b5ff18-586d-40b8-a8c4-a43b3f308a70"><c:Value>9492baaf-b9d8-4b95-a050-def92fa84d67</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0722cdf0-3d09-4933-aacc-ff8090a905a4"><c:FormattedName>Salt River Khushi Mam</c:FormattedName><c:GivenName>Salt River Khushi Mam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="24d50e75-09f3-4cf4-b4a6-0d218603167f"><c:Number>9227777145</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

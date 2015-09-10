@@ -1,0 +1,41 @@
+package sorting;
+
+public class LinkedList {
+	
+	Node head;
+	
+	public LinkedList()
+	{
+		head=new Node();
+	}
+	
+	public void insertAtEnd(int data)
+	{
+		Node newNode=new Node(data,null);
+		
+		if(head.next==null)
+		{
+			
+		}
+	}
+
+}
+
+class Node
+{
+	
+	 int data;
+	 Node next;
+	
+	public Node()
+	{
+		data=0;
+		next=null;
+	}
+	
+	public Node(int data,Node link)
+	{
+		this.data=data;
+		next=link;
+	}
+}

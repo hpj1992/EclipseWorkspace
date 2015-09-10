@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="032a7c3f-8545-4281-bb02-e148835a2911"><c:Value>fe074cfc-099b-4747-86a1-0807538eded9</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ae556a10-bfe7-4810-8c4c-4fe7365d4fab"><c:FormattedName>Sayani</c:FormattedName><c:GivenName>Sayani</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="2c2eb6a0-1a41-4c56-900e-aa6bc0a77d6b"><c:Number>+919909640093</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

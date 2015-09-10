@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="aaa260fa-1567-4dd6-9750-73feae40b6dd"><c:Value>bd9a918f-8af5-4664-9616-8729c373b64c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ff752480-e5b5-4ebb-afa5-9d0c4a8c9340"><c:FormattedName>Infostretch Chinar Shah</c:FormattedName><c:GivenName>Infostretch Chinar</c:GivenName><c:FamilyName>Shah</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7c90b4f0-7ec6-4b14-a728-ef18645eb14c"><c:Number>+917698005753</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

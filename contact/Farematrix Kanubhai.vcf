@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c0f4d281-6acc-4a4f-9dc4-ba280a90c4d0"><c:Value>575e24b7-6d36-47f4-a7bd-9954e1edf038</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8085a1ec-8142-4bc6-a2bd-de23e367bd19"><c:FormattedName>Farematrix Kanubhai</c:FormattedName><c:GivenName>Farematrix Kanubhai</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1d9687ec-aca8-420a-b9cd-56fb78fe1c31"><c:Number>9998657694</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3dd12b6a-08b8-42f5-91c9-29c65911027e"><c:Value>683b4589-2e95-4756-acdf-e799dda4cea8</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="db649f75-2920-4f3f-a1c0-517e2164af93"><c:FormattedName>Rahul Gandhi</c:FormattedName><c:GivenName>Rahul Gandhi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="bb32bea8-30f0-4291-a958-2c8f964b62a2"><c:Number>+919662712551</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

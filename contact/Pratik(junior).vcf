@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="bc9bc31f-ff2d-4446-b05b-cea2c7e34a1d"><c:Value>8fe9838e-622f-4244-aba2-9d3a1362d165</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e8da814a-09e3-4db7-8105-07e6cfe8eb56"><c:FormattedName>Pratik(junior)</c:FormattedName><c:GivenName>Pratik(junior)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="741ee4d7-8193-48b1-9073-668da9aa10b0"><c:Number>+919033424307</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

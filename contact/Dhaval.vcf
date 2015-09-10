@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="54552551-17c5-4171-99c0-d3f7608917d0"><c:Value>3898a968-5906-4524-86e9-d941c713c630</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0187a791-a751-474b-aff9-189ecb48da34"><c:FormattedName>Dhaval</c:FormattedName><c:GivenName>Dhaval</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="963b8ec7-622e-4034-937f-c54ab40d5b1a"><c:Number>+917878897356</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

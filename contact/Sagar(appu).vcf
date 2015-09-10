@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c486ad00-efc1-47e6-81d1-292fb34f691c"><c:Value>f4ab6ad7-e3bb-4ee7-8bbb-37de00e058da</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="5edf508f-f872-49cb-be5b-90aaff098997"><c:FormattedName>Sagar(appu)</c:FormattedName><c:FamilyName>Sagar(appu)</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="df2264dd-5f3f-4185-ba7c-2593b7f2822c"><c:Number>9925921906</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

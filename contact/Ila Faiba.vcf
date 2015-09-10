@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="072b6dfa-44ad-4f18-8c2e-ac348fb08273"><c:Value>54402763-b165-4c8b-a76f-38c898ab37f4</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="85dce881-112e-4db8-a1fe-6979027c38cb"><c:FormattedName>Ila Faiba</c:FormattedName><c:GivenName>Ila Faiba</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="589e333e-4d60-41ba-961c-8b414b25a804"><c:Number>9687998425</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

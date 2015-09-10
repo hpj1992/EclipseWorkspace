@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a7f6ea57-a255-45f3-8f5b-478ad4af4a14"><c:Value>a7adbb04-9dc3-4189-adee-36c35a788cc3</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b520f9ba-e2e4-4487-8ea3-2c847b6e9c44"><c:FormattedName>Samsung Vishal Gupta</c:FormattedName><c:GivenName>Samsung</c:GivenName><c:FamilyName>Vishal Gupta</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="562e5b57-4bcd-4e46-b337-c68c17e3f3c8"><c:Number>01206711111</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,23 @@
+$(document).ready(function() {
+	$('#userName').blur(function(event) {
+		var name = $('#userName').val();
+		$.get('AjaxServlet', {
+			userName : name
+		}, function(responseText) {
+			$('#ajaxResponse').text(responseText);
+		});
+	});
+	
+	$('#add').click(function(event) {
+		var a = $('#a').val();
+		var b = $('#b').val();
+		var action="add";
+		$.get('CalculatorServlet', {
+			a:a,
+			b:b,
+			action:action
+		}, function(responseText) {
+			$('#result').text(responseText);
+		});
+	});
+});

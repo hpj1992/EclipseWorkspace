@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f08aa66c-25a5-4276-b67d-937c23ceadc2"><c:Value>ddbc1288-7262-427f-8945-ca5c86a963a0</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="522500c5-0e2f-4a6b-adbe-970d18fc61f9"><c:FormattedName>Concept Infoway</c:FormattedName><c:GivenName>Concept Infoway</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="246ab9f2-27c8-4e98-a4e5-fa5a97102454"><c:Number>9978931415</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

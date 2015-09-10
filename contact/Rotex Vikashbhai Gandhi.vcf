@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9e60ffd7-7c15-4a1c-be39-cbe524a7dd77"><c:Value>3dfe149a-0240-4bc8-9ddc-21be9d3c4351</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b07893be-5559-4108-b29c-579ba7ba3210"><c:FormattedName>Rotex Vikashbhai Gandhi</c:FormattedName><c:GivenName>Rotex Vikashbhai Gandhi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6ba06a64-44c2-452d-a247-7875f0fc715a"><c:Number>9824448222</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

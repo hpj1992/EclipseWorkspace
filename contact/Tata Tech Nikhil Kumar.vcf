@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ccdc5db6-7982-4b50-9a9b-3af84f4cb6ef"><c:Value>7cbe1d07-1859-40b7-adec-4a1abb2f31c5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2a472a57-7325-4084-b6ef-e72c4f88bbad"><c:FormattedName>Tata Tech Nikhil Kumar</c:FormattedName><c:GivenName>Tata Tech Nikhil Kumar</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="0e2ccfd9-f6c1-4830-8d6b-6f01e9da7284"><c:Number>09763724837</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

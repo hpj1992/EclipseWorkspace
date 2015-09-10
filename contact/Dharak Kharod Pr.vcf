@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="701f39c2-7ffc-44e5-b032-aacfec7342ec"><c:Value>6705dc8a-34f2-47e7-99bd-59e594e458c7</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="9e440b35-d9d4-4859-8622-14a4ad994b98"><c:FormattedName>Dharak Kharod Pr</c:FormattedName><c:GivenName>Dharak Kharod</c:GivenName><c:FamilyName>Pr</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="64d13308-88b9-456c-93e7-69c37777b4e8"><c:Number>9429928962</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d8216177-4b30-4f8d-af10-c0a37203f25f"><c:Value>91bf9a20-cb5f-4867-9cc8-03ac706af30d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e0f9e9f4-7df5-4054-9873-8c2b4c820369"><c:FormattedName>Capgemini</c:FormattedName><c:GivenName>Capgemini</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="084b60df-86de-4a42-baae-c91445921e38"><c:Number>08066567000</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

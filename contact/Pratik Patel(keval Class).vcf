@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3d2a7c47-c1da-45b6-8357-39bdb63c5f9b"><c:Value>446678d2-4fd3-417b-933a-cfbe185e0691</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="85a043c4-6371-44ea-b48b-23db9ae4bee0"><c:FormattedName>Pratik Patel(keval Class)</c:FormattedName><c:GivenName>Pratik Patel(keval Class)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8d43b85f-58a3-403e-be3a-22f966f195c5"><c:Number>9712323490</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d327622b-709c-4147-95c2-449522f22043"><c:Value>36db1b88-3e40-4cd7-8738-20bfb7d05e36</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a5c133f2-f15c-4c29-a917-19bb0e1797df"><c:FormattedName>Jignesh Jaiswal Sir Investis</c:FormattedName><c:GivenName>Jignesh Jaiswal Sir</c:GivenName><c:FamilyName>Investis</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="17db9068-930f-4702-93c2-9e417fd20777"><c:Number>+919998285844</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

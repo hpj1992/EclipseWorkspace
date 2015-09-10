@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e3c743fd-c447-4b82-9ed6-a620d7446bc4"><c:Value>0fff1173-a3bd-4ce2-b09a-caac9a762664</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="05420222-5f49-4975-84ef-67f09664fdef"><c:FormattedName>Akhil Mohan Metal</c:FormattedName><c:GivenName>Akhil Mohan Metal</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="c508c35f-3122-4f15-97b6-fd6b454a1609"><c:Number>8460675919</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

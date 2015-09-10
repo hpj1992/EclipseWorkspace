@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=gumballMachine
+comment0.target=NotEnoughAmountState(GumballMachine)
+comment1.params=
+comment1.target=void\ insertQuarter()
+comment2.params=
+comment2.target=void\ insertDime()
+comment3.params=
+comment3.target=void\ insertNickel()
+comment4.params=
+comment4.target=void\ turnCrank()
+comment5.params=
+comment5.target=void\ dispense()
+comment6.params=
+comment6.target=void\ ejectCoins()
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8

@@ -1,0 +1,30 @@
+package hackerrank;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+        Scanner s =new Scanner(System.in);
+        int totalCount = s.nextInt();
+        for(int i=0;i < totalCount ; i++)
+            {
+
+                int length = s.nextInt();
+                System.out.println(length);
+                List<Integer> list = new ArrayList<Integer>();
+                while (s.hasNextInt());
+                list.add((Integer)s.nextInt());
+            System.out.println("list"+list.size());
+               // Integer[] arr = list.toArray(new Integer[list.size()]);
+                for(int j=0;j < list.size() ; j++)
+                    {
+                        System.out.print(list.get(j));
+                }
+        }
+      
+    }
+}

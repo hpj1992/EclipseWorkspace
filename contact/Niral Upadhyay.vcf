@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5587f216-b28c-4c1e-a68e-c51ddcea73d5"><c:Value>ea403e60-2726-4ab8-acc8-4f3ac98fdaf7</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ac5ee403-e57a-499c-9e5a-b799ded3bb34"><c:FormattedName>Niral Upadhyay</c:FormattedName><c:GivenName>Niral Upadhyay</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4055f13e-e9e3-4247-a709-559db191168b"><c:Number>9998968119</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

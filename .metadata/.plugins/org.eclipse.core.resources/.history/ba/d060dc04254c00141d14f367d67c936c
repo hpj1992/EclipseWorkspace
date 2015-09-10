@@ -1,0 +1,144 @@
+var ejs = require("ejs");
+var mysql = require('./mysql');
+var dashboard=require('./dashboard');
+
+var express = require('express');
+
+var app = express();
+app.use(express.cookieParser());
+app.use(express.session({secret: '1234567890QWERTY'}));
+
+function signin(req,res) {
+
+	ejs.renderFile('./views/index.ejs',function(err, result) {
+	   // render on success
+	   if (!err) {
+		
+	            res.end(result);
+	          
+	   }
+	   // render or error
+	   else {
+	            res.end('An error occurred');
+	            console.log(err);
+	   }
+   });
+}
+
+
+function afterSignIn(req,res)
+{
+	// check user already exists
+	var getUser="select * from users where email='"+req.param("txtEmail")+"' and password='"+req.param("txtPassword")+"'";
+	console.log("Query is:"+getUser);
+	
+	mysql.fetchData(function(err,results){
+		if(err){
+			throw err;
+		}
+		else 
+		{
+			if(results.length > 0){
+				console.log("valid Login");
+				//dashboard.user(req.param("txtEmail"));
+				//req.session.userid=results["email"];
+				dashboard.user(req,res,req.param("txtEmail"),function(username)
+				{
+					//console.log('hi');
+					//console.log(username);
+				});
+				
+				
+			/*	ejs.renderFile('./views/successLogin.ejs',function(err, result) {
+			        // render on success
+			        if (!err) {
+			            res.end(result);
+			        }
+			        // render or error
+			        else {
+			            res.end('An error occurred');
+			            console.log(err);
+			        }
+			    });*/
+			}
+			else {    
+				
+				console.log("Invalid Login");
+				/*ejs.renderFile('./views/dashboard.ejs',function(err, result) {
+			        // render on success
+			        if (!err) {
+			            res.end(result);
+			        }
+			        // render or error
+			        else {
+			            res.end('An error occurred');
+			            console.log(err);
+			        }
+			    });*/
+			}
+		}  
+	},getUser);
+}
+
+function logout(req,res)
+{
+	console.log('hi');
+	res.render('index.ejs');
+};
+
+function signup(req,res)
+{
+	console.log(req.param("txtEmail")+req.param("txtFirstName")+req.param("txtLastName")+req.param("txtZipCode")+req.param("txtPassword"));
+	var addUser="select * from users where email='"+req.param("txtEmail")+"' and password='"+req.param("txtPassword")+"'";
+	console.log("Query is:"+getUser);
+	mysql.fetchData(function(err,results){
+		if(err){
+			throw err;
+		}
+		else 
+		{
+			if(results.length > 0){
+				console.log("valid Login");
+				//dashboard.user(req.param("txtEmail"));
+				//req.session.userid=results["email"];
+				dashboard.user(req,res,req.param("txtEmail"),function(username)
+				{
+					//console.log('hi');
+					//console.log(username);
+				});
+				
+				
+			/*	ejs.renderFile('./views/successLogin.ejs',function(err, result) {
+			        // render on success
+			        if (!err) {
+			            res.end(result);
+			        }
+			        // render or error
+			        else {
+			            res.end('An error occurred');
+			            console.log(err);
+			        }
+			    });*/
+			}
+			else {    
+				
+				console.log("Invalid Login");
+				/*ejs.renderFile('./views/dashboard.ejs',function(err, result) {
+			        // render on success
+			        if (!err) {
+			            res.end(result);
+			        }
+			        // render or error
+			        else {
+			            res.end('An error occurred');
+			            console.log(err);
+			        }
+			    });*/
+			}
+		}  
+	},addUser);
+}
+exports.signin=signin;
+exports.afterSignIn=afterSignIn;
+exports.logout=logout;
+exports.signup=signup;

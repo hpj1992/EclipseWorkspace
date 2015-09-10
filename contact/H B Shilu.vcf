@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fc2d17c0-13df-405c-8fcb-7de9f858ca31"><c:Value>d951fb3e-9c7a-4486-9dc4-59b6208b4d3a</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="58411b5e-5ade-401e-829a-e0e1862ae132"><c:FormattedName>H B Shilu</c:FormattedName><c:GivenName>H B Shilu</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="33703f13-fdec-4788-a957-b369415a8615"><c:Number>9428015916</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

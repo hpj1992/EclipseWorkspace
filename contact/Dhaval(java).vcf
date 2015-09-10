@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e49e35f9-b527-4dfb-84a4-69378fe58913"><c:Value>101ca103-887e-4f9d-a8eb-8435e81f4898</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="641a8767-35aa-4bb7-bd70-660dd780cb43"><c:FormattedName>Dhaval(java)</c:FormattedName><c:GivenName>Dhaval(java)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f6d2b631-ef70-4521-b472-4cbb8da58ed1"><c:Number>9427844522</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

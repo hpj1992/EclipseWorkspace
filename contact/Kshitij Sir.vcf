@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="6117d94c-5f97-48e4-88bc-2ecf0ae9fd33"><c:Value>869fbe8c-097f-46a8-876a-a9c8646dfa6b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="7eeb9f17-32df-46f9-b7ed-d868cacae4ca"><c:FormattedName>Kshitij Sir</c:FormattedName><c:GivenName>Kshitij Sir</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="348ae90b-cca0-416f-be9e-19a9ba4129df"><c:Number>9427331268</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

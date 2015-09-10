@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f0aa722f-72bb-4401-b45e-a76c781c6b1d"><c:Value>f92f2a20-7316-48f5-bc35-5cac7c8714b1</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="75bc2197-e05d-43bd-9f72-c5e17f1df200"><c:FormattedName>Magneto Jinesh Patel</c:FormattedName><c:GivenName>Magneto Jinesh Patel</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="b2b3d205-e21f-42b7-abf5-b580f40aa63c"><c:Number>+919714665650</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

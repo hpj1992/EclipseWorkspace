@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4a24c73b-f931-422f-a86d-9e3ef6f0e87e"><c:Value>3c1c6446-9e29-40e1-96d9-d2fe1ec57ffa</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8aa80592-77f9-4b20-8c4e-65bd3b8bc717"><c:FormattedName>Ajay Tapodhan</c:FormattedName><c:GivenName>Ajay Tapodhan</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="5bba2c91-aa1e-4d62-b5fe-7041b9ba5871"><c:Number>9662252388</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

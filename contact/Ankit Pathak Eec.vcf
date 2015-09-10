@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="67ac6015-0589-4b89-b1a4-2ee8a75a8138"><c:Value>e3e283f9-1b2f-4286-bebf-a5be924a4570</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ed17e4f0-77e9-4cb3-b885-51a9aa3a9d60"><c:FormattedName>Ankit Pathak Eec</c:FormattedName><c:GivenName>Ankit Pathak Eec</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="950d8279-46c1-4c43-8706-8db5a2cd238c"><c:Number>9726219236</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

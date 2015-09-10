@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="00f17813-d089-4eba-b4b5-14045205ab88"><c:Value>9efb7c35-15e5-43c3-b536-6acddfb8f4e9</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2f25e6aa-4ed7-4b9f-97c8-7ef0ab73dd93"><c:FormattedName>Dhruval Prajapati</c:FormattedName><c:GivenName>Dhruval Prajapati</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="2f0d79f4-7151-4401-b053-f22da1ed3804"><c:Number>8460530529</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

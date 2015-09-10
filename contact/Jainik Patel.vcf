@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e15080ee-ed9d-49c4-96d7-57bc066fa283"><c:Value>dd596729-7eb8-4239-abb0-24dc697a8fbd</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8caadd90-bb2d-464e-9071-b2f3d290c000"><c:FormattedName>Jainik Patel</c:FormattedName><c:GivenName>Jainik Patel</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="42e5fce3-a68a-4fcb-9de2-2c3944f2e1b3"><c:Number>+919558338313</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

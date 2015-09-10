@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d7b9a3a3-a51b-4037-a2e8-4da059b0003c"><c:Value>a2f2daa3-e445-4263-a0f0-ccbbdebb7340</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e426a3b8-8c10-46a1-89f8-fb858b382cfc"><c:FormattedName>Cmc Sonal Mam</c:FormattedName><c:GivenName>Cmc Sonal Mam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ae4634bb-e482-4254-a1d9-9178161d842e"><c:Number>07966090947</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

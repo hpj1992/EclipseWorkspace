@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fc36152e-8347-4996-91c7-11f4e0b387e2"><c:Value>84dc9bd3-6df2-4e2f-809a-d52c4166b1c8</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0b3ca902-107f-4a75-be4d-755a280534a6"><c:FormattedName>Rushin pandya</c:FormattedName><c:FamilyName>Rushin pandya</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="70e2c017-7a39-4512-935e-9d0356a29cc2"><c:Number>9429840709</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

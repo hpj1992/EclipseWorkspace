@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9bac4032-b286-438e-bd0d-75fa29b7a7ed"><c:Value>f24f5d10-dec2-446c-b278-af9259e4c96d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="76b6a06f-6164-4380-bed2-950c58cc45fa"><c:FormattedName>Resham</c:FormattedName><c:GivenName>Resham</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="b9073f56-f365-4976-952d-31542ef469a3"><c:Number>+919558808322</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

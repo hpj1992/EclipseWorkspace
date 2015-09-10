@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b25c594f-b67b-424b-b3dc-6a7bdbadb9b6"><c:Value>e7ae5919-2d03-4818-a225-121c64e838fa</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="f1bbb9a4-be2b-4c09-96c4-025a6cd3df12"><c:FormattedName>My Airtel</c:FormattedName><c:FamilyName>My Airtel</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6f3f779a-9f03-459e-b66e-ffbb1dac9761"><c:Number>*121#</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

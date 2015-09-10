@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b5bf1465-4020-4781-a1a3-8b8e31c8c350"><c:Value>e10e8d40-d83c-4744-9340-39af65328502</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="9b782e02-abdb-44c5-a60f-24933abb6994"><c:FormattedName>Ketan Goyani</c:FormattedName><c:GivenName>Ketan Goyani</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="df7bce56-c0a7-4f92-bbe6-e74c7edf12fd"><c:Number>+919510154474</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

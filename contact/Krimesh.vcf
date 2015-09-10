@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="6ae77b7a-a825-4566-9928-54b16cdbbb9d"><c:Value>94413894-27a3-4f16-8f80-6ffb52341779</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="892092b2-6c70-4d44-ae48-2653d663f9bd"><c:FormattedName>Krimesh</c:FormattedName><c:GivenName>Krimesh</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="de06070c-8979-46aa-b105-23f6bfb143c1"><c:Number>+919978010780</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

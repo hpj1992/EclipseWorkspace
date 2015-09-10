@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c10527c8-bee5-4e47-a826-c9a254b98f0b"><c:Value>c63e0e86-07c5-426c-985a-7788744fd4b3</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ea15f813-a32c-45fe-b5c6-935312974b3a"><c:FormattedName>Komal Shilu</c:FormattedName><c:GivenName>Komal Shilu</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ea2f14dd-af5f-4d62-ade5-883147381180"><c:Number>+919429568419</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

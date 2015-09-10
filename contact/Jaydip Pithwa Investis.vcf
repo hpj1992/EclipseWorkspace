@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="2271c592-995c-4b44-a4ff-39f52a4b54e7"><c:Value>73d76d4f-ab28-4ef1-96f0-58a8692218d2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8418015c-5847-4dcf-b977-35581a1a2306"><c:FormattedName>Jaydip Pithwa Investis</c:FormattedName><c:GivenName>Jaydip Pithwa Investis</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="2e421132-5c1e-4dd3-bcc8-c1f1dd3a5678"><c:Number>+919662549719</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

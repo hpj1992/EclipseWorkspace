@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1edca05e-6437-47b4-8cf6-717a568745c5"><c:Value>564642a0-586b-478f-8179-2b26a1f563c5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="12f26bf9-fad8-41d7-b54a-69373a6e4add"><c:FormattedName>Ajitesh Shukla Pr</c:FormattedName><c:GivenName>Ajitesh Shukla</c:GivenName><c:FamilyName>Pr</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="16032caa-eb7c-4f78-82b9-2f27ed97fcb1"><c:Number>9662433392</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="39bf77ad-e278-4eb7-8687-76f25e69340a"><c:Value>63be5684-752c-4874-96a8-f09cf35bc7d2</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6460e8e4-73db-4841-8fa9-9ed089e98091"><c:FormattedName>Arnav Upadhaya</c:FormattedName><c:GivenName>Arnav Upadhaya</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f7513989-2ae9-4985-88ce-96855d2c98d0"><c:Number>9979866295</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

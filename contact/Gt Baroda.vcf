@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="2a1075ae-ed46-4e1c-bda7-46e24382ca32"><c:Value>9aa09bfc-02bc-476d-9e00-6a3819ff3e03</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="4c827dbf-93c1-417a-a013-29195f0cf5c0"><c:FormattedName>Gt Baroda</c:FormattedName><c:GivenName>Gt Baroda</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="36277c53-268d-4a97-b257-99284f9af713"><c:Number>02652427489</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fc1628d5-c5c1-4e24-82cf-bf6914d8dc1a"><c:Value>cb00a889-2b9c-4714-8859-f2071a99ba57</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a41115b4-843a-413d-80cb-8c4a4d620e91"><c:FormattedName>Thakertech Jay Bhojwani</c:FormattedName><c:GivenName>Thakertech Jay Bhojwani</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e022f619-8711-4f71-9fb8-72ca2acfcfd3"><c:Number>+917965416777</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

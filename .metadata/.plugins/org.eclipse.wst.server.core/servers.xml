@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server auto-publish-time="1" hostname="localhost" id="JBoss AS 4.21415696841814" name="JBoss AS 4.2" org.jboss.ide.eclipse.as.core.server.EXPOSE_MANAGEMENT_SERVICE="true" org.jboss.ide.eclipse.as.core.server.IGNORE_LAUNCH_COMMANDS="false" org.jboss.ide.eclipse.as.core.server.attributes.shutdownPollerKey="org.jboss.ide.eclipse.as.core.runtime.server.WebPoller" org.jboss.ide.eclipse.as.core.server.attributes.startupPollerKey="org.jboss.ide.eclipse.as.core.runtime.server.WebPoller" org.jboss.ide.eclipse.as.core.server.deployDirectoryType="metadata" org.jboss.ide.eclipse.as.core.server.serverMode="local" org.jboss.ide.eclipse.as.core.server.userName="admin" runtime-id="JBoss 4.2 Runtime" server-type="org.jboss.ide.eclipse.as.42" server-type-id="org.jboss.ide.eclipse.as.42" start-timeout="450" stop-timeout="450" timestamp="1">
+    <list key="modules" value0="YelpServices::org.eclipse.jst.jee.server:YelpServices::jst.web::2.5" value1="YelpServicesClient::org.eclipse.jst.jee.server:YelpServicesClient::jst.web::2.5"/>
+  </server>
+  <server hostname="localhost" id="J2EE Preview at localhost" name="J2EE Preview at localhost" runtime-id="J2EE Preview" server-type="org.eclipse.jst.server.preview.server" server-type-id="org.eclipse.jst.server.preview.server" start-timeout="240" stop-timeout="240" timestamp="2">
+    <list key="modules" value0="pubnub::org.eclipse.jst.jee.server:pubnub::jst.web::2.5" value1="WebServiceExampleClient::org.eclipse.jst.jee.server:WebServiceExampleClient::jst.web::2.5"/>
+  </server>
+</servers>

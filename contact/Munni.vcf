@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d6f99525-b6c1-4d09-891e-c2545e5610bd"><c:Value>fe77817f-91e8-4aba-aaec-daa1e684621b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="641603d0-7b76-4421-8e41-1d524f830106"><c:FormattedName>Munni</c:FormattedName><c:GivenName>Munni</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="38db9016-1ab5-4396-bedf-d30aa75d198c"><c:Number>+919725201164</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

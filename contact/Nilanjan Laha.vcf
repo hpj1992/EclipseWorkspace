@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c3e6af9a-2058-476e-a46f-7385272b006e"><c:Value>997d2956-3026-4630-880e-458deea006e3</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="fb5eb383-d3c1-459e-b3b1-77c2dfd5bd24"><c:FormattedName>Nilanjan Laha</c:FormattedName><c:GivenName>Nilanjan Laha</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="953ce9ac-b20e-4ebe-9d85-9504ab09b35b"><c:Number>9426825702</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

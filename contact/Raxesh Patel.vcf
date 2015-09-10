@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="ffcb6dc0-4ad1-4dfe-a7bf-d1c58eda2c4e"><c:Value>320ee046-2a5d-4ba7-bc8c-c10fae8e5f84</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d517af89-fda7-4048-aded-28168c5b4fe7"><c:FormattedName>Raxesh Patel</c:FormattedName><c:GivenName>Raxesh Patel</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3154a84d-3c5b-4b11-b503-725e201b052a"><c:Number>9429313741</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

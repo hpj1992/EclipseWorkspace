@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="989a055c-14dd-4db8-b508-6e5eac775cfe"><c:Value>fef71ee5-f8e2-48ce-b00a-070489cec2bc</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="9f3cb21b-cdd4-4acc-9e56-4209e1d1eacd"><c:FormattedName>Eec Prexa Vyas</c:FormattedName><c:GivenName>Eec Prexa Vyas</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1bd1b649-941f-4074-8d97-f333b04f182f"><c:Number>9375974748</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="8899986e-8451-4883-a2f5-564cb952fe02"><c:Value>acaa5a2a-b088-4acd-822c-d5ca9960ba66</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="386f3187-cd0e-42a9-bf9c-0deb31b2268d"><c:FormattedName>Niit</c:FormattedName><c:GivenName>Niit</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="70551140-d26a-4f9f-9d0b-51d7ebda7505"><c:Number>+919825316675</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

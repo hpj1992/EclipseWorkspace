@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d1e563e3-7149-41e7-abfb-acf0ee184c69"><c:Value>2f972678-f3a0-46c9-a8cd-c9d75183fe95</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="996212af-535b-4e32-8b32-f20b1b3e36a5"><c:FormattedName>Chiranjit Educat</c:FormattedName><c:GivenName>Chiranjit Educat</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="96b8aea8-8992-4bb2-b805-e7ae588bf412"><c:Number>+919924754902</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

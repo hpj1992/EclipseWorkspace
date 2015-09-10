@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="fd149218-5cfd-422f-80db-7019b983b872"><c:Value>5cadd85c-c669-4b04-802a-073e00d981cc</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d6040daa-99e1-4d3b-884b-450a97ac3af1"><c:FormattedName>Chirag Mehta</c:FormattedName><c:GivenName>Chirag Mehta</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7f76e49d-cd31-4f31-be7c-1be571f0079c"><c:Number>+919998979024</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

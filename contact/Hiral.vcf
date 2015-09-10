@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="3302f0c5-4219-434f-b4ca-b2c4ae814203"><c:Value>7f236f3d-9603-4931-8cf7-a2503e733867</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="1638b714-3ab2-4593-bb80-d64088d6a3cd"><c:FormattedName>Hiral</c:FormattedName><c:GivenName>Hiral</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="41e69d45-9805-4e4f-bb22-1ca9918f94cb"><c:Number>9979870594</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

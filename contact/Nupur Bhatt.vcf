@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e942a1d9-e414-4822-8e9a-ad3ba13910eb"><c:Value>5c953cf4-163c-4e88-a5e9-7cabd9d2946f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="cd3774b6-2ac6-4d41-97c2-11115d9491fa"><c:FormattedName>Nupur Bhatt</c:FormattedName><c:GivenName>Nupur Bhatt</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="d7289a9f-b64e-43af-80ad-1d6e155959e1"><c:Number>+919662050639</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="bc48710d-66bb-4b30-a97e-237355362e6d"><c:Value>48c3fef7-ba0b-4b54-8c1c-701e073320c5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2159867a-b0fe-477c-a3fd-d1814fb08883"><c:FormattedName>Vcci Dilip Moholkar</c:FormattedName><c:GivenName>Vcci Dilip Moholkar</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="5c01f890-372a-42a4-80c4-8e02b0ab76c5"><c:Number>9825741731</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

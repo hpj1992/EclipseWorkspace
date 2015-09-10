@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d0311381-10ad-4aa9-a8f0-9bb6570e6b92"><c:Value>529d341e-5fb0-471a-8bcf-98a4c68a153f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="320e838b-9301-4176-8f5c-864966f03b80"><c:FormattedName>Manali Pr</c:FormattedName><c:GivenName>Manali Pr</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="64265d3a-31da-43e7-a39c-adfc6727992e"><c:Number>9033880315</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

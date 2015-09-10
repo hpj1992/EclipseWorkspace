@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="79b2ea42-fb9c-4fc3-aa8b-f4c5cd00e6d6"><c:Value>c367621b-4a4f-4d1f-980d-46cfedc1b2a5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0d41b316-279d-445d-8979-07b4908a8436"><c:FormattedName>Parth Shah Pr</c:FormattedName><c:GivenName>Parth Shah Pr</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="23b2c5cf-815f-436b-995e-33f2fe811314"><c:Number>9033534351</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

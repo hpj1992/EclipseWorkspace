@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="54872f0f-831f-4fe9-90b7-176e507ba90a"><c:Value>fe83bb00-33c5-4180-b271-026c7c7ab70f</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a770c4f2-4516-4d32-99e9-b8913cc922f2"><c:FormattedName>Parth panchal</c:FormattedName><c:GivenName>Parth panchal</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="74475fb0-d592-40f5-9a18-7d35bc676d50"><c:Number>09998975691</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

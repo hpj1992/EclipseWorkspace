@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="9e69a961-c175-4993-ae01-c7dff71e5e5f"><c:Value>891aa212-8f0b-4f1b-abc1-fc9f64ac4b02</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="54d81768-c3e7-4096-b39d-67352bf275f6"><c:FormattedName>Mehul Popat</c:FormattedName><c:GivenName>Mehul Popat</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="1787eac3-cdbb-459a-bac1-2d1b953b43c6"><c:Number>8905022911</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

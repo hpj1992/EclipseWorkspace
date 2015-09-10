@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b7c4a316-1f27-4685-b526-7adc728184db"><c:Value>65a715d4-62af-40d5-8d31-a70c393900ee</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="32563072-5a10-426c-a018-8d4da38ee83f"><c:FormattedName>Hardik Suthar</c:FormattedName><c:GivenName>Hardik Suthar</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="81a24934-6759-4b32-aedc-d46fa35cf4a6"><c:Number>+919979851672</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

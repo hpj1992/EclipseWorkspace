@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="54a70a51-e013-4043-802b-d3228820c308"><c:Value>944b5e59-2e3f-4e96-8b21-ae7a46e1a5a3</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ee37324b-ecd0-4a88-a74b-f778736fe3ef"><c:FormattedName>Kachins Tailor</c:FormattedName><c:GivenName>Kachins Tailor</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6bd2fb8b-1b9d-4ec0-a0ff-ab5d180f560e"><c:Number>9998954339</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

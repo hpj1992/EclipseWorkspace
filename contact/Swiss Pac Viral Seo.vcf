@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5132fbbb-d220-4e9d-8cc6-fd7a7bad7474"><c:Value>d1910fa7-ba4c-4f6c-8580-58e106d18535</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ddc12034-8e99-4b07-9214-a802ac9ee6de"><c:FormattedName>Swiss Pac Viral Seo</c:FormattedName><c:GivenName>Swiss Pac Viral Seo</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7dd744fd-873e-4297-9218-90550197fcea"><c:Number>9909414898</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

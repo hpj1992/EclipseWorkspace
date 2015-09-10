@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="b33ef432-cee1-43a9-9ff9-eb4ced2c78e3"><c:Value>16da2e1f-d41c-4d0d-a0fc-6ce2378d60e5</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3d763afc-1a9b-44a1-9338-032e8cd0aa51"><c:FormattedName>Rachna</c:FormattedName><c:GivenName>Rachna</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ef66e91b-1b24-4559-8833-10664e6ddf67"><c:Number>+919974347215</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="556c7440-f58d-414c-8be8-ec2e0545bb48"><c:Value>5c1984ba-66cb-4769-a692-a63e55d42843</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0c6e3191-854d-405e-acd7-f19138fdb471"><c:FormattedName>Mukeshkaka</c:FormattedName><c:GivenName>Mukeshkaka</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="05a9a40a-0da8-4eaa-ac1f-8713d03decfb"><c:Number>+919725004261</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

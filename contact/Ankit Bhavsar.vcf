@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4fa12e2b-ed6c-400d-8780-5e63042c9d02"><c:Value>1109b2e7-5f13-4634-815b-021784936bc0</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="50d949d4-fa6f-4bca-a77a-ac495fb80f92"><c:FormattedName>Ankit Bhavsar</c:FormattedName><c:GivenName>Ankit</c:GivenName><c:FamilyName>Bhavsar</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="35bf0768-166d-42be-b4dc-4340a1dc7ba3"><c:Number>9979867197</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="c102fcc7-d733-40a3-b6fa-8677199d2c4d"><c:Value>5e23cbbf-b624-4943-96fa-e16e99e29a9d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="94ea0425-0604-4d24-993b-48ad4a99e817"><c:FormattedName>Nalin Bhatt</c:FormattedName><c:GivenName>Nalin Bhatt</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3714f9cb-c225-4156-b7ce-fe94924fb827"><c:Number>9998001938</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

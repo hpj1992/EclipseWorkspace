@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="345c418d-d78a-4925-b816-6f51d21fe543"><c:Value>b59ba11e-215d-4893-bc63-5323d82a2b76</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="431582f0-8ace-498b-a01a-b342c16c0e80"><c:FormattedName>Rajesh</c:FormattedName><c:GivenName>Rajesh</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="32b99b3a-ea5e-4d6c-a408-9d41627b17e9"><c:Number>9898109869</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

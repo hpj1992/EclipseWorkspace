@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="29bbba67-cb32-40e1-809d-7c802ec8e8d7"><c:Value>e096e533-ae74-4b46-8dd0-3633e8680e73</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="5f002906-da77-4b02-bd2a-84a9c6d51355"><c:FormattedName>Ambika Farshan</c:FormattedName><c:GivenName>Ambika Farshan</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="4810a616-4611-4473-8b88-f3df83c56d7d"><c:Number>9428767052</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

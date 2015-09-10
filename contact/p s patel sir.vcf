@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e9b2c93c-c189-4bef-8ce2-f23f297c2dbd"><c:Value>21ed14ce-7923-4812-a48d-c71227050c40</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="3036c988-9ffe-44c3-98cc-6cb3bf44134f"><c:FormattedName>p s patel sir</c:FormattedName><c:FamilyName>p s patel sir</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3ff86f97-8d8b-498b-9247-a2cd70128d31"><c:Number>02652311902</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

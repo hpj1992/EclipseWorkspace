@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="f0252613-8588-4c62-8ca7-41764cb49628"><c:Value>23bdf435-5f01-4563-a775-04b111865d12</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="9edc2aff-a528-44b7-946c-74edcd79395f"><c:FormattedName>Parita (Comp)</c:FormattedName><c:GivenName>Parita (Comp)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="40a0f8f6-1c63-45c9-b45d-88fe3a69b57b"><c:Number>+918866885383</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

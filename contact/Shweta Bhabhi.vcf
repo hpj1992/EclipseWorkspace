@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="7f6e6458-6999-4149-b36a-280642df8e67"><c:Value>0817d572-b530-41a6-b262-93af6058d653</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="555b2f32-0e90-4156-82ef-6793cbba439a"><c:FormattedName>Shweta Bhabhi</c:FormattedName><c:GivenName>Shweta Bhabhi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="8fbe194a-af42-494e-bd4e-0fa34029b1c7"><c:Number>+919725201156</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

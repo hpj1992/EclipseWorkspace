@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="daaefa0c-b50d-4370-8cf6-d59aef4edbe5"><c:Value>3ee56246-7d3b-4458-9fbd-0ed4b07fd386</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="46053ddf-3c2a-4149-b820-c57575996d45"><c:FormattedName>Gaurav Jindal</c:FormattedName><c:GivenName>Gaurav Jindal</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="09e32b8f-1e95-4e02-829d-2fbd812c9533"><c:Number>+917405337835</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

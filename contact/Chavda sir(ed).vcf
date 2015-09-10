@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="61745e64-59dd-40c8-8335-c9d0cc064823"><c:Value>4f5b99de-b0bc-482f-a31a-249a46b46586</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ad12fec3-f803-43ac-a3ce-87eea17db6fc"><c:FormattedName>Chavda sir(ed)</c:FormattedName><c:FamilyName>Chavda sir(ed)</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="99ab8471-67d4-4798-a27f-722b74e3dd78"><c:Number>9825319168</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

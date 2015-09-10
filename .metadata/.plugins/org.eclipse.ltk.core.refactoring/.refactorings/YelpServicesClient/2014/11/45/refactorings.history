@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;YelpServicesClient/WebContent/styles/rating.css&apos; to &apos;rating2.css&apos;" description="Rename resource &apos;rating.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/styles/rating.css" name="rating2.css" stamp="1415353268001" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4e100363-f3ab-41a4-904c-cdcb7e9d96f4"><c:Value>f98ba829-2c05-40c6-b9cd-a35b77cf6ae1</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="83dbcc65-b4fe-4629-9c2a-3a07a70644b9"><c:FormattedName>Deversh Eec</c:FormattedName><c:GivenName>Deversh Eec</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="978fd065-d52e-41e3-97c2-7d1e54887402"><c:Number>9898518809</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

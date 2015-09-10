@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="09710cfa-9d2d-43d1-be0f-f4aa7d27feb8"><c:Value>d3dc3b76-50ed-4fdd-8091-9c845434d215</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="d8a95e99-06ee-49e6-b94c-1959bed07ec4"><c:FormattedName>Gt Dwarka</c:FormattedName><c:GivenName>Gt Dwarka</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="af247b31-537c-49bd-9cf3-c4dfb7c57ed7"><c:Number>02892234013</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

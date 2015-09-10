@@ -1,0 +1,52 @@
+
+var mysql=require('./mysql');
+var home=require('./home');
+
+
+exports.signinRedirect = function(req,res)
+{
+res.render('ejs_signin');	
+}
+exports.signin =function (req,res)
+{
+	var username = req.param('userid');
+	var password = req.param('password');
+	//var connection = mysql.createConnection('localhost://root:root@localhost/ebay');
+	//connection.connect();	
+	var queryString = 'SELECT email,firstname FROM person where email="'+username+'" and password="'+password+'"';	 
+	console.log(queryString);
+	mysql.fetchData(function(err, results) {
+	    if (err) 
+	    	{
+	    	
+	    	res.send('0');
+	    	res.render('ejs_signinerrorpage.ejs')
+	    	
+	    	}
+	    else
+	    	{
+	    	
+	    	if(results.length===0)
+	    	{
+	    		res.render('ejs_signinerrorpage.ejs')
+	    		
+	    	}
+	    		
+	    	else
+	    		{
+	    		req.session.loggedInUser=results[0].password;
+	    		console.log('session'+req.session.loggedInUser);
+	    		console.log(results[0].firstname+results[0].email);
+	    	//	req.params.firstname="harshit";
+	    		//req.params.email="hpj1992@gmail.com";
+	    		home.home(req,res);
+	    		//res.send(results);
+	    		}
+	    	}
+	  },queryString);
+
+	console.log(username);	
+
+};
+
+

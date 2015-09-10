@@ -1,0 +1,74 @@
+<html>
+  <head>
+    <title>Login</title>
+
+    <link rel='stylesheet' href='styles/tab.css'/>
+     <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/rating.css">
+    
+
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.6.2.min.js"></script>		
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+ 
+    //Default Action
+    $(".tab_content").hide(); //Hide all content
+    $("ul.tabs li:first").addClass("active").show(); //Activate first tab
+    $(".tab_content:first").show(); //Show first tab content
+     
+    //On Click Event
+    $("ul.tabs li").click(function() {
+        $("ul.tabs li").removeClass("active"); //Remove any "active" class
+        $(this).addClass("active"); //Add "active" class to selected tab
+        $(".tab_content").hide(); //Hide all tab content
+        var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+        $(activeTab).fadeIn(); //Fade in the active content
+        return false;
+    });
+ 
+});
+</script>     
+  </head>
+  <body>
+  
+  <form action="/afterSignIn" method="post" class="afterSignIn">
+
+		                      <input type="email" class="form-control" name="txtEmail" id="txtEmail" placeholder="Email Id">
+		               </br>
+	                      <input type="password" class="form-control" name="txtPassword" id="txtPassword" placeholder="Password">
+	                 </br>
+	                      <button type="submit" class="btn btn-primary">Sign in</button>
+	                
+              </form>
+                            </br>
+              </br>
+              <form action="/signup" method="post">
+              
+              Email: <input type="email" name="txtEmail" id="txtEmail" ></input>
+              </br>
+              FirstName: <input type="text" name="txtFirstName" id="txtFirstName" ></input>
+              </br>
+              LastName: <input type="text" name="txtLastName" id="txtLastName" ></input>
+              </br>
+              ZipCode: <input type="text" name="txtZipCode" id="txtZipCode" ></input>
+              </br>
+              Password: <input type="password" name="txtPassword" id="txtPassword" ></input>
+              </br>
+              Confirm Password: <input type="email" name="txtConfirmPassword" id="txtConfirmPassword" ></input>
+              </br>
+              </br>
+               <button type="submit" name="btnSignup" id="btnSignup">Sign Up</button>
+              </form>
+           
+      
+	
+ </form>	
+
+
+ </body>
+ 
+</html>

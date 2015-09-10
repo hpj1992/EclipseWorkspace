@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="0f5b9072-c0e2-4b83-bc27-93aa4c204875"><c:Value>06cbcc62-26f6-430e-ab37-b66eb7f09732</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="0ea6d328-48a8-4e40-aea9-5c66a19fd387"><c:FormattedName>Premakaka</c:FormattedName><c:FamilyName>Premakaka</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="a773237d-0c60-428d-97bb-e79cf87401fb"><c:Number>9427258316</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

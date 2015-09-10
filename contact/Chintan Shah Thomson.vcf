@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:48Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5cffefcc-eb44-48e3-b483-39cd8112106e"><c:Value>e9b79e35-7107-4de3-b8e1-c25b85739779</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="147031fc-3711-4fa9-b0cc-05bec4ee206a"><c:FormattedName>Chintan Shah Thomson</c:FormattedName><c:GivenName>Chintan Shah Thomson</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f5672b2d-35de-4002-99df-99269ed4c810"><c:Number>9426012399</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

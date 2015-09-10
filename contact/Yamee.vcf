@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="e171d487-50b2-4333-93da-9741fd176537"><c:Value>4e354b6a-b704-45b3-a8f7-40d5db22bdef</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e1b04e7a-5672-469b-bef6-36496fe3173c"><c:FormattedName>Yamee</c:FormattedName><c:GivenName>Yamee</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7afe8a67-4d6c-4afe-aa39-b57ecedd4378"><c:Number>9898488270</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

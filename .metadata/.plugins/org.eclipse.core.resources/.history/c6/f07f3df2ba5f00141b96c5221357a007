@@ -1,0 +1,10 @@
+package Source;
+
+public class Business {
+	
+	private String bizid;
+	private String businessname;
+	private String rating;
+	
+
+}

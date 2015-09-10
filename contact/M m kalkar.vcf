@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:40Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="47322ae8-eed2-4b5c-8956-8ead1834d156"><c:Value>6d836c71-8d20-4547-bfe6-f2805d485b47</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="25aa71e2-36be-4a0c-b609-6fe9b2f3f816"><c:FormattedName>M m kalkar</c:FormattedName><c:FamilyName>M m kalkar</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="370c82d7-1cc1-440a-85b6-7b020c99388c"><c:Number>9998005302</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

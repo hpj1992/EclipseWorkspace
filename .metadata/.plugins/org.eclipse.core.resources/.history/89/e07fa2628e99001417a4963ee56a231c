@@ -1,0 +1,16 @@
+package ctci;
+
+import java.util.LinkedList;
+
+public class sol3_7 {
+
+	public static void main(String[] args)
+	{
+		LinkedList<Node> animaals=new LinkedList<Node>();
+	}
+}
+
+class Node
+{
+	String type; // dog or cat
+}

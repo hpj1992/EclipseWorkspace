@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5863a1b7-f6d3-4889-99e5-8cef19d07836"><c:Value>4f20a135-8134-4312-a9a3-08e69bc29711</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="78aa255d-70eb-48bd-ad2d-a567c8b13c38"><c:FormattedName>Status Restaurant</c:FormattedName><c:GivenName>Status Restaurant</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="feae3db7-0889-4a9a-bac6-ca166caca895"><c:Number>9638388420</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

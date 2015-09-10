@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="243a5436-f32b-44f9-9e8b-b74e1421831a"><c:Value>89dec0a8-7e4f-41a1-b7bc-fed69858b003</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="cb8f3cb4-4abc-433a-a3de-a56ec240a4d2"><c:FormattedName>Chaitali Salunke</c:FormattedName><c:GivenName>Chaitali Salunke</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="11944c1c-7692-457a-b411-f53f04698940"><c:Number>+918460462880</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

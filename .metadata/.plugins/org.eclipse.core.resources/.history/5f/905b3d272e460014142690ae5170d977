@@ -1,0 +1,91 @@
+
+
+public class SoldState implements State {
+ 
+    GumballMachine gumballMachine;
+ 
+    public SoldState(GumballMachine gumballMachine) {
+        this.gumballMachine = gumballMachine;
+    }
+     
+    public void insertQuarter()
+    {
+    	System.out.println("You can not insert Quarter coin now ... Gumball release is in progress.");
+    }
+	public void insertDime()
+	{
+		System.out.println("You can not insert Dime now ... Gumball release is in progress.");
+	}
+	public void insertNickel()
+	{
+		System.out.println("You can not insert Nikel now ... Gumball release is in progress.");
+	}
+	public void turnCrank()
+	{
+		System.out.println("Crank already turned ...");
+	}
+	public void dispense()
+	{
+		System.out.println("Gumball dispensed. Please collect your "+ gumballMachine.totalGumballsInSlot	+" Gumball.");
+		
+		
+		
+		
+		if(gumballMachine.count>0)
+		{
+		//System.out.println("Gumball dispensed.Please collect your gumball");
+		 
+			if(gumballMachine.amount<50)
+			{
+			gumballMachine.setState(new NotEnoughAmountState(gumballMachine));
+			}
+		}
+		else
+		{
+			//Return money of one gumball if sold out.
+			if(gumballMachine.amount>50)
+			{
+			gumballMachine.amount+=gumballMachine.totalGumballsInSlot*50;
+			}
+			gumballMachine.setState(new SoldOutState(gumballMachine));
+		}
+		
+		System.out.println(" Collect Your Change : " + this.gumballMachine.amount");
+	}
+	public void ejectCoins()
+	{
+		System.out.println("You can not eject coin now ... Gumball release is in progress.");
+	}
+	
+	public String ToString()
+	{
+		return "Sold State";
+	}
+	/*public void insertQuarter() {
+		System.out.println("Please wait, we're already giving you a gumball");
+	}
+ 
+	public void ejectQuarter() {
+		System.out.println("Sorry, you already turned the crank");
+	}
+ 
+	public void turnCrank() {
+		System.out.println("Turning twice doesn't get you another gumball!");
+	}
+ 
+	public void dispense() {
+		gumballMachine.releaseBall();
+		if (gumballMachine.getCount() > 0) {
+			gumballMachine.setState(gumballMachine.getNoQuarterState());
+		} else {
+			System.out.println("Oops, out of gumballs!");
+			gumballMachine.setState(gumballMachine.getSoldOutState());
+		}
+	}
+ 
+	public String toString() {
+		return "dispensing a gumball";
+	}*/
+}
+
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:45Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4ea6a6ba-6743-47cb-968f-8035ad53082c"><c:Value>5870b7e0-1dbe-4a32-8365-a19ee9469ce8</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8d472a05-5eaa-4fad-b5d9-22e398b7d79d"><c:FormattedName>Krupali P</c:FormattedName><c:GivenName>Krupali P</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="485c590c-890e-4e72-b490-e0b4af3ac18b"><c:Number>9558998933</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

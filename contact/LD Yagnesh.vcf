@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="daf94f80-7208-451c-a630-3ef16ae898cf"><c:Value>20dfe741-42ad-4f21-b795-7a03dcdb2f17</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="6233a198-46fe-4678-92af-ba06b3c66fd1"><c:FormattedName>LD Yagnesh</c:FormattedName><c:GivenName>LD</c:GivenName><c:FamilyName>Yagnesh</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="2b182857-de2e-4de2-8f88-72e4cb830f9d"><c:Number>09558814764</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

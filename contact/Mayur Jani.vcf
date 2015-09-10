@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:46Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1e08ad04-54a6-4563-b2a8-c11ae5a8f759"><c:Value>8c2ac9c6-0783-44a6-9d75-e65f4c9c6b79</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="701d236e-f614-477b-97ee-e512c3736dac"><c:FormattedName>Mayur Jani</c:FormattedName><c:GivenName>Mayur Jani</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="69bbea4c-c81a-44bc-97f9-28c870ba3291"><c:Number>9033051151</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

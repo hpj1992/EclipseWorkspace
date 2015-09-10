@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="68cecb67-cac7-4802-92a6-ba7cc66898e2"><c:Value>194fb7e2-27b2-45ae-9eb5-c359bd8fe730</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="26cf6f11-d994-44fc-b2b1-a334f6b29061"><c:FormattedName>Neel Doshi</c:FormattedName><c:GivenName>Neel Doshi</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="0cd4de94-e396-4596-b2f9-52d89be174fb"><c:Number>+919601380859</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

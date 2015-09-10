@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a3d0019b-4fa7-4d3a-8c57-a8bab9eec633"><c:Value>51ec7eaf-e662-4503-a125-304e894b6680</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2405a489-09d4-41d6-92d8-82aab685e25c"><c:FormattedName>Smit Patel(iit)</c:FormattedName><c:GivenName>Smit Patel(iit)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="10e98645-54e7-4bd3-9497-f23a0d31dea1"><c:Number>+919757247040</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

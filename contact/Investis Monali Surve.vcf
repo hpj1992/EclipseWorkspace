@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1f7e6b59-b859-4f3c-9339-86b8368fe992"><c:Value>8c2b5e68-0db1-4be9-a304-548347bd2519</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="e1c931f5-1949-4de0-a0c5-1104e34712cd"><c:FormattedName>Investis Monali Surve</c:FormattedName><c:GivenName>Investis Monali Surve</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="a94dd5da-e20b-4a11-aea5-0da3c0f2bce9"><c:Number>+912652323729</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

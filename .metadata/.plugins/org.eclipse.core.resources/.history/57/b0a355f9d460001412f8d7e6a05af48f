@@ -1,0 +1,28 @@
+
+public class Burger implements Component2 {
+	
+	public double getCost()
+	{
+		return 0.0;
+		
+		if(Composite.strBurgerSize.equalsIgnoreCase("1/3lb"))
+        {
+            cost=9.50;
+        }
+        else if(Composite.strBurgerSize.equalsIgnoreCase("2/3lb"))
+            {
+                cost=11.50;
+            }
+        
+        else if(Composite.strBurgerSize.equalsIgnoreCase("1lb"))
+            {
+                cost=15.50;
+            }
+      if(burgers.get(2).equalsIgnoreCase("Bowl"))
+        {
+            cost+=1;
+        }
+        return cost;
+	}
+
+}

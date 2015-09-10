@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="7687fa30-8557-4dcb-a22d-d1a770bf0a8c"><c:Value>f4ab853d-9573-40c1-bf7f-5718f7904241</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="2f2ca6dc-d1a5-4a75-8fb5-c2a80eda0640"><c:FormattedName>Jital Akabari</c:FormattedName><c:GivenName>Jital Akabari</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="cec2cd0d-47cc-45bf-b965-6a4f257a0930"><c:Number>8460694398</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

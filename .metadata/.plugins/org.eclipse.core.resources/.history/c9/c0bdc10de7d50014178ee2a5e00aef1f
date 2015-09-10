@@ -1,0 +1,43 @@
+package sorting;
+
+import java.io.*;
+
+class Solution2 {
+public static void main(String args[] ) throws Exception {
+    /* Enter your code here. Print output to STDOUT. */
+    int[] arr={1,2,3,4,5,6,7};
+    int target=2;
+    
+    int value=sorted_search(arr,target);
+    System.out.println(value);
+    if(value!=-1)
+        System.out.println("CORRECT");
+    else
+        {
+        System.out.println(arr.length);
+        for(int i=0;i<arr.length;i++)
+            System.out.print(arr[i]+" ");
+        System.out.println();
+        System.out.println(target);
+    }
+    
+}
+    public static int sorted_search(int[] elements, int target)
+	{  if(elements == null || elements.length <= 0) return -1;
+	   int left = 0, right = elements.length - 1;
+	   while(left < right){
+		   int middle = (left + right + 1)/2;
+		   if(elements[middle] > target){
+			   right = middle - 1;
+		   }
+		   else {
+			   left = middle + 1;
+		   }
+	   }
+	   
+	   if(elements[right] == target) return right;
+	   return -1;
+	   
+	}
+  
+}

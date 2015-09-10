@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="5de969f1-e6f4-47f1-8a07-c52e22b735ba"><c:Value>95d098d5-d4bf-4c43-b35e-c287aa3813c9</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="a14a6a23-f78a-4ca2-9cd2-b5563498a103"><c:FormattedName>Web Quikrr Megha Mam</c:FormattedName><c:GivenName>Web Quikrr Megha Mam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="e58218c6-c681-49b3-a8e7-3f5de0d1ec1b"><c:Number>+919227880461</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

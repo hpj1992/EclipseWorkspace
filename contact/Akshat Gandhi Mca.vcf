@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:44Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="79e908d2-c652-45a8-9c2e-571c184ae978"><c:Value>b2de7014-58dd-4cb9-a681-336f37bade34</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="8231e282-26af-4873-846d-004d22787bd2"><c:FormattedName>Akshat Gandhi Mca</c:FormattedName><c:GivenName>Akshat</c:GivenName><c:FamilyName>Gandhi Mca</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7e1fb0ba-8b52-4109-ad34-69276f09313b"><c:Number>9725903732</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

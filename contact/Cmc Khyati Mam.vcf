@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:47Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="d76c5472-731d-4526-b53e-bffa1a88203e"><c:Value>216f0db5-7aa1-4e0d-ab3f-9b437f4d4d65</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="58751bd9-d663-4e93-b03e-1ce61371033f"><c:FormattedName>Cmc Khyati Mam</c:FormattedName><c:GivenName>Cmc Khyati Mam</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="78aa4af3-652b-4afb-ba4d-a726f3b0edc7"><c:Number>07966090911</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="47b2dc9d-10eb-49b0-91df-3c8b88bb4e0d"><c:Value>aeb915ce-f46a-4b19-aeff-bc85fa8a886c</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="46f3313c-cf12-40a8-bb61-0e2110f5c77f"><c:FormattedName>Sahil Iit</c:FormattedName><c:GivenName>Sahil Iit</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="f69cd4f4-f816-4889-aa51-83df65a57557"><c:Number>09769052590</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

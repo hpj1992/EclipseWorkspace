@@ -1,0 +1,44 @@
+package sorting;
+
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+
+public class insertion {
+
+	
+	
+	public static void main(String[] args)
+	{
+		int[] toSort={9,8,7,6,5,4,3,2,1,0,3,51,0,3,5,9,8,7,1,5,6,9,8,129,6,5,4,3,2,1,0,3,5,9,8,7,1,5,6,9,8,129};
+		System.out.println("before");
+		for(int i=0;i<toSort.length;i++)
+			System.out.print(toSort[i]+" ");
+		for(int i=0;i<toSort.length;i++)
+		{
+			int currentIndex=i;
+			int current=toSort[currentIndex];
+			for(int j=currentIndex;j>0;j--)
+			{
+				if(toSort[j]<toSort[j-1])
+				{
+					int k=j;
+					while(k>0)
+					{
+						
+						if(current<toSort[k-1])
+						{
+							//int swap=toSort[k];
+							toSort[k]=toSort[k-1];
+							toSort[k-1]=current;
+						
+						}
+						k--;
+					}
+				}
+			}
+		}
+		System.out.println("after"+toSort.toString());
+		for(int i=0;i<toSort.length;i++)
+			System.out.print(toSort[i]+" ");
+		
+	}
+}

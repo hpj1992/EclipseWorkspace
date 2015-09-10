@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="50c14850-7db4-4ee8-8412-fffb7165e0fb"><c:Value>175650fe-d45e-47e6-9d2b-4b6aece8690b</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="509d286f-e18d-42d6-ae25-7dc666694a2e"><c:FormattedName>Vandit Shah</c:FormattedName><c:GivenName>Vandit Shah</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="6ec096ce-671c-4055-9e6e-65b74c2de765"><c:Number>9727136484</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

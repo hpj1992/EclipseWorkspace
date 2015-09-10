@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:43Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="48cfa1fc-8173-4ed1-9017-8bb2d8601a6b"><c:Value>33e3ddf3-4695-4b9b-a314-6eaa399d2b64</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="86d2450f-8f61-4970-a289-b03e884b4b71"><c:FormattedName>Red Fm</c:FormattedName><c:GivenName>Red Fm</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="ea71a9d7-5fb1-410a-827e-04ff5e7c5d4e"><c:Number>02652358935</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

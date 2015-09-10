@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>JustLikeYelp</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/rating.css">
+   
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron" style="height:200px;margin-bottom: 5px;width: 1155px;">
+	  <div class="col-md-6">
+        <h1>JustLikeYelp.com</h1>      
+          </div>
+	  <div> 
+	   <div class="col-md-4">
+		<input type="text" class="form-control" id="usr" style="width:100%" placeholder="Search places">
+		</div>
+		 <div class="col-md-2">
+        <a href="#" class="btn btn-info btn-lg">Search</a>
+		</div>
+		
+      </div>
+	  <br/>
+	 
+	
+
+</div>
+
+
+
+      <div class="navbar navbar-default" role="navigation" style="margin-left:0px;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <p class="navbar-brand" href="#">Hello,<%=firstname%></p>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li ><a href="/dashboard">Dashboard</a></li>
+              <li><a href="/profile">Profile</a></li>
+       
+           
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+            
+              <% var strLastLogin=String(lastLogin);
+              var res=strLastLogin.substring(4,24);
+              console.log(res);
+              %>
+              <li><p class="navbar-brand">Last Login:<%=res%><p></li>
+              <li><a href="/logout">Logout</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!--/.container-fluid -->
+      </div>
+
+
+
+
+<br/>
+ <div class="row">
+  <div class="col-xs-6 col-sm-3">
+  <img src="business.jpg" alt="..." class="img-thumbnail">
+  </div>
+  <div class="col-xs-6 col-sm-3">
+  <h2><strong> <%=businessName%></strong></h2>
+  <h3>Average Ratings:<%=parseFloat(averageRating).toFixed(1)%></h3>
+  <h3>Zipcode:<%=areaZipcode%></h3>
+  <h3>Contact:<%=contact%></h3>
+  
+  </div>
+
+  <div class="clearfix visible-xs-block"></div>
+
+  <div class="col-xs-6 col-sm-3">
+  <h2>Your Reviews</h2>
+  <form action="/rating"  method="get">
+  <input type="text" name="bizid" value=<%=bizid%> style="display:none"></input>
+  <fieldset class="rating">
+    
+    <input type="radio" id="star5" name="rating" value="5"  /><label for="star5" title="Rocks!">5 stars</label>
+    <input type="radio" id="star4" name="rating" value="4"  /><label for="star4" title="Pretty good">4 stars</label>
+    <input type="radio" id="star3" name="rating" value="3"  /><label for="star3" title="Meh">3 stars</label>
+    <input type="radio" id="star2" name="rating" value="2"  /><label for="star2" title="Kinda bad">2 stars</label>
+    <input type="radio" id="star1" name="rating" value="1"  /><label for="star1" title="Sucks big time">1 star</label>
+</fieldset>
+  <input type="textbox" name="txtComment" id="txtComment"></input>
+  
+  <br/>
+  <br/>
+  <%
+  var btnValue;
+  if(star==0)
+  btnValue='Add'
+  else
+  btnValue='Update'
+  
+  %>
+  <input type="submit" name="btnPostComment" value=<%=btnValue%> ></input>
+  </form>
+  
+  
+  </div>
+  <div class="col-xs-6 col-sm-3">
+  <img src="map-icon.png" alt="..." class="img-thumbnail">
+  </div>
+</div>
+
+<h2> User Reviews:</h2>
+<%
+for(i=0;i<reviews.length;i++)
+{
+%>
+<div class="row">
+<div class="col-md-4">
+<h4><%=reviews[i].firstname%></h4>
+<h4>Rating:<strong><%=reviews[i].ratings%></strong> <img src="star.png" alt="..." class="img-thumbnail" style="width: 5%;padding: 0px;border: none;border-radius: 0px;"></h4>
+<h4 style="font-family: monospace;">Comment:" <%=reviews[i].comment%> "</h4>
+</div>
+</div>
+<% } %>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+     <script>
+var shirtColor = '<%=star%>';
+var comment='<%=comment%>';
+var textboxid='txtComment';
+document.getElementById(shirtColor).checked = true;
+document.getElementById(textboxid).value =comment;
+</script>
+  </body>
+</html>

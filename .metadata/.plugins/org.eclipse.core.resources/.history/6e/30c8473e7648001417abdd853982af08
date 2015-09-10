@@ -1,0 +1,11 @@
+/**
+ * New node file
+ */
+var mysql = require('./mysql');
+
+var user=exports.user=function(emailid)
+{
+	
+
+console.log(emailid);
+};

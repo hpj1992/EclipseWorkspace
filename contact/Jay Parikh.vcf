@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:42Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="8258e926-8050-46d7-90c8-2a2bd08347bd"><c:Value>5d00c566-5088-4b3d-9504-f896c7499325</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="b66f6cb3-928d-4482-b626-ae979712c875"><c:FormattedName>Jay Parikh</c:FormattedName><c:GivenName>Jay Parikh</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="125792d1-537f-4fc9-aaa4-4392fe8459aa"><c:Number>9879004772</c:Number><c:LabelCollection><c:Label>Cellular</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

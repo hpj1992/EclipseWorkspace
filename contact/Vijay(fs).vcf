@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:39Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="4ebc8f96-bc8a-4ae0-a923-4f32c9e6e676"><c:Value>a1040d7d-eff6-491a-88d9-74dd7c430b4d</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="54855e9a-1a1e-4a18-beb8-ed4a090fd3d4"><c:FormattedName>Vijay(fs)</c:FormattedName><c:GivenName>Vijay(fs)</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="0e270980-3084-4d49-ac94-70a3c867ab97"><c:Number>+919327933128</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

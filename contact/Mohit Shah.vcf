@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:49Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="1b1890af-3543-4e05-bdfe-f0932096711b"><c:Value>cfb8e50b-2c87-4214-b085-e182483be2bd</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="58091a01-38c7-40b6-8d48-f6f1793e6d65"><c:FormattedName>Mohit Shah</c:FormattedName><c:GivenName>Mohit Shah</c:GivenName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="7ae9cef3-8066-44d3-a5f7-8dc11576a673"><c:Number>+918128820551</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>

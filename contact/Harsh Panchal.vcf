@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c:contact c:Version="1" xmlns:c="http://schemas.microsoft.com/Contact" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<c:CreationDate>2014-01-06T17:12:41Z</c:CreationDate><c:Extended xsi:nil="true"/>
+	<c:ContactIDCollection><c:ContactID c:ElementID="a166040c-ef79-4077-8c0a-2f0663cb3aef"><c:Value>2a6662ff-bd58-4c50-899e-5d3f4bb64492</c:Value></c:ContactID></c:ContactIDCollection><c:NameCollection><c:Name c:ElementID="ce668eeb-234e-4ece-893a-a4871c20044f"><c:FormattedName>Harsh Panchal</c:FormattedName><c:GivenName>Harsh</c:GivenName><c:FamilyName>Panchal</c:FamilyName></c:Name></c:NameCollection><c:PhoneNumberCollection><c:PhoneNumber c:ElementID="3427664d-cfd5-466a-9d5c-fdf6347f4a55"><c:Number>9537509187</c:Number><c:LabelCollection><c:Label>Voice</c:Label><c:Label>Business</c:Label></c:LabelCollection></c:PhoneNumber></c:PhoneNumberCollection></c:contact>
