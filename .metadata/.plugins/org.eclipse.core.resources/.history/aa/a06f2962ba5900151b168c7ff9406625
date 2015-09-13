@@ -343,11 +343,10 @@ public class TreeNodeExamples {
 			if (node.getLeft() != null) {
 				node.setRight(node.getLeft());
 				node.setLeft(null);
+				node = node.left;
 			} else if (!stack.isEmpty()) {
 				node.setRight(stack.pop());
 			}
-			
-			node = node.right;
 		}
 		return root;
 	}

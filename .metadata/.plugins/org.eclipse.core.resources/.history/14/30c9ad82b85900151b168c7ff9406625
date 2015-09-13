@@ -346,8 +346,6 @@ public class TreeNodeExamples {
 			} else if (!stack.isEmpty()) {
 				node.setRight(stack.pop());
 			}
-			
-			node = node.right;
 		}
 		return root;
 	}
