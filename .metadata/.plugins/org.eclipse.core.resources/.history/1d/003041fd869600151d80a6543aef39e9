@@ -1,0 +1,45 @@
+package com.cmpe283.project;
+
+public class VM {
+
+	public String name;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getIp() {
+		return ip;
+	}
+	public void setIp(String ip) {
+		this.ip = ip;
+	}
+	public String getHost() {
+		return host;
+	}
+	public void setHost(String host) {
+		this.host = host;
+	}
+	public double getCpu() {
+		return cpu;
+	}
+	public void setCpu(double cpu) {
+		cpu = cpu/100;
+		this.cpu[0] = cpu;
+		this.cpu[1] = 100-cpu;
+	}
+	public double getMemory() {
+		return memory;
+	}
+	public void setMemory(double memory) {
+		memory = memory/100;
+		
+		this.memory[0] = memory;
+		this.memory[1] = 100 - memory;
+	}
+	public String ip;
+	public String host;
+	public double[] cpu;
+	public double[] memory;
+}

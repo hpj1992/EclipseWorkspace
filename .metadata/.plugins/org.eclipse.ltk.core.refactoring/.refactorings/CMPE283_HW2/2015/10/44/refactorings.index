@@ -1,0 +1,19 @@
+1445872023114	Rename local variable 'path'
+1445927033618	Rename local variable 'mes'
+1445927491745	Rename method 'GetVMDetails'
+1445927684593	Rename method 'selectDestination'
+1445927698726	Rename local variable 'mes'
+1445927715896	Rename local variable 'managedEntities'
+1445927753405	Rename local variable 'mes'
+1445927766676	Rename local variable 'managedEntityHosts'
+1445928258455	Rename local variable 'destination'
+1445932446448	Rename local variable 'managedEntities'
+1445967836964	Copy files
+1445967884522	Copy compilation unit
+1445967917483	Delete element
+1445979021226	Rename local variable 'mes'
+1445982653464	Rename local variable 'revcounter'
+1445985377577	Rename local variable 'revcounterer'
+1446010129590	Rename package 'com.cmpe283.HW2'
+1446010149598	Copy compilation units
+1446013865934	Rename type 'Operations'

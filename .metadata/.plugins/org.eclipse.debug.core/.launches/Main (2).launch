@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CMPE283_HW2/src/com/cmpe283/HW2/Normal/Main.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.cmpe283.HW2.Normal.Main"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="130.65.159.14 cmpe283_sec5_student@vsphere.local cmpe283-agc3"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CMPE283_HW2"/>
+</launchConfiguration>

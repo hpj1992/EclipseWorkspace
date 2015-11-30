@@ -1,0 +1,230 @@
+package com.cmpe283.HW2.Normal;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.rmi.RemoteException;
+
+import com.vmware.vim25.InvalidProperty;
+
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.TaskInfoState;
+import com.vmware.vim25.VirtualMachineCloneSpec;
+import com.vmware.vim25.VirtualMachineMovePriority;
+import com.vmware.vim25.VirtualMachineRelocateSpec;
+import com.vmware.vim25.mo.Datacenter;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.Task;
+import com.vmware.vim25.mo.VirtualMachine;
+
+public class Operations {
+
+	public void performVMOperations(ESXI esxi, String vmName) throws InvalidProperty, RuntimeFault, RemoteException, MalformedURLException, InterruptedException
+	{
+
+		String url = "https://"+esxi.getIp()+"/sdk";
+		ServiceInstance si = new ServiceInstance(new URL(url), esxi.getUser(), esxi.getPassword(), true );
+		Folder rootFolder = si.getRootFolder();
+		System.out.println("args[3]: "+vmName);
+		ManagedEntity[] managedEntitiesDataCenters = new InventoryNavigator(rootFolder).searchManagedEntities("Datacenter");
+		String[] paths = vmName.split("/");
+		int pathLength = paths.length;
+		int counter =0;
+		getHostDetails(rootFolder);
+		printVMDetails(si,rootFolder,vmName);
+	
+	}
+	private void createSnapshot(VirtualMachine vm)
+	{
+
+		try 
+		{
+			System.out.println("Take Snapshot of VM :"+ vm.getName());
+			Task t = vm.createSnapshot_Task("Snapshot Of "+vm.getName(), vm.getName()+"Snapshot", false, true);
+			System.out.println("Task Result: "+ t.waitForTask());
+		} 
+		catch (Exception e) {
+			
+			System.out.println(e);
+		} 
+		
+	}
+	
+	private void clone(VirtualMachine vm)
+	{
+		  VirtualMachineCloneSpec spec = new VirtualMachineCloneSpec();
+          VirtualMachineRelocateSpec vmrs = new VirtualMachineRelocateSpec();
+          
+          spec.setPowerOn(false);
+          spec.setTemplate(false);
+          spec.setLocation(vmrs);
+
+          try {
+        	  System.out.println("Clone VM: "+vm.getName());
+                Folder parent = (Folder) vm.getParent();
+                Task task = vm.cloneVM_Task(parent, vm.getName()+" - Cloned Machine", spec);
+            	System.out.println("Task Result: "+task.waitForTask());
+				if(task.getTaskInfo().getState()==TaskInfoState.error)
+				{
+					System.out.println("Error Local Message:"+task.getTaskInfo().getError().getLocalizedMessage());
+				}
+          } catch (Exception e)
+          {
+                System.out.println( e);
+          }
+	}
+	
+	private void showTask(VirtualMachine vm) throws InvalidProperty, RuntimeFault, RemoteException
+	{
+		System.out.println();
+		System.out.println("Tasks Information:");
+		System.out.println("VM Name: " + vm.getName());
+		Task[] tasks = vm.getRecentTasks();
+		for(int i=0;i<tasks.length;i++)
+		{
+			Task t = tasks[i];
+			System.out.println("Task["+i+"]");
+			System.out.println("Task Operation:  " + t.getTaskInfo().getName());
+			System.out.println("Task Result:  " + t.getTaskInfo().getState());
+			System.out.println("Target:  " + t.getTaskInfo().getEntityName());
+			System.out.println("Start Time: "+t.getTaskInfo().getStartTime().getTime());
+			System.out.println("End Time:  " + t.getTaskInfo().getCompleteTime().getTime());
+			if(t.getTaskInfo().getState()==TaskInfoState.error)
+			{	
+				System.out.println("Localized Error Message: " + t.getTaskInfo().getError().localizedMessage);
+			}
+			System.out.println();
+		}
+	}
+	
+	private void migrate(ServiceInstance si, Folder rootFolder,VirtualMachine vm) throws InvalidProperty, RuntimeFault, RemoteException, InterruptedException
+	{
+		//get hosts
+		boolean machineMigrated = false;
+		ManagedEntity[] managedEntitiesHosts = new InventoryNavigator(rootFolder).searchManagedEntities("HostSystem");
+		if(managedEntitiesHosts.length<=1)
+		{
+				System.out.println("Migration Skipped. Only one host is present.");
+				return;
+		}
+			// hosts>1
+			HostSystem destinationHost =null;
+			for(int i =0; i<managedEntitiesHosts.length;i++)
+			{
+				HostSystem ds = (HostSystem)managedEntitiesHosts[i];
+				VirtualMachine[] vms = ds.getVms();
+				for(VirtualMachine tempVm: vms)
+				{
+					if(tempVm.getName().equals(vm.getName()))
+					{
+						System.out.println("Before Migration IP: "+ ds.getName());
+
+						//Select host other than the current host
+						destinationHost = selectOtherHost(si,rootFolder,vm,ds);
+						System.out.println("After Migration IP: " + destinationHost.getName());
+						
+						Task task = vm.migrateVM_Task(null, destinationHost,VirtualMachineMovePriority.highPriority, 
+							       vm.getRuntime().getPowerState());
+						System.out.println("Task Result: "+task.waitForTask());
+						if(task.getTaskInfo().getState()==TaskInfoState.error)
+						{
+							System.out.println("Error Localized Message:"+task.getTaskInfo().getError().getLocalizedMessage());
+						}
+						return;		       
+								 
+					}
+				}
+				if(machineMigrated)
+				{
+					return;
+				}
+				
+			}
+		
+		
+	
+	}
+
+	public void getHostDetails(Folder rootFolder) throws InvalidProperty, RuntimeFault, RemoteException
+	{
+		int cnt = 0;
+			
+			ManagedEntity[] mes = new InventoryNavigator(rootFolder).searchManagedEntities("HostSystem");
+			
+			for(ManagedEntity temp: mes)
+			{
+				HostSystem ds = (HostSystem)temp;
+			
+						System.out.println();
+						System.out.println("Host Information:");
+						System.out.println("Host Name: "+ds.getName());
+						System.out.println("Product Full Name: " + ds.getConfig().getProduct().getFullName());
+						cnt++;
+			
+			
+			}
+		
+		
+	}
+
+	public void printVMDetails(ServiceInstance si, Folder rootFolder,String vmName) throws InvalidProperty, RuntimeFault,RemoteException, InterruptedException {
+		
+		boolean vmFound = false;
+		ManagedEntity[] managedEntitiesVM = new InventoryNavigator(rootFolder).searchManagedEntities("VirtualMachine");
+		ManagedEntity[] managedEntitiesHost = new InventoryNavigator(rootFolder).searchManagedEntities("HostSystem");
+		for (int i = 0; i < managedEntitiesVM.length; i++) {
+
+			VirtualMachine vm = (VirtualMachine) managedEntitiesVM[i];
+			if (vm.getName().equalsIgnoreCase(vmName)) {
+				System.out.println();
+				System.out.println("Virtual Machine Information:");
+				System.out.println("Virtual Machine Name:  " + vm.getName());
+				System.out.println("VM Guest OS Full Name: "+ vm.getConfig().getGuestFullName());
+				System.out.println("VM Guest State: "+ vm.getGuest().getGuestState());
+				System.out.println("VM Power State:"+ vm.getRuntime().getPowerState());
+				System.out.println("ESXi Host: "+ vm.getSummary().getRuntime().getHost().get_value());
+				System.out.println();
+				vmFound = true;
+				
+				createSnapshot(vm);
+				clone(vm);
+				System.out.println("count"+managedEntitiesHost.length);
+				if (managedEntitiesHost.length > 1) {
+					migrate(si, rootFolder, vm);
+				} else {
+					System.out.println("Migration Skipped. Only one host is present.");
+				}
+				showTask(vm);
+				break;
+			}
+
+		}
+
+		if (!vmFound) {
+			System.out.println("Virtual Machine with the name: " + vmName
+					+ " not found");
+		}
+	}
+	
+	private HostSystem selectOtherHost(ServiceInstance si,Folder rootFolder, VirtualMachine vm, HostSystem ds) throws InvalidProperty, RuntimeFault, RemoteException 
+	{
+		ManagedEntity[] managedEntitiesHost = new InventoryNavigator(rootFolder).searchManagedEntities("HostSystem");
+		for(int i =0; i<managedEntitiesHost.length;)
+		{
+			HostSystem host = (HostSystem)managedEntitiesHost[i];
+			if(host.getName().equals(ds.getName()))
+			{
+				i++;
+			}
+			else
+			{
+				return host;
+			}		
+		}
+		return null;
+	}
+	
+}

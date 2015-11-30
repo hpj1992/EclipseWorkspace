@@ -1,0 +1,17 @@
+package com.cmpe283.HW2;
+
+public class NavigateTree {
+
+	public static void main(String[] args)
+	{
+		String ip = args[0];
+		String user = args[1];
+		String password = args[2];
+		String path = args[3];
+	}
+	
+	public static void navigateInventoryTree()
+	{
+		
+	}
+}

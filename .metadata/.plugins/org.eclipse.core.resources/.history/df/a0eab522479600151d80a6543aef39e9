@@ -1,0 +1,33 @@
+package com.cmpe283.project;
+
+import java.io.IOException;
+
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		if( args.length == 3 )
+		{
+			String ip = args[0];
+			String user = args[1];
+			String password = args[2];
+			String vmName = "Testing VM";
+			ESXI esxi = new ESXI(ip, user, password);
+			Operations ops = new Operations();
+			Performance performance = new Performance();
+			try {
+				//ops.createVMForHadoop(esxi, 1,"Classroom","Testing VM");
+				performance.printPerformanceCounters(esxi);
+				performance.getStatistics(esxi, "130.65.159.10");
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		else
+		{
+			System.out.println("Please provide required parameters. IP - USER - PASSWORD - Path.");
+		}
+	}
+}

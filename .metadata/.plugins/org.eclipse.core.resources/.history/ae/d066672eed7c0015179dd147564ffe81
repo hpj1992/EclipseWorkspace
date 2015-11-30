@@ -1,0 +1,39 @@
+package com.cmpe283.HW2;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.rmi.RemoteException;
+
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.ServiceInstance;
+
+public class NavigateTree {
+
+	//Extra-Credit
+	public static void main(String[] args)
+	{
+		if( args.length == 4 )
+		{
+			String ip = args[0];
+			String user = args[1];
+			String password = args[2];
+			String path = args[3];s
+			try {
+				navigateInventoryTree(ip, user, password, path);
+			} catch (RemoteException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public static void navigateInventoryTree(String ip, String user, String password, String path) throws RemoteException, MalformedURLException
+	{
+		String url = "https://"+ip+"/sdk";
+		ServiceInstance si = new ServiceInstance(new URL(url), user, password, true );
+		Folder rootFolder = si.getRootFolder();
+	}
+}

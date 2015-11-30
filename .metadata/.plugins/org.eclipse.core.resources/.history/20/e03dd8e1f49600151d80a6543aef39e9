@@ -1,0 +1,344 @@
+package com.cmpe283.project;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.rmi.RemoteException;
+import java.security.InvalidParameterException;
+
+import com.vmware.vim25.CustomizationFault;
+import com.vmware.vim25.CustomizationSpec;
+import com.vmware.vim25.CustomizationSpecItem;
+import com.vmware.vim25.FileFault;
+import com.vmware.vim25.HostSystemConnectionState;
+import com.vmware.vim25.InsufficientResourcesFault;
+import com.vmware.vim25.InvalidDatastore;
+import com.vmware.vim25.InvalidProperty;
+import com.vmware.vim25.InvalidState;
+import com.vmware.vim25.MethodFault;
+import com.vmware.vim25.MigrationFault;
+import com.vmware.vim25.RuntimeFault;
+import com.vmware.vim25.TaskInProgress;
+import com.vmware.vim25.VirtualMachineBootOptions;
+import com.vmware.vim25.VirtualMachineBootOptionsBootableCdromDevice;
+import com.vmware.vim25.VirtualMachineBootOptionsBootableDevice;
+import com.vmware.vim25.VirtualMachineBootOptionsBootableDiskDevice;
+import com.vmware.vim25.VirtualMachineBootOptionsBootableEthernetDevice;
+import com.vmware.vim25.VirtualMachineBootOptionsBootableFloppyDevice;
+import com.vmware.vim25.VirtualMachineCloneSpec;
+import com.vmware.vim25.VirtualMachineConfigSpec;
+import com.vmware.vim25.VirtualMachineRelocateSpec;
+import com.vmware.vim25.VmConfigFault;
+import com.vmware.vim25.mo.ComputeResource;
+import com.vmware.vim25.mo.Datastore;
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.HostSystem;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ManagedObject;
+import com.vmware.vim25.mo.ResourcePool;
+import com.vmware.vim25.mo.ServiceInstance;
+import com.vmware.vim25.mo.VirtualMachine;
+
+public class Operations {
+
+	final static int INDEX_SCSICONTROLLER = 1;
+	final static int INDEX_DISK = 2;
+	final static int INDEX_NET = 3;
+	final static int INDEX_ISO = 4;
+	final static int INDEX_FLOPPY = 5;
+	
+	String resourcePool;
+	String template;
+	String datastore;	
+	String datastoreType = "sanfs"; // netfs
+	String vm;	
+	boolean wait = false;	
+	boolean powerOn = false; 
+	int cpu = 1;
+	long memory = 1024; // in MB
+	// http://vijava.sourceforge.net/vSphereAPIDoc/ver5/ReferenceGuide/vim.vm.GuestOsDescriptor.GuestOsIdentifier.html
+	String guestType = "winNetEnterpriseGuest"; // sles10Guest
+	long diskSize = 10 * 1024; // in MB
+	String diskMode = "persistent";
+	int deviceKey = 1000;
+	String netName = "VM Network";
+	String nicName = "NetAdapter 1";
+	String annotation = "VirtualMachine Annotation";
+	String iso = null;
+	String bootOrder = null ; // "cdrom,disk,net,floppy";
+	String floppyImage = null;
+	String customization = null;
+	
+	public void createVMForHadoop(ESXI esxi,int count,String datasourceName,String targetTemplate) throws RemoteException, MalformedURLException, InterruptedException
+	{
+	
+		template = targetTemplate;
+		int i =1;
+		vm = "VM - " + i;
+		datastore = datasourceName;
+		String hostIp = "130.65.159.19";
+		resourcePool="";
+		String datastoreName = "Classroom";
+		String url = "https://"+esxi.getIp()+"/sdk";
+		ServiceInstance si = new ServiceInstance(new URL(url), esxi.getUser(), esxi.getPassword(), true );
+		Folder rootFolder = si.getRootFolder();
+		if (vm == null) {
+			throw new InvalidParameterException("Target virtual machine name not set!");
+		}
+		VirtualMachine vmTemplate = getVMTemplate(template,rootFolder);
+		HostSystem targetHost = getTargetHost(hostIp,rootFolder);
+		ResourcePool targetPool = getTargetResourcePool(resourcePool,rootFolder,targetHost);
+		Datastore targetDatastore = getTargetDatastore(datastoreName,rootFolder,targetHost);
+		VirtualMachineBootOptions boot = getVirtualMachineBootOption(bootOrder);
+		boolean isTemplatedCreated = createNewVMFromTemplate(vmTemplate, targetHost, targetDatastore, targetPool, si, boot);
+	}
+	
+	public VirtualMachine getVMTemplate(String templateName,Folder rootFolder) throws InvalidProperty, RuntimeFault, RemoteException
+	{
+		VirtualMachine vmTemplate = null;				
+		if (template != null && !template.equals("")) {
+			vmTemplate = (VirtualMachine) new InventoryNavigator(rootFolder).searchManagedEntity("VirtualMachine", template);
+			if (vmTemplate == null) {
+				throw new InvalidParameterException("Unknown virtual machine to use as template: " + template);
+			}
+		}
+		return vmTemplate;
+	}
+	
+	public HostSystem getTargetHost(String hostName,Folder rootFolder) throws InvalidProperty, RuntimeFault, RemoteException
+	{
+		//If host name is not specified select first available host from all the hosts.
+		HostSystem targetHost = null;
+		if (hostName != null) {
+			targetHost = (HostSystem) new InventoryNavigator(rootFolder).searchManagedEntity("HostSystem", hostName);
+		} else {
+			
+			ManagedEntity[] hosts = (ManagedEntity[]) new InventoryNavigator(rootFolder).searchManagedEntities("HostSystem");
+			if (hosts == null || hosts.length == 0) {
+				throw new InvalidParameterException("No hosts found!");
+			}
+			
+			for (int i = 0; i < hosts.length; i++) {
+				HostSystem h = (HostSystem) hosts[i];
+				if (h.getRuntime().getConnectionState() == HostSystemConnectionState.connected) {
+					targetHost = h;
+					System.out.println("Selected first available host: " + targetHost.getName());
+					break;
+				}
+			}
+		}
+		
+		if (targetHost == null) {
+			throw new InvalidParameterException("Unable to find target host - " + (hostName != null ? hostName : "<first available>"));
+		}
+		return targetHost;
+	}
+	
+	public ResourcePool getTargetResourcePool(String resourcePool,Folder rootFolder, HostSystem targetHost) throws InvalidProperty, RuntimeFault, RemoteException
+	{
+		//If target resource pool is not specified select resource pool of current host of vm template.
+		ResourcePool targetPool = null;
+		if (resourcePool == null || resourcePool.length() == 0) {
+			ComputeResource hostResource = (ComputeResource) targetHost.getParent();
+			System.out.println("host of slave"+hostResource.getName());
+			System.out.println(hostResource.getName());
+			ManagedEntity[] rp = (ManagedEntity[]) new InventoryNavigator(rootFolder).searchManagedEntities("ResourcePool");
+			for (int i = 0; i < rp.length; i++) {
+				ResourcePool r = (ResourcePool) rp[i];
+				System.out.println(r);
+				if (same(r.getOwner(), hostResource)) {
+					targetPool = r;
+				}
+			}
+		} else {
+			targetPool = (ResourcePool) new InventoryNavigator(rootFolder).searchManagedEntity("ResourcePool", resourcePool);
+		}
+		
+		if (targetPool == null && resourcePool != null) {
+			throw new InvalidParameterException("Can`t find resource pool " + resourcePool);
+		} else
+		if (targetPool == null) {
+			throw new InvalidParameterException("Can`t find at least one resource pool on host " + targetHost.getName());
+		}
+		return targetPool;
+	}
+	
+	public Datastore getTargetDatastore(String targetDatastoreName,Folder rootFolder,HostSystem targetHost) throws InvalidProperty, RuntimeFault, RemoteException
+	{
+		Datastore targetDatastore = null;
+		Datastore[] ds = targetHost.getDatastores();
+		for (int i = 0; i < ds.length; i++) {
+			if (targetDatastoreName == null && ds[i].getInfo().getUrl().startsWith(datastoreType + "://")) {
+				targetDatastore = ds[i];
+				break;
+			} else
+			if (targetDatastoreName != null && ds[i].getName().equals(targetDatastoreName)) {
+				targetDatastore = ds[i];
+				break;
+			}
+		}
+		
+		if (targetDatastore == null && targetDatastoreName != null) {
+			throw new InvalidParameterException("Can`t find datastore " + targetDatastoreName + " on host " + targetHost.getName());
+		} else
+		if (targetDatastore == null) {
+			throw new InvalidParameterException("Can`t find " + datastoreType + " datastore on host " + targetHost.getName());
+		}
+		return targetDatastore;
+	}
+	
+	public VirtualMachineBootOptions getVirtualMachineBootOption(String bootOrder)
+	{
+		VirtualMachineBootOptions boot = null;
+		if (bootOrder != null && !bootOrder.equals("")) {
+			boot = new VirtualMachineBootOptions();
+			String[] bb = bootOrder.split("[\\t ]*[,\\n]+[\\t ]*");
+			VirtualMachineBootOptionsBootableDevice[] bo = new VirtualMachineBootOptionsBootableDevice[bb.length];
+			for (int i = 0; i < bb.length; i++) {
+				bb[i] = bb[i].trim();
+				if (bb[i].equals("disk")) {
+					System.out.println("Booting from first disk");
+					VirtualMachineBootOptionsBootableDiskDevice d = new VirtualMachineBootOptionsBootableDiskDevice();
+					d.setDeviceKey(deviceKey + INDEX_DISK);
+					bo[i] = d;
+				} else
+				if (bb[i].equals("net")) {
+					System.out.println("Booting from net");
+					VirtualMachineBootOptionsBootableEthernetDevice d = new VirtualMachineBootOptionsBootableEthernetDevice();
+					d.setDeviceKey(deviceKey + INDEX_NET);
+					bo[i] = d;
+				} else
+				if (bb[i].equals("cdrom")) {
+					System.out.println("Booting from cdrom");
+					VirtualMachineBootOptionsBootableCdromDevice d = new VirtualMachineBootOptionsBootableCdromDevice();
+					bo[i] = d;
+				} else
+				if (bb[i].equals("floppy")) {
+					System.out.println("Booting from floppy");
+					VirtualMachineBootOptionsBootableFloppyDevice d = new VirtualMachineBootOptionsBootableFloppyDevice();
+					bo[i] = d;
+				} else {
+					throw new InvalidParameterException("Unknown boot device for order: " + bb[i]);
+				}
+			}
+			boot.setBootOrder(bo);
+		}
+		return boot;
+	
+	}
+	
+	public boolean createNewVMFromTemplate(VirtualMachine vmTemplate,HostSystem targetHost, Datastore targetDatastore, ResourcePool targetPool,ServiceInstance si,VirtualMachineBootOptions boot) throws VmConfigFault, TaskInProgress, CustomizationFault, FileFault, InvalidState, InsufficientResourcesFault, MigrationFault, InvalidDatastore, RuntimeFault, MethodFault, RemoteException, InterruptedException
+	{
+
+		if (vmTemplate != null) {
+			System.out.println("Creating VM from template " + vmTemplate.getName() + " on host " + 
+				targetHost.getName() + " in datastore " + targetDatastore.getName() + ", resource pool " + targetPool.getName());
+			
+			VirtualMachineCloneSpec cloneSpec = new VirtualMachineCloneSpec();
+			VirtualMachineRelocateSpec spec = new VirtualMachineRelocateSpec();
+			/*spec.setPool(targetPool.getMOR());
+			spec.setHost(targetHost.getMOR());
+			spec.setDatastore(targetDatastore.getMOR());*/
+			cloneSpec.setLocation(spec);
+			cloneSpec.setPowerOn(powerOn);
+			cloneSpec.setTemplate(false);
+			
+			if (customization != null) {
+				CustomizationSpecItem cc = si.getCustomizationSpecManager().getCustomizationSpec(customization);
+				if (cc == null) {
+					throw new InvalidParameterException("Customization not found: " + customization);
+				}
+				System.out.println("Applying customization " + customization);
+				CustomizationSpec cust = cc.getSpec();
+				cloneSpec.setCustomization(cust);						
+			}
+			
+			VirtualMachineConfigSpec config = new VirtualMachineConfigSpec();
+			if (boot != null) {
+				config.setBootOptions(boot);
+			}
+			cloneSpec.setConfig(config);
+			
+			runTask(vmTemplate.cloneVM_Task((Folder) vmTemplate.getParent(), "Cloned VM 2 -"+vmTemplate.getName(), cloneSpec), wait);
+			System.out.println("Task complted successfully.");
+			return true;
+		}
+		return false;
+	}
+	
+/*	
+	public boolean createVMFromTemplate(ESXI esxi,String templateName) throws InterruptedException, IOException
+	{
+		template = templateName;
+		vm = "VM from template";
+		datastore = "Classroom";
+		try {
+			String url = "https://"+esxi.getIp()+"/sdk";
+			ServiceInstance si = new ServiceInstance(new URL(url), esxi.getUser(), esxi.getPassword(), true );
+			
+			try {
+				Folder rootFolder = si.getRootFolder();
+				
+				if (vm == null) {
+					throw new InvalidParameterException("Target virtual machine name not set!");
+				}
+				
+			
+				
+				
+
+		} catch (InterruptedException e) {
+			throw e;
+		}
+	}catch (IOException e) {
+			throw e;
+		}
+	
+	
+		return false;
+	}*/
+
+
+	public static boolean same(ManagedObject a, ManagedObject b) {
+		if (a == null || b == null) {
+			return a == b;
+		} else {
+			return a.getMOR().getType().equals(b.getMOR().getType()) &&
+				a.getMOR().get_value().equals(b.getMOR().get_value());
+		}
+	}
+	
+	protected void runTask(com.vmware.vim25.mo.Task task, boolean wait) throws MethodFault, RemoteException, InterruptedException {
+		if (wait) {
+			String status = task.waitForTask();
+			if(status != com.vmware.vim25.mo.Task.SUCCESS) {
+				throw new InvalidParameterException("Task " + task + " failed: " + status);
+			}
+		}
+	}
+	
+	public VM getHostDetails(Folder rootFolder, VM vm) throws InvalidProperty, RuntimeFault, RemoteException
+	{
+			
+			ManagedEntity[] mes = new InventoryNavigator(rootFolder).searchManagedEntities("HostSystem");
+			
+			for(ManagedEntity temp: mes)
+			{
+				HostSystem ds = (HostSystem)temp;
+				VirtualMachine[] vms = ds.getVms();
+				for(int i=0; i<vms.length;i++)
+				{
+					if(vms[i].getName().equalsIgnoreCase(vm.getName()))
+					{
+						vm.setHost(ds.getName());
+						break;
+					}
+				}
+			
+			}
+			return vm;
+		
+		
+	}
+}

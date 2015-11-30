@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;vm&apos; in &apos;com.cmpe283.project.Performance.getVMMetrics(...)&apos; to &apos;virtualMachine&apos;&#x0D;&#x0A;- Original project: &apos;CMPE283_Project&apos;&#x0D;&#x0A;- Original element: &apos;com.cmpe283.project.Performance.getVMMetrics(ESXI, VM).vm&apos;&#x0D;&#x0A;- Renamed element: &apos;vm&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;vm&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;com.cmpe283.project{Performance.java[Performance~getVMMetrics~QESXI;~QVM;@vm!6153!6176!6168!6169!QVirtualMachine;!0!false" name="virtualMachine" references="true" stamp="1448790391448" version="1.0"/>
+</session>

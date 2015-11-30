@@ -1,23 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.OutputStream"/>
-<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpSessionBindingEvent"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="Component2"/>
-<fullyQualifiedTypeName name="Cheese"/>
-<fullyQualifiedTypeName name="Burger"/>
-<fullyQualifiedTypeName name="Topping"/>
-<fullyQualifiedTypeName name="Composite"/>
-<fullyQualifiedTypeName name="PremTopping"/>
-<fullyQualifiedTypeName name="Sauce"/>
-<fullyQualifiedTypeName name="SignatureBurgers"/>
-<fullyQualifiedTypeName name="LeafDecorator"/>
-<fullyQualifiedTypeName name="Source.Categories"/>
-<fullyQualifiedTypeName name="com.sun.rmi.rmid.ExecOptionPermission"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.sql.Date"/>
-<fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="java.util.TimeZone"/>
 <fullyQualifiedTypeName name="java.util.Locale"/>
@@ -42,7 +24,6 @@
 <fullyQualifiedTypeName name="sorting.NonRecursiveIterator"/>
 <fullyQualifiedTypeName name="sorting.Node"/>
 <fullyQualifiedTypeName name="sun.misc.Queue"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
@@ -60,4 +41,23 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="com.cmpe283.HW1.HostOperations"/>
+<fullyQualifiedTypeName name="com.cmpe283.HW1.VMOperations"/>
+<fullyQualifiedTypeName name="com.cmpe283.HW1.ESXI"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.mo.ManagedEntity"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.mo.Network"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.GuestInfo"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.VirtualMachineRuntimeInfo"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.VirtualMachineGuestState"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.VirtualMachinePowerState"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.mo.HostSystem"/>
+<fullyQualifiedTypeName name="java.nio.file.Path"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.mo.Task"/>
+<fullyQualifiedTypeName name="java.util.TreeMap"/>
+<fullyQualifiedTypeName name="com.sun.corba.se.impl.oa.poa.ActiveObjectMap.Key"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.mo.ServiceInstance"/>
+<fullyQualifiedTypeName name="java.security.InvalidParameterException"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.mo.ManagedObject"/>
+<fullyQualifiedTypeName name="com.vmware.vim25.VirtualMachineBootOptions"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,37 @@
+package com.cmpe283.project;
+
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.rmi.RemoteException;
+
+
+public class Main {
+
+	public static void main(String[] args)
+	{
+		if( args.length == 3 )
+		{
+			String ip = args[0];
+			String user = args[1];
+			String password = args[2];
+			String vmName = "Testing VM";
+			ESXI esxi = new ESXI(ip, user, password);
+			Operations ops = new Operations();
+			Performance performance = new Performance();
+			//ops.createVMForHadoop(esxi, 1,"Classroom","Testing VM");
+			//performance.printPerformanceCounters(esxi);
+			//2 - CPU Percentage
+			//24 - Memory Percentage
+			// 143 - Network Percentage
+			// 125 Usage Disk
+			performance.getStatistics(esxi, "130.65.159.10");
+			VM vm = new VM();
+			vm.setName("hadoop slave 1");
+			vm = performance.getVMMetrics(esxi, vm);
+		}
+		else
+		{
+			System.out.println("Please provide required parameters. IP - USER - PASSWORD - Path.");
+		}
+	}
+}

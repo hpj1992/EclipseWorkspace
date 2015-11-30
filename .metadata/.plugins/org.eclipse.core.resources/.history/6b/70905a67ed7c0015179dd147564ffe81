@@ -1,0 +1,63 @@
+package com.cmpe283.HW2;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.rmi.RemoteException;
+
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.InventoryNavigator;
+import com.vmware.vim25.mo.ManagedEntity;
+import com.vmware.vim25.mo.ServiceInstance;
+
+public class NavigateTree {
+
+	//Extra-Credit
+	public static void main(String[] args)
+	{
+		if( args.length == 4 )
+		{
+			String ip = args[0];
+			String user = args[1];
+			String password = args[2];
+			String path = args[3];
+			try {
+				navigateInventoryTree(ip, user, password, path);
+			} catch (RemoteException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (MalformedURLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	public static void navigateInventoryTree(String ip, String user, String password, String path) throws RemoteException, MalformedURLException
+	{
+		String url = "https://"+ip+"/sdk";
+		ServiceInstance si = new ServiceInstance(new URL(url), user, password, true );
+		Folder rootFolder = si.getRootFolder();
+	}
+	
+	public static void enumerateHosts(Folder rootFolder)
+	{
+		try
+		{
+			ManagedEntity[] hostmanagedEntities = new InventoryNavigator(rootFolder).searchManagedEntities("HostSystem");
+			for(ManagedEntity mi:hostmanagedEntities)
+			{
+				
+				HostSystem hs=(HostSystem)mi;
+				System.out.println("***********************************************************");		
+				System.out.println("Host Name: "+hs.getName());
+				System.out.println("Product Full Name: "+si.getAboutInfo().getFullName());
+				System.out.println("***********************************************************");		
+				
+			}	
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}

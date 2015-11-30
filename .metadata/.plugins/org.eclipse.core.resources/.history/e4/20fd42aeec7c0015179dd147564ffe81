@@ -1,0 +1,9 @@
+package com.cmpe283.HW2;
+
+public class NavigateTree {
+
+	public static void main(String[] args)
+	{
+		
+	}
+}

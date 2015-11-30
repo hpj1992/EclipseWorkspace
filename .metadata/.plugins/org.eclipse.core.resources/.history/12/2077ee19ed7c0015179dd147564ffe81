@@ -1,0 +1,28 @@
+package com.cmpe283.HW2;
+
+import java.net.URL;
+
+import com.vmware.vim25.mo.Folder;
+import com.vmware.vim25.mo.ServiceInstance;
+
+public class NavigateTree {
+
+	//Extra-Credit
+	public static void main(String[] args)
+	{
+		if( args.length == 4 )
+		{
+			String ip = args[0];
+			String user = args[1];
+			String password = args[2];
+			String path = args[3];
+		}
+	}
+	
+	public static void navigateInventoryTree(String ip, String user, String password, String path)
+	{
+		String url = "https://"+esxi.getIp()+"/sdk";
+		ServiceInstance si = new ServiceInstance(new URL(url), esxi.getUser(), esxi.getPassword(), true );
+		Folder rootFolder = si.getRootFolder();
+	}
+}

@@ -1,0 +1,10 @@
+package com.cmpe283.project;
+
+public class VM {
+
+	public String name;
+	public String ip;
+	public String host;
+	public double cpu;
+	public double memory;
+}
