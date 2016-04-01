@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello PubNub</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src="http://cdn.pubnub.com/pubnub.min.js"></script>
+<script src="js/d3.v3.min.js"></script>
+<script src="js/rickshaw.js"></script>
+<script src="js/Rickshaw.Fixtures.PubNub.js"></script>
+	<script type="text/javascript" src="js/canvasjs.min.js"></script>
+<script type="text/javascript">
+var chart;
+var dps = []; // dataPoints
+</script>
+  </head>
+  <body>
+    <h1>Hello PubNub</h1>
+    <p>Hello PubNub</p>
+    <div id="chart"></div>
+	<div id="chartContainer" style="height: 300px; width:100%;">
+	</div>
+<script>
+ var PUBNUB = PUBNUB.init({
+        publish_key: 'pub-c-7d846157-da7e-40aa-b241-a671ba45986b',
+        subscribe_key: 'sub-c-7396d71c-f629-11e5-8679-02ee2ddab7fe'
+    });
+
+  PUBNUB.subscribe({
+        channel: 'rickshaw-channel-1',
+        message: function(m){
+			processRawData(m);
+		//chart.render();
+		}
+    });
+function processRawData(m)
+{
+console.log(m.x);
+		dps.push({x:m.x,y:m.y*100})
+		
+		if(chart !== undefined)
+		{	
+		chart.render();
+		}
+		else
+		{
+		chart = new CanvasJS.Chart("chartContainer",{
+			title :{
+				text: "CPU Utilization"
+			},
+			axisX: {
+				title: "Chart updates every 1 secs"
+			},
+			axisY:{
+				suffix: ' %',
+				includeZero: false
+			},
+			data: [{
+				type: "line",
+				xValueType: "dateTime",
+				name: "Openshift CPU",
+				dataPoints: dps 
+			}]
+		});
+		}
+		
+}
+</script>
+  </body>
+  
+</html>
