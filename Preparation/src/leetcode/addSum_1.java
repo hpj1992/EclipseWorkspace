@@ -1,7 +1,6 @@
 package leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashMap;
 
 class Solution {
 
@@ -13,25 +12,15 @@ class Solution {
 
 	}
 
-	static int[] twoSum(int[] nums, int target) {
-		int[] ans = new int[2];
-		ArrayList<Integer> list = new ArrayList<Integer>(nums.length);
-		for (int i : nums)
-			list.add(i);
-		for (int i = 0; i < list.size(); i++) {
-			int cur = list.get(i);
-			int toSearch = target - cur;
-
-			List<Integer> temp = list.subList(i + 1, list.size());
-
-			if (temp.contains(toSearch)) {
-				ans[0] = i;
-				ans[1] = temp.indexOf(toSearch) + i + 1;
-				break;
-			}
-
-		}
-
-		return ans;
+	public static int[] twoSum(int[] nums, int target) {
+	    HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
+	    for(int i = 0; i < nums.length; i++){
+	        int key = target - nums[i];
+	        if(hm.containsKey(key)){
+	            return new int[]{hm.get(key) + 1, i + 1};
+	        }
+	        hm.put(nums[i], i);
+	    }
+	    return new int[]{0 , 0};
 	}
 }

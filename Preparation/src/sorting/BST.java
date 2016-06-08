@@ -1,10 +1,11 @@
 package sorting;
 
+import java.util.ArrayDeque;
 import java.util.Comparator;
 import java.util.Iterator;
+import java.util.Queue;
 import java.util.Stack;
 
-import sun.misc.Queue;
 
 //import ctci.BST;
 
@@ -249,12 +250,12 @@ public class BST<T extends Comparable<T>> {
 	class NonRecursiveIterator<T> implements Iterator<T> {
 
 		Stack<TreeNode<T>> nodeStack = new Stack<TreeNode<T>>();
-		Queue nodeQueue = new Queue();
+		Queue<TreeNode<T>> nodeQueue = new ArrayDeque<TreeNode<T>>();
 
 		public NonRecursiveIterator() {
 			if (root != null) {
 				nodeStack.add((TreeNode<T>) root);
-				nodeQueue.enqueue(root);
+				nodeQueue.add((TreeNode<T>) root);
 			}
 		}
 

@@ -15,23 +15,15 @@ public class GameOfDice {
 			p2[i]=new Random().nextInt(5)+1;
 			
 		}
-		
-		
-		
 		//int[] p1= {3,4,5,3,2,3,4,4,5};
 		//int[] p2= {2,4,5,1,3,4,2,4,5};
 		
 		
 		for(int i=0;i<9;i++)
 		{
-			
 			if(p1count==3 || p2count==3)
 			{
-				
-				
 				break;
-				
-			
 			}
 			else
 			{

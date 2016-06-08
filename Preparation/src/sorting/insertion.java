@@ -1,11 +1,7 @@
 package sorting;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class insertion {
-
-	
-	
 	public static void main(String[] args)
 	{
 	int[] toSort={9,8,7,6,5,4,3,2,1,0,3,51,0,3,5,9,8,7,1,5,6,9,8,129,6,5,4,3,2,1,0,3,5,9,8,7,1,5,6,9,8,129};
