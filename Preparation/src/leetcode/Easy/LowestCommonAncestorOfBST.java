@@ -1,5 +1,4 @@
-package leetcode;
-
+package leetcode.Easy;
 import leetcode.TreeNode;
 public class LowestCommonAncestorOfBST {
 

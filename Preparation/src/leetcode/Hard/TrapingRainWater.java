@@ -1,4 +1,4 @@
-package Hard;
+package leetcode.Hard;
 
 public clas TrapingRainWater
 {

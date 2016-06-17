@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Easy;
 
 public class MinimumDeapthOfBinaryTree {
 	public int minDepth(TreeNode root) {

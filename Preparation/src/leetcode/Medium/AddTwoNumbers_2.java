@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Medium;
 
 class ListNode {
 	int val;

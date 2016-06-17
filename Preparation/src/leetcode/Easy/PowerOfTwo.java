@@ -1,5 +1,4 @@
-package leetcode;
-
+package leetcode.Easy;
 public class PowerOfTwo {
 
 	public static void main(String[] args)

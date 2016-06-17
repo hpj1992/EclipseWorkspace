@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Easy;
 
 import java.sql.Date;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Medium;
 
 import leetcode.ListNode;
 public class OddEvenLinkedList {

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Medium;
 
 public class HaystackNeedle_28 {
 

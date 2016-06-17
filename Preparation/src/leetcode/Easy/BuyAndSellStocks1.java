@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Easy;
 
 public class BuyAndSellStocks1 {
 	public static void main(String[] args) {

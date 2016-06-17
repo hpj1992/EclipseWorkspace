@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Hard;
 
 public class SearchInRotatedSortedArray {
 

@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Easy;
 
 import leetcode.ListNode;
 public class ReverseLinkedlist {

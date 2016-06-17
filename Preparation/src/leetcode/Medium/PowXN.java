@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Medium;
 
 //Implement pow(x, n).
 public class PowXN {

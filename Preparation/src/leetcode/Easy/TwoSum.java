@@ -1,4 +1,4 @@
-package leetcodel
+package leetcode.Easy;
 
 public clas TwoSum
 {

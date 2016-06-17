@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Easy;
 
 public class PalindromeLinkedList {
 	public static void main(String[] args)

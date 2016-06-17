@@ -1,5 +1,4 @@
-package leetcode;
-
+package leetcode.Easy;
 public class UglyNumber {
 
 	public static boolean isUglyNumber(int n)

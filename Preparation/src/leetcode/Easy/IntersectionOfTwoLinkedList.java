@@ -1,5 +1,4 @@
-package leetcode;
-
+package leetcode.Easy;
 public class IntersectionOfTwoLinkedList {
 
 	public static void main(String[] args) {

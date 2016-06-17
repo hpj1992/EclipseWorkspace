@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.Medium;
 
 import javax.swing.border.EtchedBorder;
 
