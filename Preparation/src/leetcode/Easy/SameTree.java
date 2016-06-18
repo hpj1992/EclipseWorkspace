@@ -1,6 +1,8 @@
 package leetcode.Easy;
 
-clas SameTree
+import Amazon.TreeNode;
+
+class SameTree
 {
 public boolean isSameTree(TreeNode p, TreeNode q) {
         if(p == null && q == null) return true;

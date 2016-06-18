@@ -1,5 +1,7 @@
 package leetcode.Easy;
 
+import Amazon.TreeNode;
+
 public class SymmetricTree {
 
 	public static void main(String[] args)

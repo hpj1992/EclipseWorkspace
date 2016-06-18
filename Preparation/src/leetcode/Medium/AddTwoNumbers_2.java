@@ -1,17 +1,6 @@
 package leetcode.Medium;
 
-class ListNode {
-	int val;
-	ListNode next;
-
-	ListNode(int x) {
-		val = x;
-	}
-
-	public ListNode() {
-		// TODO Auto-generated constructor stub
-	}
-}
+import Amazon.ListNode;
 
 class AddTwoNumbers_2 {
 	public static void main(String[] args) {

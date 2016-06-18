@@ -1,6 +1,6 @@
 package leetcode.Easy;
 
-import leetcode.ListNode;
+import Amazon.ListNode;
 public class ReverseLinkedlist {
 
 	public static ListNode reverse(ListNode head)

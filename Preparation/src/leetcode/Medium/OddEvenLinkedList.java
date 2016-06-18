@@ -1,6 +1,7 @@
 package leetcode.Medium;
 
-import leetcode.ListNode;
+import Amazon.ListNode;
+
 public class OddEvenLinkedList {
 
 	public ListNode getOddEvenLinkedList(ListNode head)

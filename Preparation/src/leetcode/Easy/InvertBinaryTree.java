@@ -1,5 +1,7 @@
 package leetcode.Easy;
 
+import Amazon.TreeNode;
+
 public class InvertBinaryTree
 {
  public TreeNode invertTree(TreeNode root) {

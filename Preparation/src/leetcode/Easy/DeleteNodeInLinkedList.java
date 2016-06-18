@@ -1,4 +1,7 @@
 package leetcode.Easy;
+
+import Amazon.ListNode;
+
 public class DeleteNodeInLinkedList {
 
 	public static void main(String[] args) {

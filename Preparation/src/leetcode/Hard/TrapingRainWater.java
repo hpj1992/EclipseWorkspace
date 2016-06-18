@@ -1,6 +1,6 @@
 package leetcode.Hard;
 
-public clas TrapingRainWater
+public class TrapingRainWater
 {
 public int trap(int[] height) {
 

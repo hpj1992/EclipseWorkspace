@@ -1,5 +1,7 @@
 package leetcode.Easy;
 
+import Amazon.ListNode;
+
 public class SwapNodesInPair {
 
 	public static void main(String[] args)

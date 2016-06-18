@@ -1,5 +1,6 @@
 package leetcode.Easy;
 
+import Amazon.TreeNode;
 public class BalancedBinaryTree {
 
 	public static void main(String[] args)

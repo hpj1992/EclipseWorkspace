@@ -1,5 +1,7 @@
 package leetcode.Easy;
 
+import Amazon.TreeNode;
+
 public class MinimumDeapthOfBinaryTree {
 	public int minDepth(TreeNode root) {
         int height = 0;

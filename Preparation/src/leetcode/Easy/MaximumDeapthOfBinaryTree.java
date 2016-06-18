@@ -1,4 +1,7 @@
 package leetcode.Easy;
+
+import Amazon.TreeNode;
+
 class MaximumDeapthOfBinaryTree
 {
 

@@ -1,6 +1,9 @@
 package leetcode.Easy;
 
-public clas TwoSum
+import java.util.HashMap;
+import java.util.Map;
+
+public class TwoSum
 {
 
 public int[] twoSum(int[] numbers, int target) {

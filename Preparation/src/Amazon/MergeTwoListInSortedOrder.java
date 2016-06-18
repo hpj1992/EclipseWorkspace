@@ -2,14 +2,7 @@ package Amazon;
 
 import java.util.LinkedList;
 
-class ListNode {
-	int val;
-	ListNode next;
 
-	ListNode(int x) {
-		val = x;
-	}
-}
 
 public class MergeTwoListInSortedOrder {
 

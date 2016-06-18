@@ -1,12 +1,14 @@
 package leetcode.Easy;
-import leetcode.TreeNode;
+
+import Amazon.TreeNode;
+
 public class LowestCommonAncestorOfBST {
 
 	 public static TreeNode lowestCommonAncestorBT(TreeNode root, TreeNode p, TreeNode q) {
 	        
 		 	if(root == null)
 		 		return null;
-		 	TreeNode ans = null;
+		 	Amazon.TreeNode ans = null;
 		 	if(contains(root.left,p) && contains(root.left,q))
 		 	{
 		 		ans = lowestCommonAncestorBT(root.left, p, q);

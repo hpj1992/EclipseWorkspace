@@ -7,6 +7,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+import Amazon.TreeNode;
+
 public class BinaryTreeLevelOrderTraversal2 {
 
 	public static void main(String[] args) {

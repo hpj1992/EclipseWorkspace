@@ -1,6 +1,5 @@
 package leetcode.Medium;
 
-import leetcode.TreeNode;
 
 public class InvertBinaryTree {
 	public static void main(String[] args)
